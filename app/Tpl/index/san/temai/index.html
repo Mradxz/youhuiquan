@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<include file="public:head" />
+<link rel="stylesheet" type="text/css" href="__STATIC__/san_www/css/coupon.css" />
+</head>
+<body>
+<include file="public:header" />
+<div id="dtk_mian">
+<div class="search-wrap main-container">
+</div>
+<div class="cat-wrap main-container">
+<div class="cat-list clearfix">
+<ul class="clearfix">
+<li><a href="/">全部特卖（{$all_count}）</a></li>
+<volist name="cate_data" id="bcate">		
+<if condition="$bcate['pid'] eq 0">
+<li <if condition="$cid eq $bcate['id']">class="active"</if>><a  href="{:U('temai/index', array('cid'=>$bcate['id']))}">{$bcate.name} （{$bcate.id|temaicount}）</a></li>
+</if>
+</volist>
+</ul>
+</div>
+<div class="sort-wrap">
+<span class="sort-text">排序：</span>
+<a <if condition="$sort eq 'default'">class="active"</if> href="{:U('temai/cate', array('cid'=>$cid,'sort'=>'default','mode'=>$mode))}">默认</a>
+<a <if condition="$sort eq 'new'">class="active"</if> href="{:U('temai/index', array('cid'=>$cid,'sort'=>'new','mode'=>$mode))}" style="margin-left:5px;">最新上架</a>
+<a <if condition="$sort eq 'hot'">class="active"</if> href="{:U('temai/index', array('cid'=>$cid,'sort'=>'hot','mode'=>$mode))}" style="margin-left:5px;">最多销量</a>
+<a <if condition="$sort eq 'price'">class="active"</if> href="{:U('temai/index', array('cid'=>$cid,'sort'=>'price','mode'=>$mode))}" style="margin-left:5px;">最低价格</a>
+</div>
+</div>
+<div class="tag-wrap main-container " style="background:#FFF3EA;border: #E6D5C8 1px dashed;">
+<div class="fixed-wrap ">
+<a href="{:U('temai/index', array('cid'=>$cid,'sort'=>$sort,'mode'=>'all'))}" class="tag-99 tag-fixed  <if condition="$mode eq 'all'"> active </if>" style="margin-right: 20px;">
+<span class="icon"></span>
+<span class="text">全部</span>
+</a>
+<a href="{:U('temai/index', array('cid'=>$cid,'sort'=>$sort,'mode'=>'jiu'))}" class="tag-99 tag-fixed  <if condition="$mode eq 'jiu'"> active </if>" style="margin-right: 20px;">
+<span class="icon"></span>
+<span class="text">九块九</span>
+</a>
+<a href="{:U('temai/index', array('cid'=>$cid,'sort'=>$sort,'mode'=>'ershi'))}" class="tag-20 tag-fixed  <if condition="$mode eq 'ershi'"> active</if>" style="margin-right: 20px;">
+<span class="icon"></span>
+<span class="text">20封顶</span>
+</a>
+<a href="{:U('temai/index', array('cid'=>$cid,'sort'=>$sort,'mode'=>'tuijian'))}" class="tag-boutique tag-fixed  <if condition="$mode eq 'tuijian'"> active</if>">
+<span class="icon"></span>
+<span class="text">小编推荐</span>
+</a>
+</div>
+<div class="split" style="background-color: #E6D6CA;height: 20px; margin-top:7px;"></div>
+<div class="tags">
+<span class="text" style="margin-left: 50px; color:#969696">热门搜索：</span>
+<a class="" href="/?m=search&a=index&k=衬衫">衬衫</a>
+<a class="" href="/?m=search&a=index&k=婴儿">婴儿</a>
+<a class="" href="/?m=search&a=index&k=内衣">内衣</a>
+<a class="" href="/?m=search&a=index&k=连衣裙">连衣裙</a>
+<a class="" href="/?m=search&a=index&k=水杯">水杯</a>
+<a class="" href="/?m=search&a=index&k=零食">零食</a>
+<a class="" href="/?m=search&a=index&k=短裤">短裤</a>
+<a class="" href="/?m=search&a=index&k=防晒">防晒</a>
+<a class="" href="/?m=search&a=index&k=运动">运动</a>
+</div>
+</div>
+<div class="live">
+<include file="public:itemlist" />
+</div>
+<div class="pager main-container" style="margin: 20px auto;">
+<div id="yw0" class="pager">
+{$page}
+</div>
+</div>
+</div>
+<include file="public:footer" />
+</body>
+</html>

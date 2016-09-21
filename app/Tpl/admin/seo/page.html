@@ -1,0 +1,118 @@
+<include file="public:header" />
+<!--SEO设置-->
+<div class="pad_lr_10">
+    <div class="col_tab">
+        <ul class="J_tabs tab_but cu_li mt10">
+            <li class="current">网站首页</li>           
+            <li>分类页</li>
+            <li>详情页</li>
+        </ul>
+    
+        <form id="info_form" action="{:u('seo/page')}" method="post">
+        <div class="J_panes">
+            <div class="content_list pad_10">
+                <table width="100%" class="table_form">
+				 <tr>
+                        <th>可调用标签</th>
+                        <td>
+                            <ul class="tip_list clearfix">
+                            <li>站点设置里面的网站标题 <span class="highlight">{site_name}</span></li>                           
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Title</th>
+                        <td><textarea name="seo_config[index][title]" cols="80" rows="2">{$seo_config.index.title}</textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Keywords</th>
+                        <td><textarea name="seo_config[index][keywords]" cols="80" rows="2">{$seo_config.index.keywords}</textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Description</th>
+                        <td><textarea name="seo_config[index][description]" cols="80" rows="3">{$seo_config.index.description}</textarea></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="content_list pad_10" style="display:none;">
+                <table width="100%" class="table_form">
+                    <tr>
+                        <th>可调用标签</th>
+                        <td>
+                            <ul class="tip_list clearfix">
+							    <li>站点设置里面的网站标题 <span class="highlight">{site_name}</span></li>  
+                                <li>分类名称 <span class="highlight">{cate_name}</span></li>
+                                <li>分类Title <span class="highlight">{seo_title}</span></li>
+                                <li>分类Keywords<span class="highlight">{seo_keywords}</span></li>
+                                <li>分类Description<span class="highlight">{seo_description}</span></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Title</th>
+                        <td><textarea name="seo_config[cate][title]" cols="80" rows="2">{$seo_config.cate.title}</textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Keywords</th>
+                        <td><textarea name="seo_config[cate][keywords]" cols="80" rows="2">{$seo_config.cate.keywords}</textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Description</th>
+                        <td><textarea name="seo_config[cate][description]" cols="80" rows="3">{$seo_config.cate.description}</textarea></td>
+                    </tr>
+                </table>
+            </div>
+
+
+			<div class="content_list pad_10" style="display:none;">
+                <table width="100%" class="table_form">
+                    <tr>
+                        <th>可调用标签</th>
+                        <td>
+                            <ul class="tip_list clearfix">
+							    <li>站点设置里面的网站标题 <span class="highlight">{site_name}</span></li>  
+                                <li>商品名称 <span class="highlight">{title}</span></li>
+								<li>商品简介 <span class="highlight">{intro}</span></li>
+								<li>原价 <span class="highlight">{price}</span></li>
+								<li>秒杀价 <span class="highlight">{coupon_price}</span></li>
+								<li>商品标签 <span class="highlight">{tags}</span></li>
+                                <li>Title <span class="highlight">{seo_title}</span></li>
+                                <li>Keywords<span class="highlight">{seo_keywords}</span></li>
+                                <li>Description<span class="highlight">{seo_description}</span></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Title</th>
+                        <td><textarea name="seo_config[item][title]" cols="80" rows="2">{$seo_config.item.title}</textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Keywords</th>
+                        <td><textarea name="seo_config[item][keywords]" cols="80" rows="2">{$seo_config.item.keywords}</textarea></td>
+                    </tr>
+                    <tr>
+                        <th>Description</th>
+                        <td><textarea name="seo_config[item][description]" cols="80" rows="3">{$seo_config.item.description}</textarea></td>
+                    </tr>
+                </table>
+            </div>
+			
+
+        </div>
+        
+        <div class="mt10">
+            <input type="hidden" name="menuid"  value="{$menuid}"/>
+            <input type="submit" class="smt mr10" name="do" value="{:L('submit')}"/>
+        </div>
+        </form>
+    </div>
+</div>
+<include file="public:footer" />
+<script>
+$(function(){
+    $('ul.J_tabs').tabs('div.J_panes > div');
+});
+</script>
+</body>
+</html>

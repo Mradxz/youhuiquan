@@ -1,0 +1,14 @@
+<div class="dialog_content pad_10">
+	<div class="loading">
+		采集信息：共 [ <b class="blue">{$totalnum}</b> ] 件商品，正在获取第 [ <b class="blue">{$p}</b> ] 页至第 [ <span class="blue">{$page}</span> ] 页。
+	</div>
+	<div align="center" class="red">
+		<notempty name="msg">{$msg}<else/>获取数据中，请不要关闭本窗口。</notempty>
+	</div>
+</div>
+<script>
+$(function(){
+var p = {$p};
+ $('#start_p').val(p);  
+});
+</script>

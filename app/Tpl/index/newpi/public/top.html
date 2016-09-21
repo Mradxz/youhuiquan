@@ -1,0 +1,13 @@
+<div id="toolbar">
+<div class="bar-con">
+<ul class="topNav fr">
+<ftx:nav type="lists" style="top">
+<volist name="data" id="val">
+<li><a <if condition="$nav_curr eq $val['alias']">class='active'</if>href="{$val.link}" <if condition="$val.target eq 1">target="_blank"</if>>{$val.name}</a><li>
+</volist>
+</ftx:nav>
+<a href="http://wpa.qq.com/msgrd?v=3&amp;uin={:C('ftx_qq')}&amp;site=qq&amp;menu=yes">在线客服</a>
+<li><a href="{:C('ftx_header_html')}" target="_blank"><em class="icon-normal icon-phone"></em>手机版</a></li>
+</ul>
+</div>
+</div>

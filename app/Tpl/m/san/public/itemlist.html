@@ -1,0 +1,103 @@
+<script>
+$(function (){
+    var aa = $(".goods-item").innerWidth();
+    $(".goods-item").find('.pic').css({height:aa,width:aa});			
+	var p = 2;
+	var ajaxurl = "{$ajaxurl}";	
+	var maxpage = "{$maxpage}";
+	var btop = $(".loading").offset().top;  
+	var loading = $("#loading").data("on", false);
+	$(window).scroll(function(){
+	if(loading.data("on")) return;	
+		if(btop<$(window).height()+$(document).scrollTop()){	
+		    loading.data("on", true).fadeIn();
+		    $.getJSON(ajaxurl,{p:p},function(renul){  
+			var sqlJson = eval(renul.data);			
+			(function(sqlJson){
+			if(p>maxpage){
+					$("#loading").show();					
+					$(".loading").appendTo("<span>加载完成</span>");
+				}else{
+				    var html="";					
+					for(var i in sqlJson){
+						html+='<div class="goods-item">';
+					    if(sqlJson[i]['item_type']==2){												
+						html+='<a '+sqlJson[i].itemurl+' class="img">'+sqlJson[i].newico;
+						html+='<span class="coupon-wrapper">';
+						html+='<span class="coupon" style="color: #EDFF00;">独家券</span>';
+						html+='<span class="price">'+sqlJson[i].q_price+'元</span>';
+						html+='</span>';		
+						html+='<img alt="'+sqlJson[i].title+'" src="'+sqlJson[i].pic+'" class="pic"/>';
+						html+='</a>';
+						html+='<a class="title"><div class="text" style=" color:#777777;">'+sqlJson[i].title+'</div></a>';
+						html+='<div class="price-wrapper">';
+						html+='<span class="text">券后</span> ';
+						html+='<span class="price">￥'+sqlJson[i].coupon_price+'</span>';
+						html+='<div class="sold-wrapper">';						
+						html+='<span class="sold-num" style="font-size: 10px;">'+sqlJson[i].volume+'</span>';
+						html+='<span class="text" style="font-size: 10px;">人已买</span>';
+						html+='</div>';							
+						html+='</div>';	
+						html+='</div>';
+						}else{
+						html+='<a '+sqlJson[i].itemurl+' class="img">'+sqlJson[i].newico;								
+						html+='<img alt="'+sqlJson[i].title+'" src="'+sqlJson[i].pic+'" class="pic"/>';
+						html+='</a>';
+						html+='<a class="title"><div class="text" style=" color:#777777;">'+sqlJson[i].title+'</div></a>';
+						html+='<div class="price-wrapper">';
+						html+='<span class="text">折后</span> ';
+						html+='<span class="price">￥'+sqlJson[i].coupon_price+'</span>';
+						html+='<div class="sold-wrapper">';						
+						html+='<span class="sold-num" style="font-size: 10px;">'+sqlJson[i].volume+'</span>';
+						html+='<span class="text" style="font-size: 10px;">人已买</span>';
+						html+='</div>';							
+						html+='</div>';	
+						html+='</div>';
+						}	
+                        var aa = $(".goods-item").innerWidth();
+                        $(".goods-item").find('.pic').css({height:aa,width:aa});						
+                 }						
+					$('.goods-list').append(html);
+					loading.data("on",false).fadeIn(500);
+				}
+				p++;
+			   })(sqlJson);			
+			   loading.fadeOut();
+			});
+		}
+	});
+		
+}); 
+</script>
+<div class="goods-list">
+<volist name="items_list" id="item" key="i" mod="2">
+<div class="goods-item">
+<a {$item.itemurl} class="img">
+{$item.coupon_start_time|sanwapnewicon}
+<if condition="$item.item_type eq 2">
+<span class="coupon-wrapper">
+<span class="coupon" style="color: #EDFF00;">独家券</span>
+<span class="price">{$item.q_price}元</span>
+</span>
+</if>
+<img src="{:attach(get_thumb($item['pic_url'], '_b'),'item')}" alt="{$item.title}" class="pic">
+</a>
+<a {$item.itemurl} class="title">
+<div class="text" style=" color:#777777;">{$item.title}</div>
+</a>
+<div class="price-wrapper">
+<if condition="$item.item_type eq 2">
+<span class="text">券后</span> 
+<else/>
+<span class="text">折后</span> 
+</if>
+<span class="price">￥{$item.coupon_price}</span>
+<div class="sold-wrapper">
+<span class="sold-num" style="font-size: 10px;">{$item.volume}</span>
+<span class="text" style="font-size: 10px;">人已买</span>
+</div>
+</div>
+</div>
+</volist>
+ </div>
+ <div class="loading" id="loading" style="display: none;"><span>正在加载中，请稍后...</span></div>

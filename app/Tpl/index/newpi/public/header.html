@@ -1,0 +1,36 @@
+<include file="public:top" />
+<div class="header">
+    <div class="area">
+        <div class="logo logo1">
+            <div class="fl"><a class="juan-logo fl" href="{:C('ftx_site_url')}" title="{:C('ftx_site_name')}"><img src="{:C('ftx_site_logo')}"></a></div>           
+        </div>
+        <div class="protection" style="background: url({:C('ftx_site_navlogo')}) no-repeat;">
+            <a title="每天10点开抢" class="update" href="#" target="_blank"></a>
+            <a title="职业买手砍价" class="lowest" href="#consumer03" target="_blank"></a>
+            <a title="商品验货质检" class="check" href="#consumer04" target="_blank"></a>
+        </div>
+        <div class="search">
+		<form name="search" action="{:C('ftx_site_url')}" method="get">
+	       <input type="hidden" name="m" value="search">
+           <input type="hidden" name="a" value="index">
+		   <span class="search-area fl">
+		   <input x-webkit-speech name="k" autocomplete="off" onblur="this.value==''?this.value=this.title:null" onfocus="this.value==this.title?this.value='':null" title="懒得找了，我搜..." value="懒得找了，我搜..." class="txt" />
+		   </span>
+		   <input type="submit" value="" class="smt fr">
+		</form>            
+        </div>
+    </div>
+    <div class="mainNav">
+        <div class="nav">
+            <ul class="navigation fl"> 
+			<li <if condition="$nav_curr eq 'index'">class="current"</if>><a href="{:C('ftx_site_url')}">首页</a> 
+			<volist name="cate_data" id="bcate">
+			<if condition="$bcate['spid'] eq 0">					
+			<li <if condition="$cid eq $bcate['id']">class="current"</if>><a href="{:U('index/cate', array('cid'=>$bcate['id']))}" title="{$bcate.name}">{$bcate.name}</a></li>
+			</if>
+			</volist>		   
+            </ul>
+    </div>
+</div>
+</div>
+

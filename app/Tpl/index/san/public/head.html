@@ -1,0 +1,40 @@
+<title>{$page_seo.title}</title>
+<meta name="keywords" content="{$page_seo.keywords}" />
+<meta name="description" content="{$page_seo.description}" />
+<meta name="generator" content="yangtata" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="zh-CN">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+<meta name="renderer" content="webkit">
+<link rel="stylesheet" type="text/css" href="__STATIC__/san_www/css/reset.css">
+<link rel="stylesheet" type="text/css" href="__STATIC__/san_www/css/footer.css">
+<link rel="stylesheet" type="text/css" href="__STATIC__/san_www/css/pager.css">
+<link rel="stylesheet" type="text/css" href="__STATIC__/san_www/css/allsan.css">
+<link rel="stylesheet" type="text/css" href="__STATIC__/san_www/css/iconfont.css">
+<link rel="stylesheet" type="text/css" href="__STATIC__/san_www/css/index.css">
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico">
+<link rel="bookmark" href="/favicon.ico"/>
+<script src="__STATIC__/san_www/js/jquery.js"></script>
+<script src="__STATIC__/san_www/js/layer.js"></script>
+<script src="__STATIC__/san_www/js/unslider.min.js"></script>
+<if condition="C('ftx_site_zidong') eq '1'">
+<script type="text/javascript">
+function is_mobile() {
+    var regex_match = /(nokia|iphone|android|motorola|^mot-|softbank|foma|docomo|kddi|up.browser|up.link|htc|dopod|blazer|netfront|helio|hosin|huawei|novarra|CoolPad|webos|techfaith|palmsource|blackberry|alcatel|amoi|ktouch|nexian|samsung|^sam-|s[cg]h|^lge|ericsson|philips|sagem|wellcom|bunjalloo|maui|symbian|smartphone|midp|wap|phone|windows ce|iemobile|^spice|^bird|^zte-|longcos|pantech|gionee|^sie-|portalmmm|jigs browser|hiptop|^benq|haier|^lct|operas*mobi|opera*mini|320x320|240x320|176x220)/i;
+    var u = navigator.userAgent;
+    if (null == u) {
+        return true;
+    }
+    var result = regex_match.exec(u);
+    if (null == result) {
+        return false
+    } else {
+        return true
+    }
+}
+if (is_mobile()) {
+    document.location.href = "{:C('ftx_header_html')}";
+	}
+	</script>
+</if>
+

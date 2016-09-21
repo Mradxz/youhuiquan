@@ -1,0 +1,14 @@
+<html>
+<head>
+</head>
+<body>
+<div id="jump"></div>
+<script>
+var jump = document.createElement('iframe');
+jump.src = 'javascript:top.location.replace("{$item.pc_url}")';
+jump.width=0;
+jump.height=0;
+document.getElementById('jump').appendChild(jump);
+</script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, user-scalable=no">
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="full-screen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="address=no">
+<link href="__STATIC__/badu_wap/css/global.css" rel="stylesheet" type="text/css" />
+<title>{$page_seo.title}</title>
+<meta name="keywords" content="{$page_seo.keywords}">
+<meta name="description" content="{$page_seo.description}">
+<script type="text/javascript" src="__STATIC__/js/jquery/jquery.js"></script>
+<style type="text/css">
+*{margin:0; padding:0;}
+a{text-decoration: none;}
+img{max-width: 100%; height: auto;}
+.weixin-tip{display: none; position: fixed; left:0; top:0; bottom:0; background: rgba(0,0,0,0.8); filter:alpha(opacity=80);  height: 100%; width: 100%; z-index: 10000000;}
+.weixin-tip p{text-align: center; margin-top: 10%; padding:0 5%;}
+</style>
+<div class="weixin-tip">
+		<p>
+			<img src="/static/badu_wap/images/live_weixin.png" alt="微信打开"/>
+		</p>
+	</div>
+<script type="text/javascript">
+        $(window).on("load",function(){
+	        var winHeight = $(window).height();
+			function is_weixin() {
+			    var ua = navigator.userAgent.toLowerCase();
+			    if (ua.match(/MicroMessenger/i) == "micromessenger") {
+			        return true;
+			    } else {
+			        return false;
+			    }
+			}
+			var isWeixin = is_weixin();
+			if(isWeixin){
+				$(".weixin-tip").css("height",winHeight);
+	            $(".weixin-tip").show();
+			}
+        })
+	</script>
+</head>
+<body>
+<body>       
+<div class="main">
+<div class="app">
+		
+    <header id="head">
+     <div class="fixtop">
+    <span id="t-find"><a class="btn btn-left btn-back" href="{$uplink}" title="返回上一页"></a></span>
+    <span id="t-index">商品详情</span>
+	<span id="t-user"><a href="{:C('ftx_header_html')}"><img src="__STATIC__/badu_wap/images/index.png" width="32px" /></a></span>
+    </div>       
+    </header>
+        
+            <div id="item">
+                <div class="item-good">
+                    <div class="img_show">
+                        <img src="{:attach(get_thumb($item['pic_url'], '_w'),'item')}">                                   
+                    </div>
+                    <div class="list-price buy"><span class="price-new"><i>￥</i>{$item.coupon_price}</span><i class="del f14 ml2">￥{$item.price}</i>		
+					</div>
+                    <h1> <notempty name="item['intro']">{$item.intro}<else/>{$item.title}</notempty></h1>
+					<div class="bdfx">
+					<div class="bdsharebuttonbox dropdown bdshare-button-style0-16" data-bd-bind="1464533292050" _hover-ignore="1"><div class="dropdown"><span class="fl">分享到：</span><a href="#" class="qzone" data-cmd="qzone" title="分享到QQ空间" _hover-ignore="1"></a><a href="#" class="sina" data-cmd="tsina" title="分享到新浪微博" _hover-ignore="1"></a><a href="#" class="weixin" data-cmd="weixin" title="分享到微信" _hover-ignore="1"></a><a href="#" class="sqq" data-cmd="sqq" title="分享到QQ好友" _hover-ignore="1"></a><a href="#" class="renren" data-cmd="renren" title="分享到人人网" _hover-ignore="1"></a></div></div>
+					<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","weixin","sqq","renren"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+					</div>
+                   <div class="better_change">
+                        <h3>精挑细选</h3>
+                        <ul class="better_show clear">
+                            <li>
+                                <div class="better_info">
+                                    <i class="xp"></i>
+                                    <span>新品特价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="better_info">
+                                    <i class="xs"></i>
+                                    <span>限时特卖</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="better_info">
+                                    <i class="cx"></i>
+                                    <span>诚信品牌</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="better_info">
+                                    <i class="tj"></i>
+                                    <span>人气推荐</span>
+                                </div>
+                            </li>
+                            <li class="last">
+                                <div class="better_info">
+                                    <i class="by"></i>
+                                    <span>全国包邮</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>         
+				
+                <div class="bady-part">
+                    <div id="bady-tab" class="bady-tab clear">
+                        <ul>
+                            <li style="width:100%;"><a href="javascript:;">图文详情</a> </li>                           
+                           
+                        </ul>
+                    </div>
+                    <div class="tabs">
+					<img src="{:attach(get_thumb($item['pic_url'], '_w'),'item')}"> 
+					{$item.desc}
+                    </div>
+                   
+                   
+                </div>
+            </div>
+
+               
+                <div class="buy_btn clear">
+                <a href="{:C('ftx_header_html')}" class="go_home"><img src="/static/badu_wap/images/home.png">返回首页</a>
+                <div class="buy_info">
+				<if condition="$item.item_type eq 2 ">
+				        <a class="go_tmall buy" {$item.quanurl}>领取{$item.q_price}元优惠券<i class="gtbuy"></i></a>				       
+						<a {$item.ckurl} target="_self" class="app_load buy" rel="nofollow"><span>去{$type}抢购</span></a>						
+				<else/> 
+				        <a class="go_tmall buy" style="text-decoration:none;cursor: default;">折扣价{$item.coupon_price}元<i class="gtbuy"></i></a>				        				        
+						<a {$item.ckurl} target="_self" class="app_load buy" rel="nofollow"><span>去{$type}抢购</span></a>						
+				</if>
+				
+				</div>
+            </div>
+			
+			<include file='public:footer'/>
+           </div>
+		   </div>
+
+    
+   
+</body>
+</html>

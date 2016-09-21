@@ -1,0 +1,115 @@
+<script>
+$(function (){
+    var aa = $(".goods-list li").innerWidth();
+    $(".goods-list li img").css('height',aa);
+	$(".goods-list li .quan_title").css('width',aa*0.87);
+	$(".goods-list li .priceinfo").css('width',aa*0.6);
+	var p = 2;
+	var ajaxurl = "{$ajaxurl}";	
+	var maxpage = "{$maxpage}";
+	var btop = $(".loading").offset().top;  
+	var loading = $("#loading").data("on", false);
+	$(window).scroll(function(){
+	if(loading.data("on")) return;	
+		if(btop<$(window).height()+$(document).scrollTop()){	
+		    loading.data("on", true).fadeIn();
+		    $.getJSON(ajaxurl,{p:p},function(renul){  
+			var sqlJson = eval(renul.data);
+			
+			(function(sqlJson){
+			if(p>maxpage){
+					$("#loading").show();					
+					$(".loading").appendTo("<span>加载完成</span>");
+				}else{
+				    var html="";					
+					for(var i in sqlJson){	
+					    ri=Number(i) + 1;						
+				        if(ri%2==0){						
+						html+='<li class="quan_goods last">';
+						}else{
+						html+='<li class="quan_goods">';	
+						}
+					    if(sqlJson[i]['item_type']==2){												
+						html+='<a '+sqlJson[i].ckurl+' target="_blank">';
+						html+='<img alt="'+sqlJson[i].title+'" src="'+sqlJson[i].pic+'" class="lazy"/>';
+						html+='</a>';
+						html+='<div style="margin-top:7px; overflow:hidden;">';						
+						html+='<div style="float:left; width:16px; height:16px; background:url('+sqlJson[i].typeimg+'); margin-left:8px; margin-top:2px;"></div>';												
+						html+='<a class="quan_title" '+sqlJson[i].itemurl+' target="_blank">'+sqlJson[i].title+'</a>';
+						html+='</div>';
+						html+='<div style="overflow:hidden;">';
+						html+='<a '+sqlJson[i].quanurl+'" target="_blank" class="jihua" rel="nofollow">领取<strong style="color:rgb(5, 255, 255);font-size:12px;font-family:Arial, Helvetica, sans-serif;margin:0 3px">'+sqlJson[i].q_price+'</strong>元优惠券</a>';
+						html+='<div style="float:right;margin-right:7px; color:#A7A7A7; font-size:12px; margin-top:8px;">剩余数量<span style="color:#f15482; font-family:Arial, Helvetica, sans-serif;">'+sqlJson[i].q_sur+'</span></div>';
+						html+='</div>';
+						html+='<div class="quan_price" style="margin-top:2px;">';
+						html+='<div class="priceinfo" style="float:left; margin-left:8px;">券后￥'+sqlJson[i].coupon_price+'</div>';
+						html+='<a '+sqlJson[i].ckurl+' target="_blank" class="quan_add_u go_info" rel="nofollow">立即购买</a>';						
+						html+='</div>';						
+						html+='</li>';
+						}else{
+						html+='<a '+sqlJson[i].ckurl+' target="_blank">';
+						html+='<img alt="'+sqlJson[i].title+'" src="'+sqlJson[i].pic+'" class="lazy"/>';
+						html+='</a>';
+						html+='<div style="margin-top:7px; overflow:hidden;">';						
+						html+='<div style="float:left; width:16px; height:16px; background:url('+sqlJson[i].typeimg+'); margin-left:8px; margin-top:2px;"></div>';												
+						html+='<a class="quan_title" style="height:38px;overflow:visible;" '+sqlJson[i].itemurl+' target="_blank">'+sqlJson[i].title+'</a>';
+						html+='</div>';						
+						html+='<div class="quan_price">';
+						html+='<div class="priceinfo" style="float:left; margin-left:8px;">现价￥'+sqlJson[i].coupon_price+'</div>';
+						html+='<a '+sqlJson[i].ckurl+' target="_blank" class="quan_add_u go_info" rel="nofollow">立即购买</a>';						
+						html+='</div>';						
+						html+='</li>';
+						}	
+                        var aa = $(".goods-list li").innerWidth();
+                        $(".goods-list li img").css('height',aa);
+                        $(".goods-list li .quan_title").css('width',aa*0.87);
+                        $(".goods-list li .priceinfo").css('width',aa*0.6);
+					}
+					
+					$('.goods-list').append(html);
+					loading.data("on",false).fadeIn(500);
+				}
+				p++;
+			   })(sqlJson);			
+			   loading.fadeOut();
+			});
+		}
+	});
+		
+}); 
+</script>
+<div id="goods">
+<ul class="goods-list clear">
+<volist name='items_list' id='item' mod="2">
+   <li class="quan_goods <eq name='mod' value='1'> last</eq>"> 
+    <a {$item.itemurl} target="_blank">
+      <img src="{:attach(get_thumb($item['pic_url'], '_b'),'item')}" class="lazy" title="{$item.title}">
+	</a>
+  <if condition="$item.item_type eq '2' ">
+   <div style="margin-top:7px; overflow:hidden;">
+    <div style="float:left; width:16px; height:16px; background:url(<if condition="$item.shop_type eq 'C' ">__STATIC__/newpi/images/taobao.png</if><if condition="$item.shop_type eq 'B' ">__STATIC__/newpi/images/tmall.png</if>); margin-left:8px; margin-top:2px;"></div>
+    <a class="quan_title" {$item.itemurl} target="_blank">{$item.title}</a>
+  </div> 
+  <div style="overflow:hidden;">
+    <a {$item.quanurl} target="_blank" class="jihua" rel="nofollow">领取<strong style="color:rgb(5, 255, 255);font-size:12px;font-family:Arial, Helvetica, sans-serif;margin:0 3px">{$item.q_price}</strong>元优惠券</a>
+    <div style="float:right;margin-right:7px; color:#A7A7A7; font-size:12px; margin-top:8px;">剩余数量<span style="color:#f15482; font-family:Arial, Helvetica, sans-serif;">{$item.q_sur}</span></div>
+  </div>
+  <div class="quan_price" style="margin-top:2px;">
+    <div class="priceinfo" style="float:left; margin-left:8px;">券后￥{$item.coupon_price}</div>  
+	  <a {$item.ckurl} target="_blank" class="quan_add_u go_info" rel="nofollow">立即购买</a>
+   </div>
+   <else />
+    <div style="margin-top:7px;overflow:hidden;">
+    <div style="float:left; width:16px; height:16px; background:url(<if condition="$item.shop_type eq 'C' ">__STATIC__/newpi/images/taobao.png</if><if condition="$item.shop_type eq 'B' ">__STATIC__/newpi/images/tmall.png</if>); margin-left:8px; margin-top:2px;"></div>
+    <a class="quan_title" style="height:38px;overflow:visible;" {$item.itemurl} target="_blank">{$item.title}</a>
+    </div>
+    <div class="quan_price">
+    <div class="priceinfo" style="float:left; margin-left:8px;">现价￥{$item.coupon_price}</div>  
+	  <a {$item.ckurl} target="_blank" class="quan_add_u go_info" rel="nofollow">立即购买</a>
+   </div>
+   </if>
+</li>
+</volist>
+</ul>
+<div class="loading" id="loading" style="display: none;"><span>正在加载中，请稍后...</span></div>
+</div>  

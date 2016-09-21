@@ -1,0 +1,85 @@
+<style>
+    #navTop {
+        width: 100%;
+
+        /*border-bottom: 1px solid #ccc;*/
+    }
+
+    .toTop {
+        font-family: iconfont;
+        position: fixed;
+        right: 70px;
+        bottom: 70px;
+        line-height: 50px;
+        text-align: center;
+        border: 1px solid #CCCCCC;
+        border-radius: 50px;
+        color: #858585;
+        width: 50px;
+        font-size: 36px;
+        cursor: pointer;
+        background-color: #fff;
+    }
+
+    .toTop:hover, .toTop:focus {
+        color: rgb(234, 42, 96);
+    }
+
+    body #headNav #header #showList dl {
+        margin: 5px 16px;
+    }
+
+    body #headNav #header #showList #search button {
+        height: 37px;
+        overflow: hidden;
+        padding: 7px 30px;
+    }
+</style>
+<div id="navTop">
+<div id="top">
+<ul id="topleft" style="height:30px;line-height:25px;">
+<li style=" margin-right:20px;float:left"><a href="javascript:void(0)" onclick="SetHome(this,window.location)" style="color: #757575;" title="加入收藏，方便下次打开">设为首页</a></li>
+<li style=" margin-right:20px;float:left"><a href="javascript:void(0)" onclick="shoucang(document.title,window.location)" style="color: #757575;" title="加入收藏，方便下次打开">加入收藏</a></li>
+<li style="float:left"><a href="{:C('ftx_header_html')}" target="_blank"><em class="icon-normal icon-phone"></em>手机版</a></li>
+</ul>
+<ul id="topright" style="line-height: 25px;">
+<li><a target="_blank" style="color: #8da7cb" href="http://wpa.qq.com/msgrd?v=3&amp;uin={:C('ftx_qq')}&amp;site=qq&amp;menu=yes">在线客服</a></li>
+</ul>
+<div class="clear"></div>
+</div>
+</div>
+<div id="headNav">
+<div id="header" style="padding-bottom: 10px;">
+<a href="/" style="width: 400px; height: 55px;display: inline-block;float: left;    background-size: inherit;    background: url('{:C('ftx_site_logo')}')left top no-repeat;margin-top: 15px;">
+</a>
+<div id="showList">
+<div id="search">
+<form name="search" action="{:C('ftx_site_url')}" method="get">
+<input type="hidden" name="m" value="search">
+<input type="hidden" name="a" value="index">
+<input type="text" x-webkit-speech name="k" autocomplete="off" onblur="this.value==''?this.value=this.title:null" onfocus="this.value==this.title?this.value='':null" title="搜优惠券..." value="搜优惠券..." />
+<button type="submit">搜索</button>
+</form> 
+</div>
+<dl>
+<dt class="rg"></dt>
+</dl>
+<dl>
+<dt class="zy"></dt>
+</dl>
+<dl>
+<dt class="qc"></dt>
+</dl>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div id="baner">
+<div id="nav" style="font-size: 15px;">
+<ftx:nav type="lists" style="main" status="1">
+<volist name="data" id="val">
+<a class="<if condition="$nav_curr eq $val['alias']"><if condition="$val['alias'] eq hot">iconH </if><if condition="$val['alias'] eq index">iconM </if> active</if>" href="{$val.link}" <if condition="$val['alias'] eq index">style="padding:8px 27px;"<else/>style="padding:8px 15px;"</if> <if condition="$val.target eq 1">target="_blank"</if>><if condition="$val['alias'] eq index"><i class="iconfont">&#xe601;</i><span style="margin-right: 7px;">{$val.name}</span><else/>{$val.name}</if><if condition="$val['alias'] eq hot"><div style="position:absolute; width:24px; height:32px; background:#FFCC00;margin-left: 107px; margin-top: -25px; background:url(__STATIC__/san_www/images/HOTT_qeu.gif)"></div></if></a>			
+</volist>
+</ftx:nav>
+</div>
+</div>

@@ -1,0 +1,61 @@
+<include file="public:header" />
+<style>
+.add{background: url(/static/css/admin/bgimg/btn_total.gif) no-repeat;color: #FFF;cursor: pointer;display: block;float:right;font-size: 14px;font-weight: bold;height: 30px;line-height: 28px;line-height: 32px \9;padding-bottom: 2px;margin-top:-1px;text-align: center;width: 104px;border: none medium;}
+.add:hover{background-position: 0 -34px;text-decoration: none;}
+</style>
+<!--商品列表-->
+     <form id="J_info_form" action="{:U('ckquan/setting')}" method="post">
+    <table width="100%" cellspacing="0" class="table_form">
+        <tbody>
+          <tr>
+          <td>		  
+          <div class="explain_col"> 		  
+		  &nbsp;&nbsp;起始位置 :
+		  <input name="page" id="page" type="text" class="input-text" size="10" value="1"/> 
+		  &nbsp;&nbsp;商品分类 :
+          <select class="J_cate_select mr10" data-pid="0" data-uri="{:U('items_cate/ajax_getchilds', array('type'=>0))}"></select>         
+		  <input type="hidden" name="cate_id" id="J_cate_id" />
+		  <input type="submit" value="开始检测" name="dosubmit" class="add fb">	
+          </div>				 
+          </td>		  
+          </tr>	
+          		  
+        </tbody>
+    </table>
+    </form>
+
+
+<include file="public:footer" />
+<script>
+$('.J_cate_select').cate_select('请选择');
+$(function(){
+    var collect_url = "{:U('ckquan/ckq')}";
+    $('#J_info_form').ajaxForm({success:complete, dataType:'json'});
+    var p = document.getElementById("page").value;
+    function complete(result){
+        if(result.status == 1){
+            $.dialog({id:'ckquan', title:result.msg, content:result.data, padding:'', lock:true});
+           p = document.getElementById("page").value;
+            collect_page();
+        } else {
+            $.yangtata.tip({content:result.msg, icon:'alert'});
+        }
+    }
+    function collect_page(){
+        $.getJSON(collect_url, {p:p}, function(result){
+            if(result.status == 1){
+                $.dialog.get('ckquan').content(result.data);
+                p++;
+                collect_page(p);
+            }else{
+                $.dialog.get('ckquan').close();
+                $.yangtata.tip({content:result.msg});
+            }
+        });
+    }
+  
+	$('.J_preview').preview(); //查看大图
+});
+</script>
+</body>
+</html>

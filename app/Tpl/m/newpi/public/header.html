@@ -1,0 +1,25 @@
+<div id="head">
+<div class="fixtop">
+<span id="find"><i class="ico08"><a href="{:C('ftx_header_html')}"><img src="__STATIC__/wap/images/index.png" width="32px" /></a></i></span>
+<span id="index"><i class="ico07"><img src="{:C('ftx_wap_logo')}" width="52px" /></i></span>
+</div>
+<div id="nav" class="currents">
+<div id="search-box">
+<form method="get" action="{:C('ftx_header_html')}" name="search">
+<div class="box-search">
+<input type="hidden" name="m" value="search">
+<input type="hidden" name="a" value="index">
+<input name="k" autocomplete="off" onblur="this.value==''?this.value=this.title:null" onfocus="this.value==this.title?this.value='':null" title="懒得找了，我搜..." value="懒得找了，我搜..." class="txt"/>
+<input type="submit" value="" class="smt">
+</div>
+</form>
+</div>
+<ul class="nav-list">
+<volist name="cate_data" id="bcate">
+<if condition="$bcate['spid'] eq 0">				
+<a href="{:U('index/cate', array('cid'=>$bcate['id']))}" title="{$bcate.name}"><li <if condition="$cid eq $bcate['id']">class="active"</if>>{$bcate.name}</li></a>
+</if>
+</volist>
+</ul>
+</div>
+</div>

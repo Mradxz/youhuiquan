@@ -1,0 +1,49 @@
+<div class="discount">
+<div class="discount_head clearfix" style="margin-bottom: 10px;">
+<div class="dishead_left fl" style="color: #fbacc2">
+<h1 style="color: #585858;font-weight: normal;">领券秒杀精选</h1>
+<span class="color_p pd">/</span>
+<span class="color_p">实时更新</span>
+<span class="color_p">/</span>
+<span class="color_p">商家内部券</span>
+</div>
+<div class="dishead_right fr" style="color: #fbacc2">
+<span class="color_p">/</span>
+<span class="color_p">将优选、性价比做到极致</span>
+<span class="color_p">/</span>
+</div>
+</div>
+<div class="dis_product">
+<ftx:item type="top_lists" num="6">
+<volist name="data" id="item" mod="2">
+<div class="pro_detail <eq name='mod' value='1'>fr</eq>">
+<a rel="nofollow" {$item.itemurl} target="_blank">
+<img src="{:attach(get_thumb($item['pic_url'], '_b'),'item')}" height="272" style="border: 0;max-width:272px;"/>
+</a>
+<div class="pro_intro fr">
+<p class="pro_title" style="max-height: 68px;overflow: hidden;;"><a {$item.itemurl} rel="nofollow" target="_blank" title="{$item.title}" style="color: #616161; font-size: 16px;">{$item.title}</a>
+</p>
+<div class="pro_price color_p" style="color: #FB82A4;"><i class="iconfont" style="color:#fb973e;margin-right: 3px;">
+&#xe60a;</i>内部券<em>{$item.q_price}</em>元，过期时间<span style="font-family: Arial; margin-left: 6px;">{$item.q_time}</span>
+</div>
+<div class="residue">优惠券剩余<i class="color_p">{$item.q_sur}</i>张，已领取 <span style="font-family: Arial; font-size: 14px;">{$item.q_has}</span> 张
+</div>
+<div class="pro_nowPri"><span>下单价 ￥<em>{$item.coupon_price}</em></span>
+在售价<em style="font-weight: normal;font-family: Arial;">￥{$item.price}</em>
+</div>
+<div class="buy">
+<span style="color: #999999;  ">购买流程：</span>
+<a {$item.quanurl} target="_blank">
+<span class="indexBorder"> ①点我领券</span>
+</a>
+<span class="indexto">> </span>
+<a rel="nofollow" {$item.ckurl} target="_blank">
+<span class="indexBorder">②点击下单</span>
+</a>
+</div>
+</div>
+</div>
+</volist>
+</ftx:item>
+</div>
+</div>

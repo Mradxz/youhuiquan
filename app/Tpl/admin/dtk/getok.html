@@ -1,0 +1,47 @@
+<!--移动栏目-->
+<div class="dialog_content">
+	<form id="info_form" name="info_form" action="{:U('dtk/isget')}" method="post">
+	<table width="100%" class="table_form">
+	       <tr> 
+			<th>大淘客优惠券商品ID起止范围 :</th>
+			<td><input type="text" name="fid" value="" class="input-text" size="10"> - <input type="text" name="eid" value="" class="input-text" size="10">&nbsp;&nbsp;
+			</td>
+		  </tr>		
+		  <tr>
+            <th></th>            
+			<td>			
+			<input type="submit" value="开始执行" name="dosubmit" class="smt mr10"></td>
+        </tr>
+	 </table>		     
+		 
+	</form>
+</div>
+<script>
+$(function(){
+    var collect_url = "{:U('dtk/isgeting')}";
+    $('#info_form').ajaxForm({success:complete, dataType:'json'});
+    var p = 2;
+    function complete(result){
+        if(result.status == 1){
+		    $.dialog.get('getok').close();
+            $.dialog({id:'isgeting', title:result.msg, content:result.data, padding:'', lock:true});
+            p = 2;
+            collect_page();
+        } else {
+            $.yangtata.tip({content:result.msg, icon:'alert'});
+        }
+    }
+    function collect_page(){
+        $.getJSON(collect_url, {p:p}, function(result){
+            if(result.status == 1){
+                $.dialog.get('isgeting').content(result.data);
+                p++;
+                setTimeout(collect_page(p),5000);
+            }else{
+                $.dialog.get('isgeting').close();
+                $.yangtata.tip({content:result.msg});
+            }
+        });
+    }
+});
+</script>

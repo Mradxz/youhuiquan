@@ -1,0 +1,50 @@
+<div class="goods-list main-container">
+<ul class="clearfix index-boutique">
+<volist name="items_list" id="item" key="i" mod="4">
+<li class="<eq name='mod' value='3'>no-right</eq>">
+<a {$item.itemurl} class="img" rel="nofollow" target="_blank">
+{$item.coupon_start_time|sannewicon}
+<img src="{:attach(get_thumb($item['pic_url'], '_b'),'item')}" alt="">
+</a>
+<div class="padding">
+<a target="_blank" {$item.itemurl} class="title clearfix">
+<if condition="$item.shop_type eq 'B' ">
+<i class="tmall"></i>
+<else/>
+<i class="taobao"></i>
+</if>
+<span>{$item.title}</span>
+</a>
+<if condition="$item.item_type eq '2' ">
+<div class="coupon-wrap clearfix">
+优惠券<span class="price">{$item.q_price}</span>元，已有<span class="num">{$item.volume}</span>人购买
+</div>
+<else/>
+<div class="price-wrap clearfix" style="background:none;">
+<span class="icon">￥</span>
+<span class="price">{$item.coupon_price}</span>
+<span class="youpin"></span>
+<div class="sold-count">
+<span class="num">{$item.zk} 折</span>
+</div>
+</div>
+<div class="time-wrap clearfix">
+<div class="date">
+目前已售{$item.volume}
+</div>
+<a class="buy" {$item.ckurl} target="_blank" rel="nofollow">去抢购&gt;</a>
+</div>
+</if>
+</div>
+<if condition="$item.item_type eq '2' ">
+<div class="price-wrap clearfix">
+<span class="price">
+<span class="text">券后价&nbsp;￥<span class="price">{$item.coupon_price}</span></span>
+<span class="text" style="margin-left: 15px; font-size: 12px;color: #ffe4ed;">正常售价&nbsp;￥{$item.price} </span>
+</span>
+</div>
+</if>
+</li>
+</volist>
+</ul>
+</div>

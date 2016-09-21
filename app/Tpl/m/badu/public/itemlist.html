@@ -1,0 +1,100 @@
+<script>
+$(function (){
+    var aa = $(".m_group_goods li").innerWidth();
+    $(".m_group_goods li img.lazy").css({height:aa,width:aa});	
+	if(aa<180){
+	$(".m_group_goods li").find('.type').hide();
+	}	
+	var p = 2;
+	var ajaxurl = "{$ajaxurl}";	
+	var maxpage = "{$maxpage}";
+	var btop = $(".loading").offset().top;  
+	var loading = $("#loading").data("on", false);
+	$(window).scroll(function(){
+	if(loading.data("on")) return;	
+		if(btop<$(window).height()+$(document).scrollTop()){	
+		    loading.data("on", true).fadeIn();
+		    $.getJSON(ajaxurl,{p:p},function(renul){  
+			var sqlJson = eval(renul.data);			
+			(function(sqlJson){
+			if(p>maxpage){
+					$("#loading").show();					
+					$(".loading").appendTo("<span>加载完成</span>");
+				}else{
+				    var html="";					
+					for(var i in sqlJson){	
+					    ri=Number(i) + 1;						
+				        if(ri%2==0){						
+						html+='<li class="group_goods_item last">';
+						}else{
+						html+='<li class="group_goods_item">';	
+						}
+					    if(sqlJson[i]['item_type']==2){												
+						html+='<a '+sqlJson[i].itemurl+' target="_blank">';
+						html+='<img alt="'+sqlJson[i].title+'" src="'+sqlJson[i].pic+'" class="lazy" style="display: inline;"/>';
+						html+='<div>';
+						html+='<h3 class="group_goods_title">'+sqlJson[i].title+'</h3>';
+						html+='<div class="group_goods_info">';
+						html+='<span class="group_goods_price">￥<span>'+sqlJson[i].coupon_price+'</span></span>';
+						html+='<p class="discount_wrap"><span class="group_discount">券后价</span>';
+						html+='<span>已售'+sqlJson[i].volume+'</span></p>';
+						html+='<p class="group_purchase_num"><span class="group_quan">券:￥'+sqlJson[i].q_price+'</span></p>';
+						html+='</div>';							
+						html+='</div>';		
+						html+='</a>';
+						html+='</li>';
+						}else{
+						html+='<a '+sqlJson[i].itemurl+' target="_blank">';
+						html+='<img alt="'+sqlJson[i].title+'" src="'+sqlJson[i].pic+'" class="lazy" style="display: inline;"/>';
+						html+='<div>';
+						html+='<h3 class="group_goods_title">'+sqlJson[i].title+'</h3>';
+						html+='<div class="group_goods_info">';
+						html+='<span class="group_goods_price">￥<span>'+sqlJson[i].coupon_price+'</span></span>';
+						html+='<p class="discount_wrap"><span class="group_discount">'+sqlJson[i].zk+'折</span>';
+						html+='<span>已售'+sqlJson[i].volume+'</span></p>';	
+						html+='<p class="group_purchase_num"><span class="group_type"><img src="'+sqlJson[i].typeimg+'"><span class="type">'+sqlJson[i].type+'</span></span></p>';	
+						html+='</div>';							
+						html+='</div>';		
+						html+='</a>';
+						html+='</li>';
+						}	
+                        var aa = $(".m_group_goods li").innerWidth();
+                        $(".m_group_goods li img.lazy").css({height:aa,width:aa});	
+						if(aa<180){
+						$(".m_group_goods li").find('.type').hide();
+						}						
+                 }						
+					$('.m_group_goods').append(html);
+					loading.data("on",false).fadeIn(500);
+				}
+				p++;
+			   })(sqlJson);			
+			   loading.fadeOut();
+			});
+		}
+	});
+		
+}); 
+</script>
+<div id="goods">
+<ul class="m_group_goods clear">
+<volist name="items_list" id="item" key="i" mod="2">
+<li class="group_goods_item <eq name='mod' value='1'> last</eq>"> 
+<a {$item.itemurl} target="_blank">
+<img src="{:attach(get_thumb($item['pic_url'], '_b'),'item')}" class="lazy" alt="{$item.title}" style="display: inline; ">
+<div>
+<h3 class="group_goods_title">{$item.title}</h3>
+<div class="group_goods_info">
+<span class="group_goods_price">￥<span>{$item.coupon_price}</span></span>
+<p class="discount_wrap"><span class="group_discount"><if condition="$item.item_type eq '2' ">券后价<else/>{$item.zk}折</if></span><span>已售{$item.volume}</span></p>
+<p class="group_purchase_num">
+<if condition="$item.item_type eq '2' "><span class="group_quan">券:￥{$item.q_price}</span><else/><span class="group_type"><if condition="$item.shop_type eq 'C' "><img src="__STATIC__/images/taobao.png"><span class="type">淘宝</span></if><if condition="$item.shop_type eq 'B' "><img src="__STATIC__/images/tmall.png"><span class="type">天猫</span></if></span></if>
+</p>
+</div>
+</div>
+</a>
+</li>	
+</volist>	
+</ul>
+<div class="loading" id="loading" style="display: none;"><span>正在加载中，请稍后...</span></div>
+</div>  

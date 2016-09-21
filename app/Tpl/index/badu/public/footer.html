@@ -1,0 +1,92 @@
+<div class="foot">
+    <div class="white_bg">
+    <div class="foot-con">
+        <div class="con-box-n clear">
+            <div class="app-side-box fl">
+                <p class="app-show"><img src="{:C('ftx_site_weixin')}"></p>
+                <p class="app-txt">扫描二维码打开</p>
+            </div>
+            <div class="con-left-info fl">
+                <dl class="update">
+                    <dt>外链模块</dt>
+                    <dd><a href="#" target="_blank"><i></i>链接文字</a></dd>
+                    <dd><a href="#" target="_blank"><i></i>链接文字</a></dd>
+                    <dd><a href="#" target="_blank"><i></i>链接文字</a></dd>
+                    <dd><a href="#" target="_blank"><i></i>链接文字</a></dd>
+                </dl>
+                <dl class="cooperation">
+                    <dt>外链模块</dt>
+                    <dd><a href="#" target="_blank"><i></i>链接文字</a></dd>
+                    <dd><a href="#" target="_blank"><i></i>链接文字</a></dd>
+                    <dd><a href="#" target="_blank"><i></i>链接文字</a></dd>
+                </dl>
+                <dl class="cor-info">
+                    <dt>外链模块</dt>
+                    <dd><a href="#" target="_blank"><i></i>链接文字</a></dd>
+                    <dd><a href="#" target="_blank"><i></i>链接文字</a></dd>
+                    <dd><a href="#" target="_blank"><i></i>链接文字</a></dd>
+                    <dd><a href="#" target="_blank"><i></i>链接文字</a></dd>
+                </dl>
+                <dl class="help-info">
+                    <dt>外链模块</dt>
+                    <dd><a href="#" target="_blank"><i></i>链接文字</a></dd>
+                    <dd><a href="#" target="_blank"><i></i>链接文字</a></dd>
+                    <dd><a href="#" target="_blank"><i></i>链接文字</a></dd>
+					<dd><a href="#" target="_blank"><i></i>链接文字</a></dd>
+                </dl>
+            </div>
+            <div class="con-menu fr">
+                <a href="#" class="service-add fl" target="_blank"></a>
+            <span class="service-time fl">
+                <p>周一至周六 </p>
+                <p>9:00-22:00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            </span>
+            </div>
+        </div>
+                    <div class="links">
+	<span>友情链接：</span>
+<div class="links_list_box">
+<ul class="links_list">
+<li>
+<ftx:link type="lists">	
+<volist name="data" id="val" offset="0" length='10'> 
+<a href="{$val.url}" target="_blank">{$val.name}</a>
+</volist>
+</ftx:link>
+</li>
+<li>
+<ftx:link type="lists">	
+<volist name="data" id="val" offset="10" length='10'> 
+<a href="{$val.url}" target="_blank">{$val.name}</a>
+</volist>
+</ftx:link>
+</li>
+<li>
+<ftx:link type="lists">	
+<volist name="data" id="val" offset="20" length='10'> 
+<a href="{$val.url}" target="_blank">{$val.name}</a>
+</volist>
+</ftx:link>
+</li>
+</ul>
+</div>
+</div>
+<p class="ft-company">{:C('ftx_site_name')}&nbsp;&nbsp;<a href="http://www.miibeian.gov.cn" target="_blank">{:C('ftx_site_icp')}</a>&#12288;&#12288;Copyright &copy; 2010 - 2014 {:C('ftx_site_url')} All Rights Reserved  {:C('ftx_statistics_code')}</p>                    
+</div>
+</div>
+</div>
+<include file="public:right" />
+<script type="text/javascript">
+var yangtataER = {
+    root: "__ROOT__",
+	site: "{:C('ftx_site_url')}"
+};
+var lang = {};
+<volist name=":L('js_lang')" id="val">lang.{$key} = "{$val}";</volist>
+</script>
+<script src="__STATIC__/badu_www/js/lightbox.js" type="text/javascript"></script>
+<script src="__STATIC__/badu_www/js/goodlist.js" type="text/javascript"></script> 
+<script type="text/javascript">
+	$("img.lazy").lazyload({threshold:200,failure_limit:30});	
+</script>
+{:C('ftx_taojindian_html')}

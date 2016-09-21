@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta name="robots" content="noindex,nofollow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="X-UA-Compatible" content="TOP" />
+<title>淘宝客-管理平台-管理员登陆</title>
+<link href="__STATIC__/css/admin/login.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form action="{:U('index/login')}" method="post" name="myform" id="myform" runat="server">
+    <div class="Main">
+        <ul>
+            <li class="top"></li>
+            <li class="top2"></li>
+            <li class="topA"></li>
+            <li class="topB"><span>
+                <img src="__STATIC__/css/admin/images/login/logo.gif" alt="" style="" />
+            </span></li>
+            <li class="topC"></li>
+            <li class="topD">
+                <ul class="login">
+                    <li><span class="left">用户名：</span> <span style="left">
+                    <input name="username" id="username"  type="text" class="txt" />
+                    </span></li>
+                    <li><span class="left">密 码：</span> <span style="left">
+                    <input type="password" name="password" id="password" class="txt" />  
+                    </span></li>
+                    <li><span class="left">验证码：</span> <span style="left">
+                    <input type="text" name="verify_code" id="verify_code" class="txtCode" />  
+					<img title="{$Think.lang.refresh_verify_code}" class="verify_img" src="{:U('index/verify_code', array('t'=>time()))}" width="70px" height="28px" align="absmiddle"/>
+                    </span>
+                    </li>                                      
+                </ul>
+            </li>
+            <li class="topE"></li>
+            <li class="middle_A"></li>
+            <li class="middle_B"></li>
+            <li class="middle_C">
+            <span class="btn">
+			<INPUT type=image src="__STATIC__/css/admin/images/login/btnlogin.gif" value="" name=Submit>
+			<map name="Map"><area shape="rect" coords="3,3,36,19" href="javascript:myform.submit();"><area shape="rect" coords="40,3,78,18" href="javascript:myform.reset();"></map>            
+            </span>
+            </li>
+            <li class="middle_D"></li>
+            <li class="bottom_A">
+            </li>
+            <li class="bottom_B"></li>
+        </ul>
+    </div>
+    </form>
+	<script language="javascript" type="text/javascript" src="__STATIC__/js/jquery/jquery.js"></script>
+<script>
+$(function(){
+    if(self != top){
+        top.location = self.location;
+    }    
+    $(".verify_img").click(function(){
+        var timenow = new Date().getTime();
+        $(this).attr("src","{:U('index/verify_code')}&"+timenow)
+    });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<include file="public:header" />
+<div class="subnav">
+   <h1 class="title_2 line_x">大淘客API采集优惠券</h1>
+</div>
+<div class="pad_lr_10">
+    <form id="J_info_form" action="{:U('dtk/setting')}" method="post">
+    <table width="100%" cellspacing="0" class="table_form">	
+        
+		<tr>
+           <th>起始位置 :</th>           
+		   <td>
+		   <input name="page" id="page" type="text" class="input-text" size="10" value="1"/>采集过程中长时间卡停无反应，可记住停顿位置，直接输入上次位置接着采集。
+		   </td>
+        </tr>
+		<tr><th>第一步：</th>			
+			<td><input type="btn" value="加入推广" class="smt mr10" id="getok"><span style="margin-top:10px;float: left;">注意批量加入推广完成之后使用大淘客转链工具生成推广链接再获取数据并采集。</span></td>
+		</tr>
+		<tr>
+		<th>第二步：</th>
+			<td>
+				<input type="btn" value="获取数据" class="smt mr10" id="getitem">				
+			</td>
+		</tr>
+        <tr>
+            <th>第三步：</th>
+            <td><input type="submit" value="开始采集" name="dosubmit" class="smt mr10"></td>
+        </tr>
+    </table>    
+    </form>	
+</div>
+<include file="public:footer" />
+<script>
+$(function(){
+    var collect_url = "{:U('dtk/collect')}";
+    $('#J_info_form').ajaxForm({success:complete, dataType:'json'});
+    var p = document.getElementById("page").value;;
+    function complete(result){
+        if(result.status == 1){
+            $.dialog({id:'dtk', title:result.msg, content:result.data, padding:'', lock:true});
+            p = document.getElementById("page").value;;
+            collect_page();
+        } else {
+            $.yangtata.tip({content:result.msg, icon:'alert'});
+        }
+    }
+    function collect_page(){
+        $.getJSON(collect_url, {p:p}, function(result){
+            if(result.status == 1){
+                $.dialog.get('dtk').content(result.data);
+                p++;
+                collect_page(p);
+            }else{
+                $.dialog.get('dtk').close();
+                $.yangtata.tip({content:result.msg});
+            }
+        });
+    }
+});
+</script>
+<script type="text/javascript">
+	$(function() {
+		$("#getitem").click(function() {
+			$.getJSON('/index.php?g=admin&m=dtk&a=getitem', {},
+			function(data) {
+				alert(data.msg);
+			})
+		})
+	})
+</script>
+<script>
+var getokurl = "{:U('dtk/getok')}";
+$("#getok").click(function() {
+    $.getJSON(getokurl, function(result) {
+        if (result.status == 1) {
+            $.dialog({
+                id: 'getok',
+                title: result.msg,
+                content: result.data,
+                padding: '',
+                lock: true
+            });
+        } else {
+            $.yangtata.tip({
+                content: result.msg,
+                icon: 'alert'
+            });
+        }
+    });
+}
+)
+</script>
+</body>
+</html>

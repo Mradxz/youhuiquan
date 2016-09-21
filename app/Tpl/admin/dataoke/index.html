@@ -1,0 +1,114 @@
+<include file="public:header" />
+<div class="subnav">
+    <h1 class="title_2 line_x">大淘客全站优惠券API采集优惠券</h1>
+</div>
+<div class="pad_lr_10">
+    <form id="J_info_form" action="{:U('dataoke/setting')}" method="post">
+    <table width="100%" cellspacing="0" class="table_form">	
+
+		<tr>   
+		<th>起止页 :</th> 
+		<td><input name="start_p" id="start_p" type="text" class="input-text" size="10" value="1"/> - <input name="end_p" id="end_p" type="text" class="input-text" size="10" value=""/>&nbsp;&nbsp;&nbsp;&nbsp;注意：一定要全部页面获取完成，提示获取完成后，数据才真正的合并完成。</td>
+		</tr>
+		<tr><th>第一步：</th>
+			<td>
+				<input type="btn" value="合并数据" class="smt mr10" id="getitem">		
+			</td>
+		</tr>
+		
+		
+		<tr>
+           <th>起始位置 :</th>           
+		   <td>
+		   <input name="page" id="page" type="text" class="input-text" size="10" value="1"/>&nbsp;&nbsp;采集过程中长时间卡停无反应，可记住停顿位置，直接输入上次位置接着采集。
+		   </td>
+        </tr>
+        <tr>
+            <th>第二步：</th>
+            <td><input type="submit" value="采集商品" name="dosubmit" class="smt mr10"></td>
+        </tr>		
+		
+    </table>    
+    </form>	
+</div>
+<include file="public:footer" />
+<script>
+$(function(){
+    var collect_url = "{:U('dataoke/collect')}";
+    $('#J_info_form').ajaxForm({success:complete, dataType:'json'});
+    var p = document.getElementById("page").value;
+    function complete(result){
+        if(result.status == 1){
+            $.dialog({id:'dataoke', title:result.msg, content:result.data, padding:'', lock:true});
+            p = document.getElementById("page").value;
+            collect_page();
+        } else {
+            $.yangtata.tip({content:result.msg, icon:'alert'});
+        }
+    }
+    function collect_page(){
+        $.getJSON(collect_url, {p:p}, function(result){
+            if(result.status == 1){
+                $.dialog.get('dataoke').content(result.data);
+                p++;
+                collect_page(p);
+            }else{
+                $.dialog.get('dataoke').close();
+                $.yangtata.tip({content:result.msg});
+            }
+        });
+    }
+});
+</script>
+<script type="text/javascript">
+	$(function() {
+		$("#getitem").live('click', function(){        		
+		    var appkey = "{:C('ftx_dtk')}";
+			var p = document.getElementById("start_p").value;
+			var edp = document.getElementById("end_p").value;
+			$.ajax({
+			url: '/index.php?g=admin&m=getdtk&a=index',
+				type: 'POST',
+				data: {
+				appkey:appkey,
+				p:p,
+				edp:edp
+			},
+			dataType: 'json',
+			success: function(result){
+				if(result.status == 1){
+					$.dialog({id:'getdtk', title:result.msg, content:result.data, padding:'', lock:true}); 		            
+					setTimeout(collect_p,1000);
+				}else{
+					$.yangtata.tip({content:result.msg, icon:'alert'});
+				}
+			}
+			
+		});
+		function collect_p(){		    
+            $.getJSON('/index.php?g=admin&m=getdtk&a=index', {appkey:appkey,p:p,edp:edp}, function(result){
+            if(result.status == 1){
+                $.dialog.get('getdtk').content(result.data);				
+                p++;
+				var s = 5;				
+				function showtime(){					
+				s--;
+				if(s==0){
+				collect_p(p);
+				}
+				}
+				clearInterval(settime); 
+				var settime = setInterval(function(){
+				showtime();
+				},1000);								
+            }else{			    
+                $.dialog.get('getdtk').close();
+                $.yangtata.tip({content:result.msg});                			
+            }
+        });
+        }
+		})
+	})
+</script>
+</body>
+</html>

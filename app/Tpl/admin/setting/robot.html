@@ -1,0 +1,59 @@
+<include file="public:header" />
+<!--采集 设置-->
+<div class="subnav">
+    <div class="content_menu ib_a blue line_x">
+		<a  class="on"><em>采集设置</em></a>
+	</div>
+</div>
+<div class="pad_lr_10">
+	<form id="info_form" action="{:u('setting/edit')}" method="post">
+		<table width="100%" class="table_form contentWrap">
+			<tr>
+				<th width="150">采集默认时间 :</th>
+				<td><input type="text" name="setting[coupon_add_time]" size="10" class="input-text" value="{:C('ftx_coupon_add_time')}" />&nbsp;&nbsp;小时&nbsp;&nbsp;<span class="gray">一般72小时，三天过期（采集的时候自动设置）</span></td>
+			</tr>
+			<tr>
+				<th width="150">设置阿里妈妈cookie :</th>
+				<td><textarea rows="10" cols="100" name="setting[cookie]">{:C('ftx_cookie')}</textarea>&nbsp;&nbsp;&nbsp;
+				</td>
+			</tr>	
+		  <tr>
+          <th width="150">鹊桥PID :</th>		  
+		  <td><input type="text" name="setting[quepid]" value="{:C('ftx_quepid')}" class="input-text" size="40"/>
+		  &nbsp;&nbsp;&nbsp;
+          </td>		  
+          </tr>
+		  <tr>
+          <th width="150">高佣PID :</th>		  
+		  <td><input type="text" name="setting[youpid]" value="{:C('ftx_youpid')}" class="input-text" size="40"/>
+          </td>
+          </tr>
+		  <tr>
+		  <tr>
+				<th width="150">大淘客cookies :</th>
+				<td><textarea rows="3" cols="100" name="setting[dtkcookies]" >{:C('ftx_dtkcookies')}</textarea> &nbsp;&nbsp;
+				</td>
+			</tr>
+				<th width="150">大淘客优惠券APPKEY :</th>
+				<td><input type="text" name="setting[dtk]" size="20" class="input-text" value="{:C('ftx_dtk')}" />&nbsp;&nbsp;
+					<span class="gray"><a href="http://www.dataoke.com/ucenter/appkey_apply.asp" target="_blank">点此申请</a></span>
+				</td>
+			</tr>
+			<tr>
+				<th>大淘客分类绑定 :</th>
+				<td>
+					服装 <input type="text" name="setting[fz]"  class="input-text" size="5" value="{:C('ftx_fz')}"> 母婴 <input type="text" name="setting[my]" class="input-text" size="5" value="{:C('ftx_my')}"> 化妆品 <input type="text" name="setting[hzp]" class="input-text" size="5" value="{:C('ftx_hzp')}"> 居家 <input type="text" name="setting[jj]" class="input-text" size="5" value="{:C('ftx_jj')}"> 鞋包配饰 <input type="text" name="setting[xbps]" class="input-text" size="5" value="{:C('ftx_xbps')}"> 美食 <input type="text" name="setting[ms]" class="input-text" size="5" value="{:C('ftx_ms')}"> 文体车品 <input type="text" name="setting[wtcp]" class="input-text" size="5" value="{:C('ftx_wtcp')}"> 数码家电 <input type="text" name="setting[smjd]" class="input-text" size="5" value="{:C('ftx_smjd')}">&nbsp;&nbsp;<span class="red">请填写本站对应的分类ID与大淘客分类进行绑定</span>
+                </td>
+			</tr>
+			<tr>
+        		<th></th>
+        		<td><input type="hidden" name="menuid"  value="{$menuid}"/>
+				<input type="submit" class="smt mr10" name="do" value="{:L('submit')}"/></td>
+    		</tr>
+ 		</table>
+	</form>	
+	<br><br><br><br><br><br>
+</div>
+<include file="public:footer" />
+</body>
+</html>

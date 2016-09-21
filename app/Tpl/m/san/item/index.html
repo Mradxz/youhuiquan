@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<include file="public:head" />
+<link href="__STATIC__/san_wap/js/skin/layer.css" rel="stylesheet"/>
+<script src="__STATIC__/san_wap/js/layer.js"></script>
+</head>
+<body>
+<div id="load-more">
+<div>
+<div class="main-title clearfix">
+<span class="mui-action-menu mui-pull-left" rel="external" data-ajax="false" onclick="history.back();" style="font-family: iconfont;color: #FFFFFF;font-size: 37px;line-height: 44px;margin-left: 9px;float: none;position: absolute;z-index: 5;">
+&#xe600;</span>
+<h1 class="mui-title main-title-text">商品详情</h1>
+<a href="{:C('ftx_header_html')}" rel="external" class="main-home"></a>
+</div>
+<div class="detail-wrapper">
+<div class="title-wrapper clearfix">
+<if condition="$item.shop_type eq 'B'"><span class="tmall"></span></if><if condition="$item.shop_type eq 'C'"><span class="taobao"></span></if>
+{$item.title}</div>
+<div class="img">
+<img src="{$item.pic_url}" alt="">
+</div>
+<div class="recommend-wrapper">
+<div class="text">
+【小编推荐】&nbsp;{$item.intro} </div>
+</div>
+<if condition="$item.item_type eq '2' ">
+<div class="coupon-text-wrapper">
+<div class="text">
+独家券<span class="num">{$item.q_price}</span>元
+</div>
+<div class="over">
+已有<span class="num">{$item.q_has}</span>人领券
+</div>
+</div>
+<div class="coupon-wrapper" style="padding: 10px 0;">
+<span class="text1">券后</span>
+<span class="price1">￥{$item.coupon_price}</span>
+<span class="text2">正常售价</span>
+<span class="price2">￥{$item.price}</span>
+</div>
+<div class="buy-wrapper">
+<a rel="external" href="javascript:;" data-rel="{$item.wap_url}" class="coupon">领券并下单</a>
+</div>
+<else/>
+<div class="coupon-text-wrapper">
+<div class="text">
+限时抢购中
+</div>
+<div class="over">
+已有<span class="num">{$item.volume}</span>人购买
+</div>
+</div>
+<div class="coupon-wrapper" style="padding: 10px 0;">
+<span class="text1">折后</span>
+<span class="price1">￥{$item.coupon_price}</span>
+<span class="text2">原价</span>
+<span class="price2">￥{$item.price}</span>
+</div>
+<div class="buy-wrapper">
+<a {$item.ckurl} class="buy" style="width:100%">去{$type}下单&nbsp;&gt;</a>
+</div>
+</if>
+</div>
+<script>
+$(".buy-wrapper .coupon").click(function(){	    
+            var _url = $(this).data("rel");        
+            var index = layer.open({
+                type: 2,
+                title: '领券并下单',
+                shadeClose: true,
+                shade: 0.8,
+                area: ['90%', '60%'],
+                content: _url,
+                success:function(){
+                    if($(".goto-div").length <= 0){
+                        $(".layui-layer-content").append('<div class="goto-div"><a data-ajax="false" rel="nofollow" {$item.ckurl} class="goto-btn">去{$type}下单</a></div>');
+                        $(".goto-div").slideDown();                      
+
+                    }
+                }
+            });       
+    });
+</script>
+</div>
+</div>
+<include file="public:footer" />
+</body>
+</html>

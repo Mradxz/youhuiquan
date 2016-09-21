@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<include file="public:head" />
+</head>
+<body>
+<div id="load-more">
+<div>
+<div class="main-title clearfix">
+<a class="mui-action-menu mui-pull-left main-icon" href="javascript:void(0)"></a>
+<h1 class="mui-title main-title-text">{$cinfo.name}</h1>
+<a href="{:C('ftx_header_html')}" rel="external" class="main-home"></a>
+</div>
+<div class="nav-bar">
+<ul class="nav-bar-list clearfix">
+<ftx:nav type="lists" style="main" status="1">
+<volist name="data" id="val">
+<li <if condition="$nav_curr eq $val['alias']">class="active"</if>><a rel="external" href="{$val.link}">{$val.name}</a></li>			
+</volist>
+</ftx:nav>
+</ul>
+</div>
+<div class="index-wrapper">
+<div class="icon-link-wrapper">
+<ul class="icon-url-list clearfix">
+<li class="icon-meishi">
+<a rel="external" href="{:U('index/cate', array('cid'=>$cid,'mode'=>'all'))}">
+<img src="__STATIC__/san_wap/images/icon-all.png" alt="">
+<span>全部</span>
+</a>
+</li>
+<li class="icon-99">
+<a rel="external" href="{:U('index/cate', array('cid'=>$cid,'mode'=>'jiu'))}">
+<img src="__STATIC__/san_wap/images/icon-99.png" alt="">
+<span>9.9包邮</span>
+</a>
+</li>
+<li class="icon-recommend">
+<a rel="external" href="{:U('index/cate', array('cid'=>$cid,'mode'=>'ershi'))}">
+<img src="__STATIC__/san_wap/images/icon-ershi.png" alt="">
+<span>20封顶</span>
+</a>
+</li>
+<li class="icon-jujia">
+<a rel="external" href="{:U('index/cate', array('cid'=>$cid,'mode'=>'tuijian'))}">
+<img src="__STATIC__/san_wap/images/icon-recommend.png" alt="">
+<span>小编推荐</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<include file="public:itemlist" />
+</div>
+</div>
+<include file="public:footer" />
+</body>
+</html>

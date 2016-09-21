@@ -1,0 +1,72 @@
+<include file="public:header" />
+<div class="subnav">
+<h1 class="title_2 line_x">商品检测</h1>
+</div>
+<div class="pad_lr_10">
+    <form id="J_info_form" action="{:U('yangtata/setting')}" method="post">
+    <table width="100%" cellspacing="0" class="table_form">
+	   <tr>
+           <th width="150">商品ID范围 :</th>
+           <td>
+           <input type="text" name="fid" size="10" class="input-text" value="1"/> - 
+           <input type="text" name="eid" size="10" class="input-text" value="999999999"/>		  
+           <span class="red ml10">商品列表中缩略图前面的ID数字</span>
+           </td>
+        </tr>
+	     <tr>
+           <th width="150">线程数 :</th>
+           <td>
+            <input type="text" name="step" size="10" class="input-text" value="10"/>	  
+           <span class="red ml10">API线程数量(最大40)</span>
+           </td>
+        </tr>
+		<tr>
+            <th width="150">分类 :</th>
+            <td><select class="J_cate_select mr10" data-pid="0" data-uri="{:U('items_cate/ajax_getchilds', array('type'=>0))}"></select>
+			 <input type="hidden" name="cate_id" id="J_cate_id" />
+			 <span class="red ml10">请注意你设置的商品ID范围是否在你所选分类中</span>
+			</td>
+        </tr>
+        <tr>
+            <th></th>
+            <td><input type="submit" value="开始检测" name="dosubmit" class="smt mr10"><span class="red ml10 mt10 fl">要检测所有商品，商品ID范围可以设置1至9999999999，分类不选择。</span></td>
+        </tr>
+    </table>   
+    </form>	
+	
+</div>
+
+<include file="public:footer" />
+<script>
+$('.J_cate_select').cate_select('请选择');
+$(function(){
+    var collect_url = "{:U('yangtata/ckyangtata')}";
+    $('#J_info_form').ajaxForm({success:complete, dataType:'json'});
+    var p = 2;
+    function complete(result){
+        if(result.status == 1){
+            $.dialog({id:'yangtata', title:result.msg, content:result.data, padding:'', lock:true});
+            p = 2;
+            collect_page();
+        } else {
+            $.yangtata.tip({content:result.msg, icon:'alert'});
+        }
+    }
+    function collect_page(){
+        $.getJSON(collect_url, {p:p}, function(result){
+            if(result.status == 1){
+                $.dialog.get('yangtata').content(result.data);
+                p++;
+                collect_page(p);
+            }else{
+                $.dialog.get('yangtata').close();
+                $.yangtata.tip({content:result.msg});
+            }
+        });
+    }
+	
+});
+</script>
+
+</body>
+</html>

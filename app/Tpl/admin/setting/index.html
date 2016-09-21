@@ -1,0 +1,187 @@
+<include file="public:header" />
+<div class="subnav">
+    <h1 class="title_2 line_x">网站基本设置</h1>
+</div>
+<div class="pad_lr_10">
+	<form id="info_form" action="{:u('setting/edit')}" method="post" enctype="multipart/form-data">
+	<table width="100%" class="table_form">
+		<tr>
+            <th width="150">{:L('site_url')} :</th>
+            <td><input type="text" name="setting[site_url]" class="input-text" size="30" value="{:C('ftx_site_url')}">
+	    <span class="red ml10">网站地址必须以http:// 开头 / 斜杠结尾</span>
+	    </td>
+        </tr>
+		<tr>
+		<th>网站主Logo :</th>
+        	<td>    <img src="{:C('ftx_site_logo')}" id="show_logo_J_img" style="height:45px;"/></br>
+            		<input type="text" name="setting[site_logo]" id="J_logo_img" class="input-text fl mr10" size="50" value="{:C('ftx_site_logo')}">
+            		<div id="J_logo_upload_img" class="upload_btn"><span>{:L('upload')}</span></div>
+			<span class="attachment_icon J_attachment_icon" file-type="image" ></span>
+	    </td>
+        </tr>
+        <tr>
+            <th width="150">{:L('site_name')} :</th>
+            <td><input type="text" name="setting[site_name]" class="input-text" size="30" value="{:C('ftx_site_name')}"></td>
+        </tr>
+    
+        <tr>
+            <th>{:L('site_icp')} :</th>
+            <td><input type="text" name="setting[site_icp]" class="input-text" size="30" value="{:C('ftx_site_icp')}"></td>
+        </tr>
+		<tr>
+            <th>QQ :</th>
+            <td><input type="text" name="setting[qq]" class="input-text" size="30" value="{:C('ftx_qq')}"></td>
+        </tr>
+        <tr>
+            <th>{:L('statistics_code')} :</th>
+            <td><textarea rows="4" cols="80" name="setting[statistics_code]">{:C('ftx_statistics_code')}</textarea></td>
+        </tr>		
+		<tr>
+            <th width="150">淘点金代码 :</th>
+            <td>
+                <textarea rows="8" cols="80" name="setting[taojindian_html]">{:C('ftx_taojindian_html')}</textarea>
+                <span class="red ml10"><a href="http://bbs.yangtata.com/thread-1793-1-1.html" target="_blank">查看获取教程</a></span>
+            </td>
+        </tr>
+		<tr>
+		<th>二维码 :</th>
+        	<td>    <img src="{:C('ftx_site_weixin')}" id="show_weixin_J_img" style="width:90px;height:90px;"/></br>
+            		<input type="text" name="setting[site_weixin]" id="J_weixin_img" class="input-text fl mr10" size="50" value="{:C('ftx_site_weixin')}">
+            		<div id="J_weixin_upload_img" class="upload_btn"><span>{:L('upload')}</span></div>
+			        <span class="attachment_icon J_attachment_icon" file-type="image" ></span>
+		  </td>
+    	</tr>
+		<tr>
+		<th>LOGO右则长图 :</th>
+        	<td><img src="{:C('ftx_site_navlogo')}" id="show_navlogo_J_img" style="width:335px;height:25px;"/></br>
+            		<input type="text" name="setting[site_navlogo]" id="J_navlogo_img" class="input-text fl mr10" size="50" value="{:C('ftx_site_navlogo')}">
+            		<div id="J_navlogo_upload_img" class="upload_btn"><span>{:L('upload')}</span></div>
+			<span class="attachment_icon J_attachment_icon" file-type="image" ></span>
+		</td>
+    	</tr>
+    	<tr>
+        	<th>{:L('site_status')} :</th>
+        	<td>
+            	<label><input type="radio" class="J_change_status" <if condition="C('ftx_site_status') eq '1'">checked="checked"</if> value="1" name="setting[site_status]"> {:L('open')}</label> &nbsp;&nbsp;
+                <label><input type="radio" class="J_change_status" <if condition="C('ftx_site_status') eq '0'">checked="checked"</if> value="0" name="setting[site_status]"> {:L('close')}</label>
+            </td>
+    	</tr>
+        <tr id="J_closed_reason" <if condition="C('ftx_site_status') eq 1">class="hidden"</if>>
+        	<th>{:L('closed_reason')} :</th>
+        	<td><textarea rows="4" cols="50" name="setting[closed_reason]" id="closed_reason">{:C('ftx_closed_reason')}</textarea></td>
+    	</tr>
+        <tr>
+        	<th></th>
+        	<td><input type="hidden" name="menuid"  value="{$menuid}"/><input type="submit" class="smt mr10" value="{:L('submit')}"/></td>
+    	</tr>
+	</table>
+	</form>
+</div>
+<include file="public:footer" />
+<script src="__STATIC__/js/fileuploader.js"></script>
+<script>
+$(function(){
+    $('.J_change_status').live('click', function(){
+        if($(this).val() == '0'){
+            $('#J_closed_reason').fadeIn();
+        }else{
+            $('#J_closed_reason').fadeOut();
+        }
+    });
+	 var upload = new qq.FileUploaderBasic({
+    	allowedExtensions: ['jpg','gif','png'],
+        button: document.getElementById('J_logo_upload_img'),
+        multiple: false,
+        action: "{:U('setting/ajax_upload')}",
+        inputName: 'img',
+        forceMultipart: true, //用$_FILES
+        messages: {
+        	typeError: lang.upload_type_error,
+        	sizeError: lang.upload_size_error,
+        	minSizeError: lang.upload_minsize_error,
+        	emptyError: lang.upload_empty_error,
+        	noFilesError: lang.upload_nofile_error,
+        	onLeave: lang.upload_onLeave
+        },
+        showMessage: function(message){
+        	$.yangtata.tip({content:message, icon:'error'});
+        },
+        onSubmit: function(id, fileName){
+        	$('#J_logo_upload_img').addClass('btn_disabled').find('span').text(lang.uploading);
+        },
+        onComplete: function(id, fileName, result){
+        	$('#J_logo_upload_img').removeClass('btn_disabled').find('span').text(lang.upload);
+		if(result.status == '1'){
+            		$('#show_logo_J_img').attr('src','/'+result.data);
+        		$('#J_logo_img').val('/'+result.data);
+        	}else{
+        		$.yangtata.tip({content:result.msg, icon:'error'});
+        	}
+        }
+    });
+	var weixinupload = new qq.FileUploaderBasic({
+    	allowedExtensions: ['jpg','gif','png'],
+        button: document.getElementById('J_weixin_upload_img'),
+        multiple: false,
+        action: "{:U('setting/ajax_upload')}",
+        inputName: 'img',
+        forceMultipart: true, //用$_FILES
+        messages: {
+        	typeError: lang.upload_type_error,
+        	sizeError: lang.upload_size_error,
+        	minSizeError: lang.upload_minsize_error,
+        	emptyError: lang.upload_empty_error,
+        	noFilesError: lang.upload_nofile_error,
+        	onLeave: lang.upload_onLeave
+        },
+        showMessage: function(message){
+        	$.yangtata.tip({content:message, icon:'error'});
+        },
+        onSubmit: function(id, fileName){
+        	$('#J_weixin_upload_img').addClass('btn_disabled').find('span').text(lang.uploading);
+        },
+        onComplete: function(id, fileName, result){
+        	$('#J_weixin_upload_img').removeClass('btn_disabled').find('span').text(lang.upload);
+		if(result.status == '1'){
+            		$('#show_weixin_J_img').attr('src','/'+result.data);
+        		$('#J_weixin_img').val('/'+result.data);
+        	}else{
+        		$.yangtata.tip({content:result.msg, icon:'error'});
+        	}
+        }
+    });
+});
+var navupload = new qq.FileUploaderBasic({
+    	allowedExtensions: ['jpg','gif','png'],
+        button: document.getElementById('J_navlogo_upload_img'),
+        multiple: false,
+        action: "{:U('setting/ajax_upload')}",
+        inputName: 'img',
+        forceMultipart: true, //用$_FILES
+        messages: {
+        	typeError: lang.upload_type_error,
+        	sizeError: lang.upload_size_error,
+        	minSizeError: lang.upload_minsize_error,
+        	emptyError: lang.upload_empty_error,
+        	noFilesError: lang.upload_nofile_error,
+        	onLeave: lang.upload_onLeave
+        },
+        showMessage: function(message){
+        	$.yangtata.tip({content:message, icon:'error'});
+        },
+        onSubmit: function(id, fileName){
+        	$('#J_navlogo_upload_img').addClass('btn_disabled').find('span').text(lang.uploading);
+        },
+        onComplete: function(id, fileName, result){
+        	$('#J_navlogo_upload_img').removeClass('btn_disabled').find('span').text(lang.upload);
+		if(result.status == '1'){
+            		$('#show_navlogo_J_img').attr('src','/'+result.data);
+        		$('#J_navlogo_img').val('/'+result.data);
+        	}else{
+        		$.yangtata.tip({content:result.msg, icon:'error'});
+        	}
+        }
+    });
+</script>
+</body>
+</html>

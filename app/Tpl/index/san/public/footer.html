@@ -1,0 +1,71 @@
+<div id="footer" style="background-color: #373737;height: 190px;width: 100%;border-top: 3px solid #ff3366;">
+<div class="footer-wrapper " style="width: 1200px;margin: 0 auto;position: relative;text-align: center">
+<img src="__STATIC__/san_www/images/bottom_text.png" alt="" style="border: 0;margin-top: 50px;">
+
+<div class="text" style="color: #a2a2a2;
+    font-size: 16px;
+    margin-top: 33px;">Copyright &copy; 2010 - 2016  <a href="{:C('ftx_site_url')}">{:C('ftx_site_name')}</a> All Rights Reserved  {:C('ftx_statistics_code')} &nbsp;<a href="http://www.miibeian.gov.cn" target="_blank">{:C('ftx_site_icp')}</a> &nbsp;&nbsp; 
+</div>
+</div>
+</div>
+<div class="toTop" style="display: none" onclick=" $('body,html').animate({scrollTop:0},1000);">
+&#xe60c;</div>
+<script type="text/javascript">
+    // 设置为主页
+    function SetHome(obj, vrl) {
+        try {
+            obj.style.behavior = 'url(#default#homepage)';
+            obj.setHomePage(vrl);
+        }
+        catch (e) {
+            if (window.netscape) {
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                }
+                catch (e) {
+                    alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                }
+                var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage', vrl);
+            } else {
+                alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入：" + vrl + "点击确定。");
+            }
+        }
+    }
+    // 加入收藏 兼容360和IE6
+    function shoucang(sTitle, sURL) {
+        try {
+            window.external.addFavorite(sURL, sTitle);
+        }
+        catch (e) {
+            try {
+                window.sidebar.addPanel(sTitle, sURL, "");
+            }
+            catch (e) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加");
+            }
+        }
+    }
+
+    $(function () {
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 500) {
+                $(".toTop").fadeIn(1000);
+            }
+            else {
+                $(".toTop").fadeOut(1000);
+            }
+        });
+    });
+</script>
+<script type="text/javascript">
+var yangtataER = {
+    root: "__ROOT__",
+	site: "{:C('ftx_site_url')}"
+};
+var lang = {};
+<volist name=":L('js_lang')" id="val">lang.{$key} = "{$val}";</volist>
+</script>
+<script type="text/javascript" src="__STATIC__/san_www/js/scrollTop2.js"></script>
+{:C('ftx_taojindian_html')}

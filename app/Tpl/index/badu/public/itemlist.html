@@ -1,0 +1,24 @@
+ <div class="main pr mt25 clear">
+<ul class="m_group_goods clearfix">
+<volist name="items_list" id="item" key="i" mod="4">
+<li class="group_goods_item" >
+<a {$item.itemurl} target="_blank">
+<img src="{:attach(get_thumb($item['pic_url'], '_b'),'item')}" class="lazy" width="280" height="280" alt="{$item.title}" style="display: inline; ">
+<div>
+<h3 class="group_goods_title">{$item.title}</h3>
+<div class="group_goods_info">
+<span class="group_goods_price">￥<span>{$item.coupon_price}</span></span>
+<p class="discount_wrap"><span class="group_discount"><if condition="$item.item_type eq '2' ">券后价<else/>{$item.zk}折</if></span>原价：<del>￥{$item.price}</del></p>
+<p class="group_purchase_num"><if condition="$item.item_type eq '2' "><span class="group_quan">{$item.q_price}元优惠券</span><else/><span class="group_type"><if condition="$item.shop_type eq 'C' "><img src="__STATIC__/images/taobao.png">淘宝</if><if condition="$item.shop_type eq 'B' "><img src="__STATIC__/images/tmall.png">天猫</if></span></if><span class="go_buy"><b>{$item.volume}</b><b>人</b>已买</p></span></div>
+</div>
+</a>
+</li>	
+</volist>	
+</ul>
+<div class="page">
+<em></em>
+<div>
+{$page}
+</div>
+</div>
+</div>

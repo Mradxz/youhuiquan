@@ -1,0 +1,31 @@
+<title>{$page_seo.title}</title>
+<meta content="{$page_seo.keywords}" name="keywords">
+<meta content="{$page_seo.description}" name="description">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico">
+<link rel="bookmark" href="/favicon.ico"/>
+<link type="text/css" rel="stylesheet" href="__STATIC__/badu_www/css/global.css" />
+<link type="text/css" rel="stylesheet" href="__STATIC__/badu_www/css/md-list.css" />
+<link type="text/css" rel="stylesheet" href="__STATIC__/badu_www/css/pg-index.css" />
+<script src="__STATIC__/js/jquery/jquery.js" type="text/javascript"></script>
+<if condition="C('ftx_site_zidong') eq '1'">
+<script type="text/javascript">
+function is_mobile() {
+    var regex_match = /(nokia|iphone|android|motorola|^mot-|softbank|foma|docomo|kddi|up.browser|up.link|htc|dopod|blazer|netfront|helio|hosin|huawei|novarra|CoolPad|webos|techfaith|palmsource|blackberry|alcatel|amoi|ktouch|nexian|samsung|^sam-|s[cg]h|^lge|ericsson|philips|sagem|wellcom|bunjalloo|maui|symbian|smartphone|midp|wap|phone|windows ce|iemobile|^spice|^bird|^zte-|longcos|pantech|gionee|^sie-|portalmmm|jigs browser|hiptop|^benq|haier|^lct|operas*mobi|opera*mini|320x320|240x320|176x220)/i;
+    var u = navigator.userAgent;
+    if (null == u) {
+        return true;
+    }
+    var result = regex_match.exec(u);
+    if (null == result) {
+        return false
+    } else {
+        return true
+    }
+}
+if (is_mobile()) {
+    document.location.href = "{:C('ftx_header_html')}";
+	}
+	</script>
+</if>
+

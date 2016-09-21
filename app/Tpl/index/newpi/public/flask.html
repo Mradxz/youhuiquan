@@ -1,0 +1,68 @@
+
+
+
+<div class="float_mask" id="float_mask" style="display:none;">
+    <div class="d_mask"></div>
+    <div class="float_content">
+        <div class="float_slogan">
+            <a href="http://shang.qq.com/wpa/qunwpa?idkey=4880f9a0d4823b05907d215461427c5b81d0e8213b734472f7b36681f56b0a21" title="遮罩广告位" target="_blank"><img src="/static/newpi/images/flask.png" alt="遮罩广告位" title="遮罩广告位"></a>
+        </div>
+        <div class="float_close">
+            <a id="flaskClose" href="#" title="关闭"></a>
+        </div>
+    </div>
+</div>
+
+<script>
+    (function(){
+        var cooki = getCookie('floatValue');
+        var cooki = (cooki != false)?2:1;
+        console.log('cooki');
+        console.log(cooki);
+        if (cooki == 2) {
+            $("#float_mask").css('display','none');
+        } else if (cooki == 1) {
+            $("#float_mask").css('display','block');
+        }
+
+//        console.log('getCooki');
+//        console.log(getCookie('floatValue'));
+
+
+        $('#flaskClose').click(function () {
+            $("#float_mask").css('display','none');
+            setCookie('floatValue',2);
+//            console.log(getCookie('floatValue'));
+        });
+
+
+
+        function setCookie(name,value){
+            var Days = 30;
+            var exp  = new Date();
+            exp.setTime(exp.getTime() + Days*24*60*60*1000);
+//            document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+            document.cookie = name + "="+ escape (value);
+        }
+
+
+        function getCookie(name){
+            var arr = document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));
+            if(arr != null){
+                return (arr[2]);
+            }else{
+                return "";
+            }
+        }
+
+        //清除Cookies。
+        function clearCookie (name) {
+            if (Cookies.getValue(name)) {
+                var expdate = new Date();
+                expdate.setTime(expdate.getTime() - (86400 * 1000 * 1));
+                Cookies.setValue(name, "", expdate);
+            }
+        };
+
+    })(jQuery);
+</script>

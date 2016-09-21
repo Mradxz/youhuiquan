@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{$page_seo.title}</title>
+<meta name="keywords" content="{$page_seo.keywords}" />
+<meta name="description" content="{$page_seo.description}" />
+<meta name="generator" content="yangtata" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="zh-CN">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+<meta name="renderer" content="webkit">
+<link rel="stylesheet" type="text/css" href="__STATIC__/san_www/css/reset.css">
+<link rel="stylesheet" type="text/css" href="__STATIC__/san_www/css/footer.css">
+<link rel="stylesheet" type="text/css" href="__STATIC__/san_www/css/pager.css">
+<link rel="stylesheet" type="text/css" href="__STATIC__/san_www/css/allsan.css">
+<link rel="stylesheet" type="text/css" href="__STATIC__/san_www/css/iconfont.css">
+<link rel="stylesheet" type="text/css" href="__STATIC__/san_www/css/index.css">
+<link rel="stylesheet" type="text/css" href="__STATIC__/san_www/css/detail.css" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico">
+<link rel="bookmark" href="/favicon.ico"/>
+<script src="__STATIC__/san_www/js/jquery.js"></script>
+<script src="__STATIC__/san_www/js/layer/layer.js"></script>
+<script src="__STATIC__/san_www/js/unslider.min.js"></script>
+<if condition="C('ftx_site_zidong') eq '1'">
+<script type="text/javascript">
+function is_mobile() {
+    var regex_match = /(nokia|iphone|android|motorola|^mot-|softbank|foma|docomo|kddi|up.browser|up.link|htc|dopod|blazer|netfront|helio|hosin|huawei|novarra|CoolPad|webos|techfaith|palmsource|blackberry|alcatel|amoi|ktouch|nexian|samsung|^sam-|s[cg]h|^lge|ericsson|philips|sagem|wellcom|bunjalloo|maui|symbian|smartphone|midp|wap|phone|windows ce|iemobile|^spice|^bird|^zte-|longcos|pantech|gionee|^sie-|portalmmm|jigs browser|hiptop|^benq|haier|^lct|operas*mobi|opera*mini|320x320|240x320|176x220)/i;
+    var u = navigator.userAgent;
+    if (null == u) {
+        return true;
+    }
+    var result = regex_match.exec(u);
+    if (null == result) {
+        return false
+    } else {
+        return true
+    }
+}
+if (is_mobile()) {
+    document.location.href = "{:C('ftx_header_html')}{$item.url}";
+	}
+	</script>
+</if>
+</head>
+<body>
+<include file="public:header" />
+<div id="dtk_mian">
+<div class="search-wrap main-container">
+</div>
+<div class="detail-wrap main-container">
+<div class="nav-wrap">
+<div class="text">当前位置：<a href="{:C('ftx_site_url')}">首页</a>&gt;<a href="{:U('index/cate', array('cid'=>$item['cate_id']))}">{$item['cname']}</a>&gt;&nbsp;优惠详情
+</div>
+</div>
+<div class="detail-row clearfix">
+<a rel="nofollow" {$item.ckurl} target="_blank" class="img"><img src="{:attach(get_thumb($item['pic_url'], '_f'),'item')}" alt=""></a>
+<div class="detail-col">
+<a class="title clearfix" rel="nofollow" {$item.ckurl} target="_blank">
+<if condition="$item.shop_type eq 'B' ">
+<span class="tmall"></span>
+<else/>
+<span class="taobao"></span>
+</if>
+<span class="title" style="font-weight: bold;">{$item.title}</span>
+</a>
+<div class="desc" style="height: 40px; margin-top:8px;color: #FF6788;"> <span style="color: #FF6788;font-weight: bold;">推荐理由：</span>{$item.intro} </div>
+<if condition="$item.item_type eq '2' ">
+<div class="coupon-wrap clearfix" style="margin-top: 18px;height: 70px;background-color: #FFDDDD;">
+<div class="text" style="margin-top:25px;">券后价&nbsp;&nbsp;￥</div>
+<div class="price" style="font-family:Arial;font-size: 36px; margin-left:3px; margin-top:10px; color:#E63739;">{$item.coupon_price}</div>
+<div class="org-price" style="color: #EF839A;margin-top: 25px;">
+正常售价&nbsp;&nbsp;￥{$item.price}</div>
+<div class="right" style="color: #B9B8B9; top:18px;border-left: 1px solid #E2C8C8;">
+已有<span class="sold-num" style="color: #949494;padding: 0 5px;font-family:Arial;">{$item.volume}</span>人购买
+</div>
+</div>
+<div class="coupon-text-wrap">
+独享优惠券<span class="price">{$item.q_price}</span>元<span class="text2">*&nbsp;已领<span class="sold-num">{$item.q_has}</span>张，手慢无</span>
+</div>
+<div class="flow-wrap" style="height: 168px;">
+<div class="text1">购买流程：</div>
+<a class="coupon" {$item.quanurl} target="_blank">点击先领券&nbsp;&gt;</a>
+<img class="arrow" src="__STATIC__/san_www/images/arrow-right.png" alt="">
+<a class="goto" {$item.ckurl} rel="nofollow" target="_blank" style="color: #FFFFFF;">去{$type}下单&nbsp;&gt;</a>
+<else/>
+<div class="coupon-wrap clearfix" style="margin-top: 18px;height: 70px;background-color: #FFDDDD;">
+<div class="text" style="margin-top:25px;">折扣价&nbsp;&nbsp;￥</div>
+<div class="price" style="font-family:Arial;font-size: 36px; margin-left:3px; margin-top:10px; color:#E63739;">{$item.coupon_price}</div>
+<div class="org-price" style="color: #EF839A;margin-top: 25px;">
+原价&nbsp;&nbsp;￥{$item.price}</div>
+<div class="right" style="color: #B9B8B9; top:18px;border-left: 1px solid #E2C8C8;">
+已有<span class="sold-num" style="color: #949494;padding: 0 5px;font-family:Arial;">{$item.volume}</span>人购买
+</div>
+</div>
+<div class="flow-wrap" style="height: 168px;">
+<a class="goto" {$item.ckurl} rel="nofollow" target="_blank" style="color: #FFFFFF;left:200px;padding: 15px 40px;font-size:18px">去{$type}购买&nbsp;&gt;</a>
+</if>
+<div class="text2" style="top: 130px;">如果你喜欢此宝贝，记得分享给您的朋友，一起享优惠：</div>
+<div class="bdshare" style=" top: 125px;">
+<div class="bdsharebuttonbox">
+<a href="#" class="bds_more" data-cmd="more"></a>
+<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+</div>
+<script>
+window._bd_share_config = {
+"common": {
+"bdSnsKey": {},
+"bdText": "{$item.intro}",
+"bdMini": "2",
+"bdMiniList": false,
+"bdPic": "{$item.pic_url}",
+"bdStyle": "0",
+"bdSize": "16"
+}, "share": {}
+};
+with (document)0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jipin-wrap">
+<img src="__STATIC__/san_www/images/jinpintuijian.png" alt="">
+</div>
+<include file="public:itemlist" />
+</div>
+<include file="public:footer" />
+</body>
+</html>

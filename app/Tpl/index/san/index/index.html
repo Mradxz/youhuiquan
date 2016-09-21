@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<include file="public:head" />
+<style>
+    #dtk_mian {
+        background: url("__STATIC__/san_www/images/bg.png") top center repeat-y;
+    }
+
+    
+    body #content .discount .dis_product .pro_detail {
+        border: 1px solid #e0e0e0;
+    }
+
+    #banner .list ul li:hover {
+        background-color: #efdfe4;
+    }
+</style>
+</head>
+<body>
+<include file="public:header" />
+<div id="dtk_mian">
+<include file="public:bar" />
+<div id="content" style="padding-bottom: 58px;">
+<div class="divider" style="text-align: left;padding: 0 10px;width: 1178px;border: 1px solid #ffd6d6; color: #9c9c9c;background-color: #FDFCE7;">
+小编说：这些年，我们每天坚持为大家更新超值宝贝... 感谢您多年来的支持！无论再苦再苦，我们都会坚持下去！因为您的信任，我们会带着这份责任，做到极致... 
+</div>
+<include file="public:top" />
+<include file="public:temai" />
+<div class="live">
+<div class="discount_head clearfix" style="margin-bottom: 10px;">
+<div class="dishead_left fl">
+<h1 style="font-weight: normal;">领券优惠直播<span class="tatal" style="background-color: #5dcac5;color: #FFFFFF;padding: 3px 7px;border-radius: 15px; font-family: 'Arial'; margin-left: 10px;">{$total_item}</span>
+</h1>
+</div>
+<div class="dishead_right fr">
+<a href="/quan"><span style="color: #505050;font-size: 14px;" class="color_p">更多优惠 »</span></a>
+</div>
+</div>
+<include file="public:itemlist" />
+</div>
+<div class="mainbody_6" style="margin: 0 auto;margin-bottom: 0px;margin-top: 26px;">
+<div id="yw0" class="pager">
+{$page}
+</div> 
+</div>
+</div>
+<script>
+    $(document).ready(function (e) {
+        var unslider04 = $('#b04').unslider({
+                dots: true
+            }),
+            data04 = unslider04.data('unslider');
+
+        $('.unslider-arrow04').click(function () {
+            var fn = this.className.split(' ')[1];
+            data04[fn]();
+        });
+    });
+</script>
+</div>
+<include file="public:footer" />
+</body>
+</html>

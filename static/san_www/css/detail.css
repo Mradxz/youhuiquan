@@ -1,0 +1,295 @@
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.main-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.search-wrap {
+  background: url("../images/itembg.jpg") top center no-repeat;
+  position: relative;
+  height: 150px;
+  margin: 20px auto;
+}
+body {
+  background-color: #f3f3f3;
+}
+.detail-wrap {
+  background-color: #fff;
+  width: 1152px;
+  border: 1px solid #f7e7e7;
+  padding: 23px;
+}
+.detail-wrap .nav-wrap {
+  margin-bottom: 20px;
+  display: block;
+}
+.detail-wrap .nav-wrap .text {
+  color: #888;
+  font-size: 12px;
+}
+.detail-wrap .nav-wrap .text a {
+  padding: 0 5px;
+  color: #444;
+}
+.detail-wrap .nav-wrap .text a:hover,
+.detail-wrap .nav-wrap .text a:focus {
+  color: #FF0000;
+}
+.detail-wrap .detail-row a.img {
+  float: left;
+}
+.detail-wrap .detail-row a.img img {
+  border: 0;
+}
+.detail-wrap .detail-row .detail-col {
+  float: right;
+  width: 730px;
+}
+.detail-wrap .detail-row .detail-col a.title .tmall {
+  background: url("../images/tmall.png") 0 0 no-repeat;
+  width: 16px;
+  height: 16px;
+  display: block;
+  float: left;
+  margin-top: 4px;
+}
+.detail-wrap .detail-row .detail-col a.title .taobao {
+  background: url("../images/taobao.png") 0 0 no-repeat;
+  width: 16px;
+  height: 16px;
+  display: block;
+  float: left;
+  margin-top: 4px;
+}
+.detail-wrap .detail-row .detail-col a.title span.title {
+  float: left;
+  width: 650px;
+  height: 30px;
+  overflow: hidden;
+  display: block;
+  font-size: 19px;
+  color: #333;
+  margin-left: 5px;
+}
+.detail-wrap .detail-row .detail-col .desc {
+  color: #d7284d;
+  width: 700px;
+  height: 20px;
+  overflow: hidden;
+  word-break: keep-all;
+}
+.detail-wrap .detail-row .detail-col .coupon-wrap {
+  background-color: #fabac9;
+  margin-top: 35px;
+  position: relative;
+}
+.detail-wrap .detail-row .detail-col .coupon-wrap .text {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #d7284d;
+  float: left;
+  margin-top: 20px;
+}
+.detail-wrap .detail-row .detail-col .coupon-wrap .price {
+  font-size: 40px;
+  color: #d7284d;
+  float: left;
+}
+.detail-wrap .detail-row .detail-col .coupon-wrap .org-price {
+  margin-left: 40px;
+  font-size: 16px;
+  color: #d7284d;
+  float: left;
+  margin-top: 20px;
+}
+.detail-wrap .detail-row .detail-col .coupon-wrap .right {
+  position: absolute;
+  top: 14px;
+  right: 0;
+  width: 280px;
+  text-align: center;
+  line-height: 36px;
+  color: #bf8098;
+  font-size: 16px;
+  border-left: 1px solid #eaa6b6;
+}
+.detail-wrap .detail-row .detail-col .coupon-wrap .right .sold-num {
+  color: #ff1934;
+  padding: 0 8px;
+}
+.detail-wrap .detail-row .detail-col .coupon-text-wrap {
+  margin: 20px 0;
+  color: #666;
+  font-size: 16px;
+}
+.detail-wrap .detail-row .detail-col .coupon-text-wrap .price {
+  color: #d7284d;
+  padding: 0 5px;
+}
+.detail-wrap .detail-row .detail-col .coupon-text-wrap .text2 {
+  margin-left: 40px;
+  color: #AAAAAA;
+  font-size: 15px;
+}
+.detail-wrap .detail-row .detail-col .coupon-text-wrap .text2 .sold-num {
+  padding: 0 5px;
+}
+.detail-wrap .detail-row .detail-col .flow-wrap {
+  width: 728px;
+  border: 1px solid #e2e2e2;
+  height: 190px;
+  position: relative;
+}
+.detail-wrap .detail-row .detail-col .flow-wrap .text1 {
+  position: absolute;
+  font-size: 15px;
+  color: #9a9a9a;
+  left: 107px;
+  top: 59px;
+}
+.detail-wrap .detail-row .detail-col .flow-wrap .coupon {
+  background-color: #f53d3d;
+  padding: 8px 30px;
+  color: #fed76b;
+  position: absolute;
+  left: 202px;
+  top: 50px;
+}
+.detail-wrap .detail-row .detail-col .flow-wrap .arrow {
+  position: absolute;
+  left: 379px;
+  top: 64px;
+  border: 0;
+}
+.detail-wrap .detail-row .detail-col .flow-wrap .goto {
+  background-color: #f53d3d;
+  padding: 8px 30px;
+  color: #e2e2e2;
+  position: absolute;
+  left: 431px;
+  top: 50px;
+}
+.detail-wrap .detail-row .detail-col .flow-wrap .text2 {
+  font-size: 12px;
+  color: #b1b1b1;
+  position: absolute;
+  left: 145px;
+  top: 140px;
+}
+.detail-wrap .detail-row .detail-col .flow-wrap .bdshare {
+  font-size: 12px;
+  color: #b1b1b1;
+  position: absolute;
+  left: 452px;
+  top: 135px;
+}
+.jipin-wrap {
+  text-align: center;
+  margin: 35px 0;
+}
+.goods-list ul {
+  list-style: none;
+}
+.goods-list ul li {
+  float: left;
+  list-style: none;
+  margin-right: 17px;
+  border: 1px solid #cbdcfc;
+  width: 285px;
+  margin-bottom: 20px;
+}
+.goods-list ul li a.img {
+  position: relative;
+}
+.goods-list ul li a.img .label {
+  position: absolute;
+  background: url("../images/today_goods.png") no-repeat;
+  width: 43px;
+  height: 43px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+}
+.goods-list ul li a.img img {
+  border: none;
+  max-width: 285px;
+  max-height: 285px;
+}
+.goods-list ul li .padding {
+  padding: 0px 5px 5px 5px;
+}
+.goods-list ul li .padding .title i {
+  margin-top: 2px;
+}
+.goods-list ul li .padding .title .tmall {
+  background: url("../images/tmall.png") 0 0 no-repeat;
+  width: 16px;
+  height: 16px;
+  display: block;
+  float: left;
+}
+.goods-list ul li .padding .title .taobao {
+  background: url("../images/taobao.png") 0 0 no-repeat;
+  width: 16px;
+  height: 16px;
+  display: block;
+  float: left;
+}
+.goods-list ul li .padding .title span {
+  float: left;
+  width: 250px;
+  height: 20px;
+  overflow: hidden;
+  margin-left: 5px;
+  color: #666;
+}
+.goods-list ul li .padding .coupon-wrap {
+  margin: 7px 0;
+}
+.goods-list ul li .padding .coupon-wrap .price {
+  color: #f15482;
+  padding: 0 3px;
+  font-weight: bold;
+}
+.goods-list ul li .padding .coupon-wrap .num {
+  color: #8cbfca;
+  padding: 0 3px;
+}
+.goods-list ul li .padding .recent-sold-num {
+  font-size: 12px;
+  color: #de366e;
+  margin-top: 5px;
+}
+.goods-list ul li .padding .recent-sold-num .sold-count {
+  font-size: 18px;
+  font-weight: normal;
+  padding: 0 3px;
+}
+.goods-list ul li .price-wrap {
+  background-color: #de366e;
+  position: relative;
+  padding: 5px;
+}
+.goods-list ul li .price-wrap .price .text {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+.goods-list ul li .price-wrap .price .text .price {
+  font-size: 28px;
+}
+.goods-list ul li .price-wrap .org-price {
+  position: absolute;
+  top: 21px;
+  right: 29px;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: normal;
+}
+.goods-list ul .no-right {
+  margin-right: 0;
+}

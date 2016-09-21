@@ -1,0 +1,114 @@
+<nav id="new-left-menu">
+<div class="mask" id="menu-mask">
+<div class="menu-content">
+<div class="find-wrapper clearfix">
+<form name="search" action="{:C('ftx_header_html')}" method="get" style="position: relative">
+<input type="hidden" name="m" value="search">
+<input type="hidden" name="a" value="index">
+<div class="border-btm clearfix">
+<div class="input-wrapper">
+<input type="search" name="k" autocomplete="off" onblur="this.value==''?this.value=this.title:null" onfocus="this.value==this.title?this.value='':null" title="懒得找了，我搜..." value="懒得找了，我搜..."/>
+</div>
+<div class="search-btn-wrapper">
+<button type="submit"></button>
+</div>
+</div>
+</form>
+</div>
+<include file="public:cat" />
+</div>
+</div>
+</nav>
+<div class="toTop" onclick=" $('body,html').animate({scrollTop:0},1000);">&#xe601;</div>
+<style>
+    @keyframes open-menu {
+        0% {
+            left: -100%;
+            z-index: 0;
+        }
+        1% {
+            left: -100%;
+            z-index: 100;
+        }
+        100% {
+            left: 0;
+            z-index: 100;
+        }
+    }
+
+    .cat-item {
+        padding: 15px 0;
+    }
+
+    .cat-item a {
+        margin: 0;
+    }
+
+    #new-left-menu {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        overflow-y: scroll;
+    }
+
+    #new-left-menu .mask .menu-content {
+        width: 80%;
+        background-color: #fff;
+    }
+
+    .opened-menu {
+        animation: open-menu 0.2s 0s 1 linear normal both;
+    }
+
+    .opened-menu .mask {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .main-cat {
+        margin: 0;
+    }
+
+    html body .ui-loader {
+        display: none;
+    }
+
+</style>
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function () {
+        var menu = $('#new-left-menu');
+        var menuHeight = $('#menu-mask').height();
+        var windowHeight = $(window).height();
+        $(menu).find('.mask').css('height', (menuHeight > windowHeight ? menuHeight : windowHeight) + 'px');
+        $(menu).find('.menu-content').css('height', (menuHeight > windowHeight ? menuHeight : windowHeight) + 'px');
+
+        $(window).resize(function () {
+            $(menu).find('.mask').css('height', (menuHeight > windowHeight ? menuHeight : windowHeight) + 'px');
+            $(menu).find('.menu-content').css('height', (menuHeight > windowHeight ? menuHeight : windowHeight) + 'px');
+        });
+
+        $('.main-icon').click(function () {
+            $(menu).css('z-index', 100);
+            $(menu).addClass('opened-menu');
+            $(menu).animate({left: 0}, 0.4);
+        });
+        $(document).on('click', '.opened-menu .mask', function (e) {
+            if (!$(e.target).is('.opened-menu .mask')) {
+                return true;
+            }
+            $(menu).removeClass('opened-menu');
+            $(menu).css('left', -1 * $(window).width());
+        });
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 500) {
+                $(".toTop").fadeIn(1500);
+            }
+            else {
+                $(".toTop").fadeOut(1500);
+            }
+        });
+    });
+</script>
+<div style="display:none">{:C('ftx_taojindian_html')}{:C('ftx_statistics_code')}</div>
