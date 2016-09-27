@@ -1,12 +1,12 @@
 <?php
 /**
- * º¯Êý¶¨Òå
+ * å‡½æ•°å®šä¹‰
  */
 class funcAction extends Action{
 
 
 	/**
-     * Ìí¼ÓÓÊ¼þµ½¶ÓÁÐ
+     * æ·»åŠ é‚®ä»¶åˆ°é˜Ÿåˆ—
      */
     protected function _mail_queue($to, $subject, $body, $priority = 1) {
         $to_emails = is_array($to) ? $to : array($to);
@@ -23,33 +23,33 @@ class funcAction extends Action{
             );
         }
         M('mail_queue')->addAll($mails);
-        //Òì²½·¢ËÍÓÊ¼þ
+        //å¼‚æ­¥å‘é€é‚®ä»¶
         $this->send_mail(true);
     }
 
     public function send_mail($is_sync = true) {
         if (!$is_sync) {
-            //Òì²½
+            //å¼‚æ­¥
             session('async_sendmail', true);
             return true;
         } else {
-            //Í¬²½
+            //åŒæ­¥
             session('async_sendmail', null);
             return D('mail_queue')->send();
         }
     }
 
     protected function _upload_init($upload) {
-        $allow_max = C('ftx_attr_allow_size'); //¶ÁÈ¡ÅäÖÃ
-        $allow_exts = explode(',', C('ftx_attr_allow_exts')); //¶ÁÈ¡ÅäÖÃ
-        $allow_max && $upload->maxSize = $allow_max * 1024;   //ÎÄ¼þ´óÐ¡ÏÞÖÆ
-        $allow_exts && $upload->allowExts = $allow_exts;  //ÎÄ¼þÀàÐÍÏÞÖÆ
+        $allow_max = C('ftx_attr_allow_size'); //è¯»å–é…ç½®
+        $allow_exts = explode(',', C('ftx_attr_allow_exts')); //è¯»å–é…ç½®
+        $allow_max && $upload->maxSize = $allow_max * 1024;   //æ–‡ä»¶å¤§å°é™åˆ¶
+        $allow_exts && $upload->allowExts = $allow_exts;  //æ–‡ä»¶ç±»åž‹é™åˆ¶
         $upload->saveRule = 'uniqid';
         return $upload;
     }
 
     /**
-     * ÉÏ´«ÎÄ¼þ
+     * ä¸Šä¼ æ–‡ä»¶
      */
     protected function _upload($file, $dir = '', $thumb = array(), $save_rule='uniqid') {
         $upload = new UploadFile();
@@ -66,7 +66,7 @@ class funcAction extends Action{
             $upload->thumbExt = isset($thumb['ext']) ? $thumb['ext'] : '';
             $upload->thumbRemoveOrigin = isset($thumb['remove_origin']) ? true : false;
         }
-        //×Ô¶¨ÒåÉÏ´«¹æÔò
+        //è‡ªå®šä¹‰ä¸Šä¼ è§„åˆ™
         $upload = $this->_upload_init($upload);
         if( $save_rule!='uniqid' ){
             $upload->saveRule = $save_rule;

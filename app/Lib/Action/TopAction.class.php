@@ -1,18 +1,18 @@
 <?php
 /**
- * »ù±¾¿ØÖÆÆ÷
+ * åŸºæœ¬æ§åˆ¶å™¨
  *
  */
 class TopAction extends FuncAction{
     protected function _initialize() {
-        //Ïû³ıËùÓĞµÄmagic_quotes_gpc×ªÒå
+        //æ¶ˆé™¤æ‰€æœ‰çš„magic_quotes_gpcè½¬ä¹‰
         Input::noGPC();
-        //³õÊ¼»¯ÍøÕ¾ÅäÖÃ
+        //åˆå§‹åŒ–ç½‘ç«™é…ç½®
         if (false === $setting = F('setting')) {
             $setting = D('setting')->setting_cache();
         }
         C($setting);
-        //·¢ËÍÓÊ¼ş
+        //å‘é€é‚®ä»¶
         $this->assign('async_sendmail', session('async_sendmail'));
     }
      

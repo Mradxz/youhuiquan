@@ -1,0 +1,2747 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="dns-prefetch" href="//g.alicdn.com">
+<link rel="dns-prefetch" href="//img.alicdn.com">
+<title>卷皮官网-专注独家折扣,1折特卖,全场包邮-上卷皮 购便宜!卷皮网</title>
+<meta name="keywords" content="卷皮折扣,品牌折扣,折扣,特卖,打折,9.9元包邮,卷皮网" />
+<meta name="description" content="卷皮折扣汇聚全网最优质折扣商品，每日精选千款超值折扣商品9.9元起全场包邮1折特卖，每天10点限时秒杀！上卷皮购便宜！" />
+<meta name="renderer" content="webkit">
+<meta name="MSSmartTagsPreventParsing" content="True" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<script language=javascript> 
+	<!-- 
+	window.onerror=function(){return true;} 
+	// -->
+	SITEURL="http://www.aitiaotiao.com/";
+	CURURL="http://www.aitiaotiao.com/";
+	WEBNICK="卷皮网";
+	URL_COOKIE=0;
+</script>
+<link rel=stylesheet type=text/css href="/static/njuanpi/css/common.css" />
+<script type="text/javascript" src="/static/njuanpi/js/jquery.js"></script>
+<script type="text/javascript" src="/static/njuanpi/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/static/njuanpi/js/lazyload.js"></script>
+<script type="text/javascript" src="/static/njuanpi/js/fun.js"></script>
+<script type="text/javascript" src="/static/njuanpi/js/jumpbox.js"></script>
+<script type="text/javascript" src="/static/njuanpi/js/funs.js"></script>
+<link rel=stylesheet type=text/css href="/static/8mobcom_jp/css/base.css" />
+
+
+
+
+<script type="text/javascript" src="/static/8mobcomjuanpi/js/index.js"></script>
+<style>
+.top_bar .banner .pic {width:702px;}
+</style>
+</head>
+<body>
+<!-- 头部开始 -->
+<div id="toolbar">
+    <div class="bar-con  w1100">
+	<ul class="topNav fl">
+		<li class="first"><a href="http://www.aitiaotiao.com/" class="active">卷皮网</a></li>
+	<li class="phone-code"><a href="http://dev.ftxia.com/index.php?g=m"  target="_blank"><em class="icon-normal icon-phone "></em>手机站</a>
+		<div class="code-tips"><div class="code-box"><p class="code"><img src="/data/upload/site/54ff0b5bd2795.png" width="90px" height="90px" /></p><p class="txt" style="text-align:center;">随时逛 及时抢</p></div></div>		</li><li ><a href="/index.php?m=article&a=index"  >文章资讯</a>
+				</li> 
+        </ul>
+        
+        <div class="right-show fr" id="right-show">
+		<div class="union-login">
+			　|
+		</div>
+		<div class="login-show">
+			<a href="/index.php?m=user&a=login">登录</a>
+			<a href="/index.php?m=user&a=register">注册</a>　|
+		</div>
+		<div class="other-show">
+			<a href="" target="_blank" rel="nofollow">在线客服</a>
+			<a href="/index.php?m=baoming&a=index" target="_blank">卖家报名</a>
+		</div>
+	</div>
+	<script>
+			function topHtml() {/*
+			<div class="logined-show">
+				<a id="{:U('user/index')}" href="/index.php?m=user&a=index" class="normal-a"><span class="user">{$name}</span><em class="cur"></em></a>
+				<div class="normal-box login-box">
+					<ul>
+						<li><a href="/index.php?m=user&a=gift"><i class="icon icon-02"></i><span>我的订单</span></a></li>
+						<li><a href="/index.php?m=user&a=index"><i class="icon icon-03"></i><span>账号设置</span></a></li>
+						<li><a href="/index.php?m=user&a=logout" class="exit" ><i class="icon icon-04"></i><span>退出</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="personal-show">
+				<a href="/index.php?m=user&a=mingxi"><span>账户明细</span></a>
+				<a href="/index.php?m=user&a=gift"><span>我的订单</span></a>
+				<p class="info fr ffv"><a href="/index.php?m=user&a=msg">{$msgsrc}</a></p>
+				<em class="count" style="display: none;">0</em></a>　|
+			</div>
+			<div class="other-show"><a href="" target="_blank" rel="nofollow">在线客服</a><a href="/index.php?m=baoming&a=index">卖家报名</a></div>*/;}
+				$.ajax({
+					url: '/index.php?m=ajax&a=userinfo',
+					dataType:'jsonp',
+					jsonp:"callback",
+					success: function(data){
+						if(data.s==1){
+							topHtml=getTplObj(topHtml,data.user);
+							$('#right-show').html(topHtml).show();
+						}
+						else{
+							$('#right-show').show();
+						}
+					}
+				});
+			</script>
+
+    </div>
+</div>
+<div class="header">
+    <div class="area w1100">
+        <div class="logo">
+		<a href="http://www.aitiaotiao.com/" title="卷皮网" class="mod_logo_index"><img src="/data/upload/site/573c205c5f04e.jpg">
+					<span class="hidden"  title="天猫潮流单品">卷皮网</span></a></a><img width="8" height="46" src="https://img.alicdn.com/imgextra/i3/1103901424/TB2R7uEXGi5V1Bjy1zkXXcL4VXa_!!1103901424.jpg">
+		<a href="http://s.click.taobao.com/t?e=m%3D2%26s%3DklrlFkC2FC0cQipKwQzePCperVdZeJviK7Vc7tFgwiFRAdhuF14FMSVBZCi0U2PwRitN3%2FurF3zgYJ%2BvoP9JZMgDnpabY2P4%2FQJDo4AZvOYoQSwffFWQ4I7LAa3DUrM2zt5vEinufIW9AmARIwX9K84wywOXuyrlfjxl6AIniNrXxCWbrtkSiI5N7u7NTPnpOYQwrhPE0iw%3D"target="_blank"><img src="https://img.alicdn.com/imgextra/i3/1103901424/TB2MuWgeXXXXXa1XpXXXXXXXXXX_!!1103901424.jpg"></a>
+        </div>
+        <div class="protection"  title="惠贝网服务信息">
+          <img width="288" height="35" src="/static/njuanpi/images/banner.png">
+        </div>
+        <div class="search">
+		<form method="get" action="index.php" onsubmit="return search_submit();" >
+		<span class="search-area fl search_box">
+			<input type="hidden" name="m" value="index" />
+			<input type="hidden" name="a" value="so" />
+			<input x-webkit-speech name="k" id="keywords" placeholder="" value="" class="txt text" />
+		</span>
+		<input type="submit" value="" class="smt fr">
+		</form>
+        </div>
+    </div>
+    <div class="sec_menu">
+  <div class="mod_menu">
+    <div id="sign_box" class="right_f">
+
+      <a href="/index.php?m=gift&a=index" target="_blank">积分商城</a>
+      <div id="sign_panel"> <a id="signIn_btn" href="javascript:;" class="qd_a signin_a sign_btn"><span class="sign_txt"><em class="icon-sign"></em>签到领积分</span></a> 
+        
+       <div class="dropdown_menu" id="box" style="display: none;"><dl><dt>签到即可获得<b>5</b>金币<br>已签到：0天</dt><dd><p><span>我的金币：</span><a target="_blank" href="/user/union.html"><b>0</b></a> | 
+				  <a target="_blank" href="/user/union.html">金币攻略</a></p><p><span>邀请访问+2金币，</span><a target="_blank" href="/user/union.html">马上领取</a></p><p><span>邀请注册+5金币，</span><a target="_blank" href="/user/union.html">马上领取</a></p></dd></dl></div>
+             
+        
+      </div>
+    </div><div class="head_nav">
+     <ul class="mod_hlist">
+			<div class="head_nav_l">全部商品分类</div>
+      
+          
+      </li>
+      <li 
+                    > <a class="lbl_m" href="/index.php?m=quan"
+          
+                    >优惠券</a>
+          </li><li 
+                    > <a class="lbl_m" href="/index.php?m=brand"
+          
+                    >品牌特卖</a>
+          </li><li 
+                    > <a class="lbl_m" href="/index.php?m=ju"
+          
+                    >聚实惠</a>
+          </li><li 
+                    > <a class="lbl_m" href="/index.php?m=tmall"
+          
+                    >特卖精选</a>
+          </li>    </ul>
+  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--OLD头部结束-->
+
+ 
+
+<div class="top_bar w1100">
+	<div id="banner_list" class="banner">
+		                <div class="" style="height: 100px;top: 260px;position: absolute;">
+</div> 
+	</div>
+</div> 
+
+<div class="top_wrap  w1100">
+	<div class="top_box">
+		<div class="banner_l">
+            <dl>﻿</dl>
+        </div>
+		<div class="banner_r">
+			<dl></dl>
+		</div>
+		<div class="round">
+            <div class="adType"></div>
+        </div>
+        <div style="display:none;" class="banner_arrow" data-banner="arrow">
+            <a href="javascript:;" class="arrow_prev" data-arrow="prev"><i></i></a>
+            <a href="javascript:;" class="arrow_next" data-arrow="next"><i></i></a>
+        </div>
+    </div>
+</div>
+
+<div class="recommended-box" id="js-recommended-box">
+		<div class="title-box">
+			<span class="title-lt"> <i class="i-border yellow"></i> <b>品牌推荐</b>
+				<cite>Brand recommendation</cite>
+			</span>
+			<div class="next-show fr"> <em class="show-name">
+            <li><a href="/index.php?m=brand&a=index&cid=nvzhuang" target="_blank"><span>品牌女装</span></a>&gt; 　<a href="/index.php?m=brand&a=index&cid=muyin" target="_blank"><span>品牌母婴</span></a><span>&gt;　</span> <a href="/index.php?m=brand&a=index&cid=shiping" target="_blank"><span>品质百货</span></a>&gt;<span>　</span><a href="/index.php?m=brand&a=index" target="_blank"><span>全部品牌</span></a></li>
+            </em><br>
+				<div class="end-time" id="js-next-jrtj"><span class="margin-l-10"></span></span></div>
+		  </div>
+		</div></div>
+
+<!--品牌团托管广告位-->
+
+<!--顶部浮动导航-->
+<style>
+.jiu-nav-main{display:none;}
+.fixed {display:block;}
+</style>
+
+<!--//分类悬浮头部开始-->
+<link href="/static/8mobcomjuanpi/css/common.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="/static/8mobcomjuanpi/js/cat.js"></script>
+<div class="wel_tle w1200" id="glist">
+<div class="topbar_link"> 
+</div>
+<div class="prolist_type"> 
+    </div>
+  <h2 class="tle"> <span class="ico2"></span>人气推荐单品 </h2>
+  <!--//分类带图标开始-->
+<div class="topbar_link">
+		<a href="/top">全部</a>
+		<a href="/index/cate/cid/1.html">
+			<i class="cat_1"></i>
+				女装			</a><a href="/index/cate/cid/2.html">
+			<i class="cat_2"></i>
+				男装			</a><a href="/index/cate/cid/6.html">
+			<i class="cat_3"></i>
+				鞋包			</a><a href="/index/cate/cid/5.html">
+			<i class="cat_4"></i>
+				配饰			</a><a href="/index/cate/cid/7.html">
+			<i class="cat_5"></i>
+				美食			</a><a href="/index/cate/cid/9.html">
+			<i class="cat_6"></i>
+				美妆			</a><a href="/index/cate/cid/4.html">
+			<i class="cat_7"></i>
+				母婴			</a><a href="/index/cate/cid/8.html">
+			<i class="cat_8"></i>
+				数码			</a><a href="/index/cate/cid/3.html">
+			<i class="cat_9"></i>
+				居家			</a><a href="/index/cate/cid/10.html">
+			<i class="cat_10"></i>
+				文体			</a>	</div>
+</div>
+	</span> 
+    </div>
+<!--滚动条下拉-->
+<div class="scroll-nav-main">
+  <div class="scroll-nav w1200 clearfix_f">
+		<div class="cate_logo">
+			<a href="/" target="_blank"><img src="/static/njuanpi/images/catlogo.png" title="浮动LOGO"></a>
+		</div>
+		<div class="nav-item left_f">
+			<div class="item-list">
+				<ul class="clearfix_f">
+					<span class="countdown">
+                    <li class="first"><a href="/index.php?m=index&a=index" ><span>全部</span></a><em></em></li>
+													<li><a  href="/index.php?m=index&a=cate&cid=1" title="女装">女装</a></i>					<li><a  href="/index.php?m=index&a=cate&cid=2" title="男装">男装</a></i>					<li><a  href="/index.php?m=index&a=cate&cid=6" title="鞋子">鞋子</a></i>					<li><a  href="/index.php?m=index&a=cate&cid=12" title="箱包">箱包</a></i>					<li><a  href="/index.php?m=index&a=cate&cid=4" title="母婴">母婴</a></i>					<li><a  href="/index.php?m=index&a=cate&cid=9" title="美妆">美妆</a></i>					<li><a  href="/index.php?m=index&a=cate&cid=3" title="居家">居家</a></i>					<li><a  href="/index.php?m=index&a=cate&cid=13" title="家纺">家纺</a></i>					<li><a  href="/index.php?m=index&a=cate&cid=10" title="文体">文体</a></i>					<li><a  href="/index.php?m=index&a=cate&cid=7" title="美食">美食</a></i>					<li><a  href="/index.php?m=index&a=cate&cid=8" title="数码">数码</a></i>					<li><a  href="/index.php?m=index&a=cate&cid=14" title="电器">电器</a></i>					<li><a  href="/index.php?m=index&a=cate&cid=19" title="内衣">内衣</a></i>					<li><a  href="/index.php?m=index&a=cate&cid=5" title="配饰">配饰</a></i>	
+    
+           </span>
+            <li class="first"><a href="/index.php?m=xinpin&a=index" ><span>今日上新</span></a><em></em></li>
+            <li class="first"><a href="/index.php?m=brand&a=index" ><span>品牌特卖</span></a><em></em></li>
+</div>
+
+				</ul>
+	</div>
+	<div class="n_h right_f">
+		<form method="get" action="index.php" onsubmit="return search_submit();" >
+					<input type="hidden" name="m" value="index" />
+			<input type="hidden" name="a" value="so" />
+			<input x-webkit-speech name="k" id="keywords" placeholder="请输入宝贝名称" value="" class="txt text" />
+					<button class="btn2" type="submit" title="搜索">搜宝贝</button>
+	  </form>
+    </div>
+	</div>
+</div>
+<link rel=stylesheet type=text/css href="/static/8mobcom/css/good_jp.css" />
+<!--List Start-->
+<div class="main w1100 clear">
+		
+<ul class="goods-list w1100">
+    <li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_101126324  list-good   buy  title="今日上新"" id="nid_536648042167">
+          
+<div class="sid_101126324  list-good   buy  title="今日上新"" id="nid_536648042167">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=536648042167" target="_blank" title="小番茄定制 秋季必备可一字领两穿打底衫  套头短款针织衫上衣 女"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/101126324/TB2nEyjX1_yQeBjy0FlXXczrXXa_!!101126324.jpg_310x310.jpg" title="小番茄定制 秋季必备可一字领两穿打底衫  套头短款针织衫上衣 女" alt="小番茄定制 秋季必备可一字领两穿打底衫  套头短款针织衫上衣 女">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/536648042167.html" target="_blank" title="小番茄定制 秋季必备可一字领两穿打底衫  套头短款针织衫上衣 女">小番茄定制 秋季必备可一字领两穿打底衫  套头短款针织衫上衣 女</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">59.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">10折</span><br>
+          <s>原价¥59.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/536648042167.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=536648042167" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>2329件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="282" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_1062228368  list-good   buy  title="今日上新"" id="nid_37389676591">
+          
+<div class="sid_1062228368  list-good   buy  title="今日上新"" id="nid_37389676591">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=37389676591" target="_blank" title="春秋文艺复古超宽松粉色蝙蝠袖大码女装中长款开衫V领针织外搭薄"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/1062228368/TB2Av4_aXXXXXadXXXXXXXXXXXX_!!1062228368.jpg_310x310.jpg" title="春秋文艺复古超宽松粉色蝙蝠袖大码女装中长款开衫V领针织外搭薄" alt="春秋文艺复古超宽松粉色蝙蝠袖大码女装中长款开衫V领针织外搭薄">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/37389676591.html" target="_blank" title="春秋文艺复古超宽松粉色蝙蝠袖大码女装中长款开衫V领针织外搭薄">春秋文艺复古超宽松粉色蝙蝠袖大码女装中长款开衫V领针织外搭薄</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">58.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">2.1折</span><br>
+          <s>原价¥280.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/37389676591.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=37389676591" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>5464件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="157" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_1675429766  list-good   buy  title="今日上新"" id="nid_533984415504">
+          
+<div class="sid_1675429766  list-good   buy  title="今日上新"" id="nid_533984415504">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=533984415504" target="_blank" title="2016春秋装羊绒长袖开衫针织衫V领毛衣新款羊毛短款小外套女装"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/1675429766/TB2QjqjtFXXXXc1XpXXXXXXXXXX_!!1675429766.jpg_310x310.jpg" title="2016春秋装羊绒长袖开衫针织衫V领毛衣新款羊毛短款小外套女装" alt="2016春秋装羊绒长袖开衫针织衫V领毛衣新款羊毛短款小外套女装">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/533984415504.html" target="_blank" title="2016春秋装羊绒长袖开衫针织衫V领毛衣新款羊毛短款小外套女装">2016春秋装羊绒长袖开衫针织衫V领毛衣新款羊毛短款小外套女装</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">56.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">0.9折</span><br>
+          <s>原价¥599.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/533984415504.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=533984415504" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>29057件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="246" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_196173223  list-good   buy  title="今日上新"" id="nid_537082820872">
+          
+<div class="sid_196173223  list-good   buy  title="今日上新"" id="nid_537082820872">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=537082820872" target="_blank" title="2016秋季韩版宽松长袖V领黄色小熊针织衫女开衫中长款毛衣外套潮"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/196173223/TB26ILUXjnyQeBjSspiXXb2QpXa_!!196173223.jpg_310x310.jpg" title="2016秋季韩版宽松长袖V领黄色小熊针织衫女开衫中长款毛衣外套潮" alt="2016秋季韩版宽松长袖V领黄色小熊针织衫女开衫中长款毛衣外套潮">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/537082820872.html" target="_blank" title="2016秋季韩版宽松长袖V领黄色小熊针织衫女开衫中长款毛衣外套潮">2016秋季韩版宽松长袖V领黄色小熊针织衫女开衫中长款毛衣外套潮</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">108.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">5折</span><br>
+          <s>原价¥218.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/537082820872.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=537082820872" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>2032件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="124" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_196173223  list-good   buy  title="今日上新"" id="nid_538068270464">
+          
+<div class="sid_196173223  list-good   buy  title="今日上新"" id="nid_538068270464">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=538068270464" target="_blank" title="2016韩版春秋宽松百搭长袖纯棉卡其色针织开衫女薄中长款外搭上衣"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/196173223/TB2FNHcXWi5V1BjSszcXXaDLXXa_!!196173223.jpg_310x310.jpg" title="2016韩版春秋宽松百搭长袖纯棉卡其色针织开衫女薄中长款外搭上衣" alt="2016韩版春秋宽松百搭长袖纯棉卡其色针织开衫女薄中长款外搭上衣">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/538068270464.html" target="_blank" title="2016韩版春秋宽松百搭长袖纯棉卡其色针织开衫女薄中长款外搭上衣">2016韩版春秋宽松百搭长袖纯棉卡其色针织开衫女薄中长款外搭上衣</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">98.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">4.3折</span><br>
+          <s>原价¥229.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/538068270464.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=538068270464" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>859件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="195" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_196173223  list-good   buy  title="今日上新"" id="nid_536798599555">
+          
+<div class="sid_196173223  list-good   buy  title="今日上新"" id="nid_536798599555">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=536798599555" target="_blank" title="2016秋季新款韩版宽松中长款撞色拼接条纹针织衫女开衫长袖外套潮"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/196173223/TB2LIAeuXXXXXbpXpXXXXXXXXXX_!!196173223.jpg_310x310.jpg" title="2016秋季新款韩版宽松中长款撞色拼接条纹针织衫女开衫长袖外套潮" alt="2016秋季新款韩版宽松中长款撞色拼接条纹针织衫女开衫长袖外套潮">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/536798599555.html" target="_blank" title="2016秋季新款韩版宽松中长款撞色拼接条纹针织衫女开衫长袖外套潮">2016秋季新款韩版宽松中长款撞色拼接条纹针织衫女开衫长袖外套潮</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">108.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">5.7折</span><br>
+          <s>原价¥188.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/536798599555.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=536798599555" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>2277件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="132" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_201512228  list-good   buy  title="今日上新"" id="nid_537896051212">
+          
+<div class="sid_201512228  list-good   buy  title="今日上新"" id="nid_537896051212">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=537896051212" target="_blank" title="小镇姗姗 静雨绵绵 自制温暖少女系针织麻花慵懒宽松毛衣"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/201512228/TB2UBZwaai5V1BjSspmXXXlwpXa_!!201512228.jpg_310x310.jpg" title="小镇姗姗 静雨绵绵 自制温暖少女系针织麻花慵懒宽松毛衣" alt="小镇姗姗 静雨绵绵 自制温暖少女系针织麻花慵懒宽松毛衣">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/537896051212.html" target="_blank" title="小镇姗姗 静雨绵绵 自制温暖少女系针织麻花慵懒宽松毛衣">小镇姗姗 静雨绵绵 自制温暖少女系针织麻花慵懒宽松毛衣</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">148.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">2.2折</span><br>
+          <s>原价¥666.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/537896051212.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=537896051212" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>1857件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="80" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2149795722  list-good   buy  title="今日上新"" id="nid_536621191773">
+          
+<div class="sid_2149795722  list-good   buy  title="今日上新"" id="nid_536621191773">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=536621191773" target="_blank" title="针织衫女开衫tb毛衣2016春秋季长袖修身外搭显瘦薄款情侣短款外套"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/2149795722/TB2Bp.8XzzyQeBjy0FeXXbwyFXa_!!2149795722.jpg_310x310.jpg" title="针织衫女开衫tb毛衣2016春秋季长袖修身外搭显瘦薄款情侣短款外套" alt="针织衫女开衫tb毛衣2016春秋季长袖修身外搭显瘦薄款情侣短款外套">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/536621191773.html" target="_blank" title="针织衫女开衫tb毛衣2016春秋季长袖修身外搭显瘦薄款情侣短款外套">针织衫女开衫tb毛衣2016春秋季长袖修身外搭显瘦薄款情侣短款外套</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">69.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">2.3折</span><br>
+          <s>原价¥298.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/536621191773.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=536621191773" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>833件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="204" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_366490042  list-good   buy  title="今日上新"" id="nid_536655995618">
+          
+<div class="sid_366490042  list-good   buy  title="今日上新"" id="nid_536655995618">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=536655995618" target="_blank" title="秋季新款韩版喇叭袖一字领纯色修身显瘦五分短袖T恤女上衣针织衫"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/366490042/TB2WzGluXXXXXXoXpXXXXXXXXXX_!!366490042.jpg_310x310.jpg" title="秋季新款韩版喇叭袖一字领纯色修身显瘦五分短袖T恤女上衣针织衫" alt="秋季新款韩版喇叭袖一字领纯色修身显瘦五分短袖T恤女上衣针织衫">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/536655995618.html" target="_blank" title="秋季新款韩版喇叭袖一字领纯色修身显瘦五分短袖T恤女上衣针织衫">秋季新款韩版喇叭袖一字领纯色修身显瘦五分短袖T恤女上衣针织衫</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">69.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">5折</span><br>
+          <s>原价¥138.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/536655995618.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=536655995618" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>1708件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="319" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_375629112  list-good   buy  title="今日上新"" id="nid_524679956746">
+          
+<div class="sid_375629112  list-good   buy  title="今日上新"" id="nid_524679956746">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=524679956746" target="_blank" title="天天特价一字领露肩上衣条纹针织衫女套头赵丽颖百搭长袖薄款毛衣"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/375629112/TB2R7mPsXXXXXbcXpXXXXXXXXXX_!!375629112.jpg_310x310.jpg" title="天天特价一字领露肩上衣条纹针织衫女套头赵丽颖百搭长袖薄款毛衣" alt="天天特价一字领露肩上衣条纹针织衫女套头赵丽颖百搭长袖薄款毛衣">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/524679956746.html" target="_blank" title="天天特价一字领露肩上衣条纹针织衫女套头赵丽颖百搭长袖薄款毛衣">天天特价一字领露肩上衣条纹针织衫女套头赵丽颖百搭长袖薄款毛衣</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">38.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">3折</span><br>
+          <s>原价¥128.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/524679956746.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=524679956746" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>646件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="329" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_516891887  list-good   buy  title="今日上新"" id="nid_537396774738">
+          
+<div class="sid_516891887  list-good   buy  title="今日上新"" id="nid_537396774738">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=537396774738" target="_blank" title="春秋季开叉圆领套头针织衫女宽松显瘦中长款毛衣秋装薄款上衣外套"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/516891887/TB2lrcpXurAQeBjSZPcXXbJ6pXa_!!516891887.jpg_310x310.jpg" title="春秋季开叉圆领套头针织衫女宽松显瘦中长款毛衣秋装薄款上衣外套" alt="春秋季开叉圆领套头针织衫女宽松显瘦中长款毛衣秋装薄款上衣外套">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/537396774738.html" target="_blank" title="春秋季开叉圆领套头针织衫女宽松显瘦中长款毛衣秋装薄款上衣外套">春秋季开叉圆领套头针织衫女宽松显瘦中长款毛衣秋装薄款上衣外套</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">119.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">3.6折</span><br>
+          <s>原价¥328.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/537396774738.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=537396774738" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>935件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="226" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_56549726  list-good   buy  title="今日上新"" id="nid_538133297505">
+          
+<div class="sid_56549726  list-good   buy  title="今日上新"" id="nid_538133297505">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=538133297505" target="_blank" title="CARIEDO 秋冬超美钉珠气质驼色中长款百搭毛针织开衫「卢洁云」"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/56549726/TB2eKOOap55V1Bjy0FpXXXhDpXa_!!56549726.jpg_310x310.jpg" title="CARIEDO 秋冬超美钉珠气质驼色中长款百搭毛针织开衫「卢洁云」" alt="CARIEDO 秋冬超美钉珠气质驼色中长款百搭毛针织开衫「卢洁云」">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/538133297505.html" target="_blank" title="CARIEDO 秋冬超美钉珠气质驼色中长款百搭毛针织开衫「卢洁云」">CARIEDO 秋冬超美钉珠气质驼色中长款百搭毛针织开衫「卢洁云」</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">179.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">10折</span><br>
+          <s>原价¥179.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/538133297505.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=538133297505" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>2722件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="362" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_56651352  list-good   buy  title="今日上新"" id="nid_537457085114">
+          
+<div class="sid_56651352  list-good   buy  title="今日上新"" id="nid_537457085114">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=537457085114" target="_blank" title="1琇婻-fr62新款2016秋装韩版女装连帽宽松显瘦长袖针织开衫H-31"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/56651352/TB2fpfRXbbC11BjSszbXXXRbpXa_!!56651352.jpg_310x310.jpg" title="1琇婻-fr62新款2016秋装韩版女装连帽宽松显瘦长袖针织开衫H-31" alt="1琇婻-fr62新款2016秋装韩版女装连帽宽松显瘦长袖针织开衫H-31">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/537457085114.html" target="_blank" title="1琇婻-fr62新款2016秋装韩版女装连帽宽松显瘦长袖针织开衫H-31">1琇婻-fr62新款2016秋装韩版女装连帽宽松显瘦长袖针织开衫H-31</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">79.9</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">5折</span><br>
+          <s>原价¥159.8</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/537457085114.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=537457085114" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>2507件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="79" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_687648910  list-good   buy  title="今日上新"" id="nid_538443136533">
+          
+<div class="sid_687648910  list-good   buy  title="今日上新"" id="nid_538443136533">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=538443136533" target="_blank" title="2016秋冬季新款v领针织衫女套头长袖修身韩版女装纯色打底衫毛衣"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/687648910/TB2FjPyaF15V1Bjy1XbXXaNcVXa_!!687648910.jpg_310x310.jpg" title="2016秋冬季新款v领针织衫女套头长袖修身韩版女装纯色打底衫毛衣" alt="2016秋冬季新款v领针织衫女套头长袖修身韩版女装纯色打底衫毛衣">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/538443136533.html" target="_blank" title="2016秋冬季新款v领针织衫女套头长袖修身韩版女装纯色打底衫毛衣">2016秋冬季新款v领针织衫女套头长袖修身韩版女装纯色打底衫毛衣</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">29.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">4.1折</span><br>
+          <s>原价¥70.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/538443136533.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=538443136533" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>1394件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="107" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_69476562  list-good   buy  title="今日上新"" id="nid_538052287348">
+          
+<div class="sid_69476562  list-good   buy  title="今日上新"" id="nid_538052287348">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=538052287348" target="_blank" title="小银子2016秋装新款女装韩范下摆系带长款毛衣针织开衫外套M9214Z"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/69476562/TB2dUZTaai5V1BjSszgXXbHLpXa_!!69476562.jpg_310x310.jpg" title="小银子2016秋装新款女装韩范下摆系带长款毛衣针织开衫外套M9214Z" alt="小银子2016秋装新款女装韩范下摆系带长款毛衣针织开衫外套M9214Z">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/538052287348.html" target="_blank" title="小银子2016秋装新款女装韩范下摆系带长款毛衣针织开衫外套M9214Z">小银子2016秋装新款女装韩范下摆系带长款毛衣针织开衫外套M9214Z</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">179.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">5折</span><br>
+          <s>原价¥358.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/538052287348.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=538052287348" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>720件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="289" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_1714410387  list-good   buy  title="今日上新"" id="nid_536149261990">
+          
+<div class="sid_1714410387  list-good   buy  title="今日上新"" id="nid_536149261990">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=536149261990" target="_blank" title="初秋季新款女装2016韩版百搭宽松针织衫女开衫短款薄毛衣小外套潮"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/TB1.r5MMVXXXXbFXXXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="初秋季新款女装2016韩版百搭宽松针织衫女开衫短款薄毛衣小外套潮" alt="初秋季新款女装2016韩版百搭宽松针织衫女开衫短款薄毛衣小外套潮">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/536149261990.html" target="_blank" title="初秋季新款女装2016韩版百搭宽松针织衫女开衫短款薄毛衣小外套潮">初秋季新款女装2016韩版百搭宽松针织衫女开衫短款薄毛衣小外套潮</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">55.8</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">3.5折</span><br>
+          <s>原价¥158.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/536149261990.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=536149261990" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>2284件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="343" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2098092833  list-good   buy  title="今日上新"" id="nid_523978879070">
+          
+<div class="sid_2098092833  list-good   buy  title="今日上新"" id="nid_523978879070">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=523978879070" target="_blank" title="婕秋2016秋冬新款女装大衣针织开衫蝙蝠衫流苏斗篷披肩毛衣外套女"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/TB17hJNKpXXXXbgXVXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="婕秋2016秋冬新款女装大衣针织开衫蝙蝠衫流苏斗篷披肩毛衣外套女" alt="婕秋2016秋冬新款女装大衣针织开衫蝙蝠衫流苏斗篷披肩毛衣外套女">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/523978879070.html" target="_blank" title="婕秋2016秋冬新款女装大衣针织开衫蝙蝠衫流苏斗篷披肩毛衣外套女">婕秋2016秋冬新款女装大衣针织开衫蝙蝠衫流苏斗篷披肩毛衣外套女</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">89.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">3折</span><br>
+          <s>原价¥298.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/523978879070.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=523978879070" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>6426件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="153" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2107574191  list-good   buy  title="今日上新"" id="nid_525987788881">
+          
+<div class="sid_2107574191  list-good   buy  title="今日上新"" id="nid_525987788881">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=525987788881" target="_blank" title="女装新款镂空针织衫女套头薄中长款毛衣春秋季领口钉珠打底衫秋天"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/TB18TR3NpXXXXcyXXXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="女装新款镂空针织衫女套头薄中长款毛衣春秋季领口钉珠打底衫秋天" alt="女装新款镂空针织衫女套头薄中长款毛衣春秋季领口钉珠打底衫秋天">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/525987788881.html" target="_blank" title="女装新款镂空针织衫女套头薄中长款毛衣春秋季领口钉珠打底衫秋天">女装新款镂空针织衫女套头薄中长款毛衣春秋季领口钉珠打底衫秋天</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">138.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">8.2折</span><br>
+          <s>原价¥168.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/525987788881.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=525987788881" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>1167件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="273" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2175042219  list-good   buy  title="今日上新"" id="nid_529264921689">
+          
+<div class="sid_2175042219  list-good   buy  title="今日上新"" id="nid_529264921689">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=529264921689" target="_blank" title="靓淑芬短款针织开衫2016秋冬新款韩版简约披肩纯色上衣毛衣外套女"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/TB192V_MpXXXXbFXpXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="靓淑芬短款针织开衫2016秋冬新款韩版简约披肩纯色上衣毛衣外套女" alt="靓淑芬短款针织开衫2016秋冬新款韩版简约披肩纯色上衣毛衣外套女">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/529264921689.html" target="_blank" title="靓淑芬短款针织开衫2016秋冬新款韩版简约披肩纯色上衣毛衣外套女">靓淑芬短款针织开衫2016秋冬新款韩版简约披肩纯色上衣毛衣外套女</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">29.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">1折</span><br>
+          <s>原价¥299.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/529264921689.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=529264921689" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>8372件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="23" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_1708123649  list-good   buy  title="今日上新"" id="nid_535353258589">
+          
+<div class="sid_1708123649  list-good   buy  title="今日上新"" id="nid_535353258589">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=535353258589" target="_blank" title="针织衫女开衫长袖外搭春秋季外套女装韩版毛衣宽松秋装2016新款潮"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/TB1b9OlKVXXXXbEaXXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="针织衫女开衫长袖外搭春秋季外套女装韩版毛衣宽松秋装2016新款潮" alt="针织衫女开衫长袖外搭春秋季外套女装韩版毛衣宽松秋装2016新款潮">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/535353258589.html" target="_blank" title="针织衫女开衫长袖外搭春秋季外套女装韩版毛衣宽松秋装2016新款潮">针织衫女开衫长袖外搭春秋季外套女装韩版毛衣宽松秋装2016新款潮</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">59.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">6折</span><br>
+          <s>原价¥99.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/535353258589.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=535353258589" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>7254件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="20" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_1764612547  list-good   buy  title="今日上新"" id="nid_536491938246">
+          
+<div class="sid_1764612547  list-good   buy  title="今日上新"" id="nid_536491938246">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=536491938246" target="_blank" title="2016新款秋装女韩版毛针织衫女开衫中长款宽松百搭V领毛衣外套潮"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/TB1bAXOLXXXXXXgXpXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="2016新款秋装女韩版毛针织衫女开衫中长款宽松百搭V领毛衣外套潮" alt="2016新款秋装女韩版毛针织衫女开衫中长款宽松百搭V领毛衣外套潮">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/536491938246.html" target="_blank" title="2016新款秋装女韩版毛针织衫女开衫中长款宽松百搭V领毛衣外套潮">2016新款秋装女韩版毛针织衫女开衫中长款宽松百搭V领毛衣外套潮</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">69.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">7折</span><br>
+          <s>原价¥98.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/536491938246.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=536491938246" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>4037件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="28" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_152229337  list-good   buy  title="今日上新"" id="nid_522899687100">
+          
+<div class="sid_152229337  list-good   buy  title="今日上新"" id="nid_522899687100">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=522899687100" target="_blank" title="韩版秋装中袖针织衫女套头半高圆领五分袖打底衫修身显瘦半袖毛衣"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/TB1cmG8JVXXXXXTXVXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="韩版秋装中袖针织衫女套头半高圆领五分袖打底衫修身显瘦半袖毛衣" alt="韩版秋装中袖针织衫女套头半高圆领五分袖打底衫修身显瘦半袖毛衣">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/522899687100.html" target="_blank" title="韩版秋装中袖针织衫女套头半高圆领五分袖打底衫修身显瘦半袖毛衣">韩版秋装中袖针织衫女套头半高圆领五分袖打底衫修身显瘦半袖毛衣</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">49.5</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">4折</span><br>
+          <s>原价¥125.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/522899687100.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=522899687100" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>5156件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="75" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_196173223  list-good   buy  title="今日上新"" id="nid_537922626287">
+          
+<div class="sid_196173223  list-good   buy  title="今日上新"" id="nid_537922626287">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=537922626287" target="_blank" title="2016韩版秋季圆领修身长袖条纹针织衫女套头短款外搭毛衣显瘦上衣"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/TB1e65oMVXXXXbcXXXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="2016韩版秋季圆领修身长袖条纹针织衫女套头短款外搭毛衣显瘦上衣" alt="2016韩版秋季圆领修身长袖条纹针织衫女套头短款外搭毛衣显瘦上衣">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/537922626287.html" target="_blank" title="2016韩版秋季圆领修身长袖条纹针织衫女套头短款外搭毛衣显瘦上衣">2016韩版秋季圆领修身长袖条纹针织衫女套头短款外搭毛衣显瘦上衣</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">89.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">5折</span><br>
+          <s>原价¥178.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/537922626287.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=537922626287" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>1551件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="133" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_33283  list-good   buy  title="今日上新"" id="nid_527160226870">
+          
+<div class="sid_33283  list-good   buy  title="今日上新"" id="nid_527160226870">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=527160226870" target="_blank" title="快乐123针织衫女款美丽诺细羊毛开衫基础百搭春秋款毛衣上衣薄款"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/TB1hDtPMXXXXXXxXVXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="快乐123针织衫女款美丽诺细羊毛开衫基础百搭春秋款毛衣上衣薄款" alt="快乐123针织衫女款美丽诺细羊毛开衫基础百搭春秋款毛衣上衣薄款">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/527160226870.html" target="_blank" title="快乐123针织衫女款美丽诺细羊毛开衫基础百搭春秋款毛衣上衣薄款">快乐123针织衫女款美丽诺细羊毛开衫基础百搭春秋款毛衣上衣薄款</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">158.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">8.9折</span><br>
+          <s>原价¥178.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/527160226870.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=527160226870" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>1446件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="261" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2030075383  list-good   buy  title="今日上新"" id="nid_527459709383">
+          
+<div class="sid_2030075383  list-good   buy  title="今日上新"" id="nid_527459709383">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=527459709383" target="_blank" title="2016秋装女装上衣韩版宽松短款春秋季连帽棒球服针织开衫毛衣外套"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/TB1HRZrLFXXXXXfaXXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="2016秋装女装上衣韩版宽松短款春秋季连帽棒球服针织开衫毛衣外套" alt="2016秋装女装上衣韩版宽松短款春秋季连帽棒球服针织开衫毛衣外套">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/527459709383.html" target="_blank" title="2016秋装女装上衣韩版宽松短款春秋季连帽棒球服针织开衫毛衣外套">2016秋装女装上衣韩版宽松短款春秋季连帽棒球服针织开衫毛衣外套</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">78.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">2.6折</span><br>
+          <s>原价¥298.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/527459709383.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=527459709383" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>4639件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="40" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_641386252  list-good   buy  title="今日上新"" id="nid_537726048272">
+          
+<div class="sid_641386252  list-good   buy  title="今日上新"" id="nid_537726048272">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=537726048272" target="_blank" title="晴碧琳2016新款秋装宽松七分袖毛衣 一字领上衣针织衫女套头薄款"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/TB1ICAeMVXXXXbNXVXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="晴碧琳2016新款秋装宽松七分袖毛衣 一字领上衣针织衫女套头薄款" alt="晴碧琳2016新款秋装宽松七分袖毛衣 一字领上衣针织衫女套头薄款">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/537726048272.html" target="_blank" title="晴碧琳2016新款秋装宽松七分袖毛衣 一字领上衣针织衫女套头薄款">晴碧琳2016新款秋装宽松七分袖毛衣 一字领上衣针织衫女套头薄款</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">169.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">8折</span><br>
+          <s>原价¥212.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/537726048272.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=537726048272" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>878件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="320" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2203600036  list-good   buy  title="今日上新"" id="nid_536474046657">
+          
+<div class="sid_2203600036  list-good   buy  title="今日上新"" id="nid_536474046657">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=536474046657" target="_blank" title="毛衣开衫2016秋季新款韩版女装灯笼袖针织衫纯色时尚宽松外套学生"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/TB1LiUALXXXXXXYaXXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="毛衣开衫2016秋季新款韩版女装灯笼袖针织衫纯色时尚宽松外套学生" alt="毛衣开衫2016秋季新款韩版女装灯笼袖针织衫纯色时尚宽松外套学生">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/536474046657.html" target="_blank" title="毛衣开衫2016秋季新款韩版女装灯笼袖针织衫纯色时尚宽松外套学生">毛衣开衫2016秋季新款韩版女装灯笼袖针织衫纯色时尚宽松外套学生</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">55.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">5折</span><br>
+          <s>原价¥109.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/536474046657.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=536474046657" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>3565件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="200" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2248275310  list-good   buy  title="今日上新"" id="nid_537556924870">
+          
+<div class="sid_2248275310  list-good   buy  title="今日上新"" id="nid_537556924870">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=537556924870" target="_blank" title="秋季针织衫女开衫中长款秋冬外搭薄毛衣外套春秋毛衫长袖2016秋装"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/TB1m3TJMVXXXXa_XFXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="秋季针织衫女开衫中长款秋冬外搭薄毛衣外套春秋毛衫长袖2016秋装" alt="秋季针织衫女开衫中长款秋冬外搭薄毛衣外套春秋毛衫长袖2016秋装">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/537556924870.html" target="_blank" title="秋季针织衫女开衫中长款秋冬外搭薄毛衣外套春秋毛衫长袖2016秋装">秋季针织衫女开衫中长款秋冬外搭薄毛衣外套春秋毛衫长袖2016秋装</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">168.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">5.8折</span><br>
+          <s>原价¥288.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/537556924870.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=537556924870" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>2443件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="123" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2273233893  list-good   buy  title="今日上新"" id="nid_536214547281">
+          
+<div class="sid_2273233893  list-good   buy  title="今日上新"" id="nid_536214547281">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=536214547281" target="_blank" title="秋冬毛衣女套头短款长袖韩版百搭潮加厚宽松V领蝙蝠袖打底针织衫"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/TB1t3h1LXXXXXXrapXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="秋冬毛衣女套头短款长袖韩版百搭潮加厚宽松V领蝙蝠袖打底针织衫" alt="秋冬毛衣女套头短款长袖韩版百搭潮加厚宽松V领蝙蝠袖打底针织衫">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/536214547281.html" target="_blank" title="秋冬毛衣女套头短款长袖韩版百搭潮加厚宽松V领蝙蝠袖打底针织衫">秋冬毛衣女套头短款长袖韩版百搭潮加厚宽松V领蝙蝠袖打底针织衫</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">118.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">6.6折</span><br>
+          <s>原价¥178.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/536214547281.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=536214547281" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>1067件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="359" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_1745683845  list-good   buy  title="今日上新"" id="nid_535543715732">
+          
+<div class="sid_1745683845  list-good   buy  title="今日上新"" id="nid_535543715732">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=535543715732" target="_blank" title="维克女爵春秋新款韩版披肩开衫毛衣外套女长袖加厚斗篷流苏"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i1/TB1ycH9KXXXXXX5XpXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="维克女爵春秋新款韩版披肩开衫毛衣外套女长袖加厚斗篷流苏" alt="维克女爵春秋新款韩版披肩开衫毛衣外套女长袖加厚斗篷流苏">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/535543715732.html" target="_blank" title="维克女爵春秋新款韩版披肩开衫毛衣外套女长袖加厚斗篷流苏">维克女爵春秋新款韩版披肩开衫毛衣外套女长袖加厚斗篷流苏</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">108.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">1.1折</span><br>
+          <s>原价¥989.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/535543715732.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=535543715732" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>666件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="127" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_101126324  list-good   buy  title="今日上新"" id="nid_537318252526">
+          
+<div class="sid_101126324  list-good   buy  title="今日上新"" id="nid_537318252526">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=537318252526" target="_blank" title="CHERRYBOOM小番茄定制 减龄学院风V领针织衫 修身显瘦打底上衣"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/101126324/TB29_00X1TyQeBjSspaXXcjjFXa_!!101126324.jpg_310x310.jpg" title="CHERRYBOOM小番茄定制 减龄学院风V领针织衫 修身显瘦打底上衣" alt="CHERRYBOOM小番茄定制 减龄学院风V领针织衫 修身显瘦打底上衣">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/537318252526.html" target="_blank" title="CHERRYBOOM小番茄定制 减龄学院风V领针织衫 修身显瘦打底上衣">CHERRYBOOM小番茄定制 减龄学院风V领针织衫 修身显瘦打底上衣</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">99.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">10折</span><br>
+          <s>原价¥99.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/537318252526.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=537318252526" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>2323件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="228" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_115232883  list-good   buy  title="今日上新"" id="nid_538319465126">
+          
+<div class="sid_115232883  list-good   buy  title="今日上新"" id="nid_538319465126">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=538319465126" target="_blank" title="Alicewang 定制店主强烈推荐自留 洋气V针织慵懒宽松兔毛毛衣"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/115232883/TB2fJWxXg_z11Bjy1XbXXaScFXa_!!115232883.jpg_310x310.jpg" title="Alicewang 定制店主强烈推荐自留 洋气V针织慵懒宽松兔毛毛衣" alt="Alicewang 定制店主强烈推荐自留 洋气V针织慵懒宽松兔毛毛衣">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/538319465126.html" target="_blank" title="Alicewang 定制店主强烈推荐自留 洋气V针织慵懒宽松兔毛毛衣">Alicewang 定制店主强烈推荐自留 洋气V针织慵懒宽松兔毛毛衣</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">179.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">6.9折</span><br>
+          <s>原价¥260.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/538319465126.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=538319465126" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>1400件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="393" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_13410985  list-good   buy  title="今日上新"" id="nid_537163152989">
+          
+<div class="sid_13410985  list-good   buy  title="今日上新"" id="nid_537163152989">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=537163152989" target="_blank" title="秋季新款2016韩版圆领修身长袖针织衫女套头薄毛衣打底衫露肩上衣"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/13410985/TB2ZfJJX6nyQeBjSspnXXbZipXa_!!13410985.jpg_310x310.jpg" title="秋季新款2016韩版圆领修身长袖针织衫女套头薄毛衣打底衫露肩上衣" alt="秋季新款2016韩版圆领修身长袖针织衫女套头薄毛衣打底衫露肩上衣">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/537163152989.html" target="_blank" title="秋季新款2016韩版圆领修身长袖针织衫女套头薄毛衣打底衫露肩上衣">秋季新款2016韩版圆领修身长袖针织衫女套头薄毛衣打底衫露肩上衣</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">89.6</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">7折</span><br>
+          <s>原价¥128.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/537163152989.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=537163152989" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>3206件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="215" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_14197825  list-good   buy  title="今日上新"" id="nid_537938594639">
+          
+<div class="sid_14197825  list-good   buy  title="今日上新"" id="nid_537938594639">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=537938594639" target="_blank" title="T7603-2016秋新韩版女装V领喇叭袖娃娃衫针织衫毛衣自制 0908"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/14197825/TB2K1CXanPC11Bjy1zcXXbTrVXa_!!14197825.jpg_310x310.jpg" title="T7603-2016秋新韩版女装V领喇叭袖娃娃衫针织衫毛衣自制 0908" alt="T7603-2016秋新韩版女装V领喇叭袖娃娃衫针织衫毛衣自制 0908">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/537938594639.html" target="_blank" title="T7603-2016秋新韩版女装V领喇叭袖娃娃衫针织衫毛衣自制 0908">T7603-2016秋新韩版女装V领喇叭袖娃娃衫针织衫毛衣自制 0908</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">59.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">5折</span><br>
+          <s>原价¥118.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/537938594639.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=537938594639" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>1666件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="296" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2445769944  list-good   buy  title="今日上新"" id="nid_536186270259">
+          
+<div class="sid_2445769944  list-good   buy  title="今日上新"" id="nid_536186270259">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=536186270259" target="_blank" title="2016秋季女装韩版一字领上衣中袖冰丝条纹针织衫女套头修身短款"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/2445769944/TB2NH3ltpXXXXaeXXXXXXXXXXXX_!!2445769944.jpg_310x310.jpg" title="2016秋季女装韩版一字领上衣中袖冰丝条纹针织衫女套头修身短款" alt="2016秋季女装韩版一字领上衣中袖冰丝条纹针织衫女套头修身短款">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/536186270259.html" target="_blank" title="2016秋季女装韩版一字领上衣中袖冰丝条纹针织衫女套头修身短款">2016秋季女装韩版一字领上衣中袖冰丝条纹针织衫女套头修身短款</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">75.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">3.8折</span><br>
+          <s>原价¥199.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/536186270259.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=536186270259" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>1545件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="225" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2705954651  list-good   buy  title="今日上新"" id="nid_526183832808">
+          
+<div class="sid_2705954651  list-good   buy  title="今日上新"" id="nid_526183832808">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=526183832808" target="_blank" title="春季新款2016韩版七分袖V领打底衫女士紧身修身针织衫套头上衣"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/2705954651/TB2usULjpXXXXccXXXXXXXXXXXX_!!2705954651.jpg_310x310.jpg" title="春季新款2016韩版七分袖V领打底衫女士紧身修身针织衫套头上衣" alt="春季新款2016韩版七分袖V领打底衫女士紧身修身针织衫套头上衣">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/526183832808.html" target="_blank" title="春季新款2016韩版七分袖V领打底衫女士紧身修身针织衫套头上衣">春季新款2016韩版七分袖V领打底衫女士紧身修身针织衫套头上衣</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">59.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">10折</span><br>
+          <s>原价¥59.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/526183832808.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=526183832808" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>1960件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="105" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_285892163  list-good   buy  title="今日上新"" id="nid_538033704656">
+          
+<div class="sid_285892163  list-good   buy  title="今日上新"" id="nid_538033704656">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=538033704656" target="_blank" title="小冰定制2016秋季新款韩范女装简约百搭打底衫纯色修身显瘦针织衫"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/285892163/TB2u5PEXGi5V1BjSspdXXXyFFXa_!!285892163.jpg_310x310.jpg" title="小冰定制2016秋季新款韩范女装简约百搭打底衫纯色修身显瘦针织衫" alt="小冰定制2016秋季新款韩范女装简约百搭打底衫纯色修身显瘦针织衫">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/538033704656.html" target="_blank" title="小冰定制2016秋季新款韩范女装简约百搭打底衫纯色修身显瘦针织衫">小冰定制2016秋季新款韩范女装简约百搭打底衫纯色修身显瘦针织衫</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">59.9</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">8折</span><br>
+          <s>原价¥75.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/538033704656.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=538033704656" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>5030件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="334" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_375943089  list-good   buy  title="今日上新"" id="nid_538118605134">
+          
+<div class="sid_375943089  list-good   buy  title="今日上新"" id="nid_538118605134">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=538118605134" target="_blank" title="2016春款新款长款开衫毛衣女中长款显瘦韩版宽松针织衫外套韩范"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/375943089/TB22vjoaam5V1BjSspjXXcGFpXa_!!375943089.jpg_310x310.jpg" title="2016春款新款长款开衫毛衣女中长款显瘦韩版宽松针织衫外套韩范" alt="2016春款新款长款开衫毛衣女中长款显瘦韩版宽松针织衫外套韩范">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/538118605134.html" target="_blank" title="2016春款新款长款开衫毛衣女中长款显瘦韩版宽松针织衫外套韩范">2016春款新款长款开衫毛衣女中长款显瘦韩版宽松针织衫外套韩范</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">15.8</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">3.2折</span><br>
+          <s>原价¥49.9</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/538118605134.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=538118605134" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>1447件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="84" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_831443838  list-good   buy  title="今日上新"" id="nid_538170413868">
+          
+<div class="sid_831443838  list-good   buy  title="今日上新"" id="nid_538170413868">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=538170413868" target="_blank" title="韩版2016春季新品半高领修身五分袖针织衫女套头紧身纯色中袖打底"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/831443838/TB2GXFKaai5V1BjSspeXXcWPFXa_!!831443838.jpg_310x310.jpg" title="韩版2016春季新品半高领修身五分袖针织衫女套头紧身纯色中袖打底" alt="韩版2016春季新品半高领修身五分袖针织衫女套头紧身纯色中袖打底">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/538170413868.html" target="_blank" title="韩版2016春季新品半高领修身五分袖针织衫女套头紧身纯色中袖打底">韩版2016春季新品半高领修身五分袖针织衫女套头紧身纯色中袖打底</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">25.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">0.9折</span><br>
+          <s>原价¥289.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/538170413868.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=538170413868" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>546件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="163" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_862250735  list-good   buy  title="今日上新"" id="nid_535748997514">
+          
+<div class="sid_862250735  list-good   buy  title="今日上新"" id="nid_535748997514">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=535748997514" target="_blank" title="中袖条纹冰丝针织衫套头修身短款夏女薄款紧身打底木耳边t恤上衣"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/862250735/TB29QyTtXXXXXXXXFXXXXXXXXXX_!!862250735.jpg_310x310.jpg" title="中袖条纹冰丝针织衫套头修身短款夏女薄款紧身打底木耳边t恤上衣" alt="中袖条纹冰丝针织衫套头修身短款夏女薄款紧身打底木耳边t恤上衣">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/535748997514.html" target="_blank" title="中袖条纹冰丝针织衫套头修身短款夏女薄款紧身打底木耳边t恤上衣">中袖条纹冰丝针织衫套头修身短款夏女薄款紧身打底木耳边t恤上衣</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">69.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">3.5折</span><br>
+          <s>原价¥199.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/535748997514.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=535748997514" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>3884件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="264" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_758392199  list-good   buy  title="今日上新"" id="nid_537226626909">
+          
+<div class="sid_758392199  list-good   buy  title="今日上新"" id="nid_537226626909">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=537226626909" target="_blank" title="欧芮儿2016秋装新款撞色百搭七分袖宽松薄款针织衫毛衣女套头短款"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/TB1.4jiLpXXXXXdaXXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="欧芮儿2016秋装新款撞色百搭七分袖宽松薄款针织衫毛衣女套头短款" alt="欧芮儿2016秋装新款撞色百搭七分袖宽松薄款针织衫毛衣女套头短款">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/537226626909.html" target="_blank" title="欧芮儿2016秋装新款撞色百搭七分袖宽松薄款针织衫毛衣女套头短款">欧芮儿2016秋装新款撞色百搭七分袖宽松薄款针织衫毛衣女套头短款</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">198.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">9折</span><br>
+          <s>原价¥220.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/537226626909.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=537226626909" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>1245件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="326" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2928084565  list-good   buy  title="今日上新"" id="nid_536735224605">
+          
+<div class="sid_2928084565  list-good   buy  title="今日上新"" id="nid_536735224605">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=536735224605" target="_blank" title="女装秋装2016新款潮韩版针织衫女开衫秋季短款女士毛衣外套女春秋"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/TB19uZcLXXXXXaYaXXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="女装秋装2016新款潮韩版针织衫女开衫秋季短款女士毛衣外套女春秋" alt="女装秋装2016新款潮韩版针织衫女开衫秋季短款女士毛衣外套女春秋">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/536735224605.html" target="_blank" title="女装秋装2016新款潮韩版针织衫女开衫秋季短款女士毛衣外套女春秋">女装秋装2016新款潮韩版针织衫女开衫秋季短款女士毛衣外套女春秋</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">128.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">2.2折</span><br>
+          <s>原价¥580.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/536735224605.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=536735224605" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>832件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="346" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2182800806  list-good   buy  title="今日上新"" id="nid_520631920442">
+          
+<div class="sid_2182800806  list-good   buy  title="今日上新"" id="nid_520631920442">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=520631920442" target="_blank" title="秋装韩版加厚毛衣开衫女宽松女装秋冬针织衫学生外套春秋中长款潮"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/TB1GHstJVXXXXX4XVXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="秋装韩版加厚毛衣开衫女宽松女装秋冬针织衫学生外套春秋中长款潮" alt="秋装韩版加厚毛衣开衫女宽松女装秋冬针织衫学生外套春秋中长款潮">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/520631920442.html" target="_blank" title="秋装韩版加厚毛衣开衫女宽松女装秋冬针织衫学生外套春秋中长款潮">秋装韩版加厚毛衣开衫女宽松女装秋冬针织衫学生外套春秋中长款潮</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">66.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">4.8折</span><br>
+          <s>原价¥138.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/520631920442.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=520631920442" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>2893件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="338" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2941938048  list-good   buy  title="今日上新"" id="nid_538100781334">
+          
+<div class="sid_2941938048  list-good   buy  title="今日上新"" id="nid_538100781334">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=538100781334" target="_blank" title="2016秋季新款时尚针织衫女套头韩版圆领薄款长袖针织打底衫女上衣"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/TB1HcGZNpXXXXb6XXXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="2016秋季新款时尚针织衫女套头韩版圆领薄款长袖针织打底衫女上衣" alt="2016秋季新款时尚针织衫女套头韩版圆领薄款长袖针织打底衫女上衣">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/538100781334.html" target="_blank" title="2016秋季新款时尚针织衫女套头韩版圆领薄款长袖针织打底衫女上衣">2016秋季新款时尚针织衫女套头韩版圆领薄款长袖针织打底衫女上衣</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">69.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">5.4折</span><br>
+          <s>原价¥128.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/538100781334.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=538100781334" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>3198件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="24" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_1758913967  list-good   buy  title="今日上新"" id="nid_536741781374">
+          
+<div class="sid_1758913967  list-good   buy  title="今日上新"" id="nid_536741781374">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=536741781374" target="_blank" title="女装秋装2016新款潮开衫韩版短外套女春秋厚毛衣百搭灯笼袖针织衫"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/TB1HMcZLXXXXXXUaXXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="女装秋装2016新款潮开衫韩版短外套女春秋厚毛衣百搭灯笼袖针织衫" alt="女装秋装2016新款潮开衫韩版短外套女春秋厚毛衣百搭灯笼袖针织衫">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/536741781374.html" target="_blank" title="女装秋装2016新款潮开衫韩版短外套女春秋厚毛衣百搭灯笼袖针织衫">女装秋装2016新款潮开衫韩版短外套女春秋厚毛衣百搭灯笼袖针织衫</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">138.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">3.5折</span><br>
+          <s>原价¥398.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/536741781374.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=536741781374" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>530件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="279" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_1599604019  list-good   buy  title="今日上新"" id="nid_526430195678">
+          
+<div class="sid_1599604019  list-good   buy  title="今日上新"" id="nid_526430195678">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=526430195678" target="_blank" title="薄针织衫女开衫新款秋装短款毛衣外套百搭外搭小披肩高腰长袖上衣"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/TB1hnCPLFXXXXanXVXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="薄针织衫女开衫新款秋装短款毛衣外套百搭外搭小披肩高腰长袖上衣" alt="薄针织衫女开衫新款秋装短款毛衣外套百搭外搭小披肩高腰长袖上衣">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/526430195678.html" target="_blank" title="薄针织衫女开衫新款秋装短款毛衣外套百搭外搭小披肩高腰长袖上衣">薄针织衫女开衫新款秋装短款毛衣外套百搭外搭小披肩高腰长袖上衣</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">49.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">3.8折</span><br>
+          <s>原价¥129.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/526430195678.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=526430195678" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>1628件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="156" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2227645858  list-good   buy  title="今日上新"" id="nid_523246807236">
+          
+<div class="sid_2227645858  list-good   buy  title="今日上新"" id="nid_523246807236">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=523246807236" target="_blank" title="2016秋冬季海军风上衣短款V领毛衣外套女宽松学生线衣针织衫套头"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/TB1mjf5JFXXXXXbXFXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="2016秋冬季海军风上衣短款V领毛衣外套女宽松学生线衣针织衫套头" alt="2016秋冬季海军风上衣短款V领毛衣外套女宽松学生线衣针织衫套头">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/523246807236.html" target="_blank" title="2016秋冬季海军风上衣短款V领毛衣外套女宽松学生线衣针织衫套头">2016秋冬季海军风上衣短款V领毛衣外套女宽松学生线衣针织衫套头</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">29.8</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">7.5折</span><br>
+          <s>原价¥39.8</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/523246807236.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=523246807236" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>4862件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="169" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2118899497  list-good   buy  title="今日上新"" id="nid_44510615734">
+          
+<div class="sid_2118899497  list-good   buy  title="今日上新"" id="nid_44510615734">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=44510615734" target="_blank" title="秋季新款女装修身条纹长袖套头外套薄针织衫毛衣女上衣打底衫秋冬"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/TB1O4byLXXXXXXxXpXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="秋季新款女装修身条纹长袖套头外套薄针织衫毛衣女上衣打底衫秋冬" alt="秋季新款女装修身条纹长袖套头外套薄针织衫毛衣女上衣打底衫秋冬">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/44510615734.html" target="_blank" title="秋季新款女装修身条纹长袖套头外套薄针织衫毛衣女上衣打底衫秋冬">秋季新款女装修身条纹长袖套头外套薄针织衫毛衣女上衣打底衫秋冬</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">22.8</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">2.6折</span><br>
+          <s>原价¥88.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/44510615734.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=44510615734" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>5630件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="270" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2644892357  list-good   buy  title="今日上新"" id="nid_536555546007">
+          
+<div class="sid_2644892357  list-good   buy  title="今日上新"" id="nid_536555546007">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=536555546007" target="_blank" title="v领宽松针织打底衫女长袖秋冬装2016新款潮套头毛衣韩版女装上衣"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/TB1QtjVLXXXXXchXXXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="v领宽松针织打底衫女长袖秋冬装2016新款潮套头毛衣韩版女装上衣" alt="v领宽松针织打底衫女长袖秋冬装2016新款潮套头毛衣韩版女装上衣">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/536555546007.html" target="_blank" title="v领宽松针织打底衫女长袖秋冬装2016新款潮套头毛衣韩版女装上衣">v领宽松针织打底衫女长袖秋冬装2016新款潮套头毛衣韩版女装上衣</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">48.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">3折</span><br>
+          <s>原价¥158.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/536555546007.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=536555546007" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>10362件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="4" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2874434963  list-good   buy  title="今日上新"" id="nid_534766067308">
+          
+<div class="sid_2874434963  list-good   buy  title="今日上新"" id="nid_534766067308">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=534766067308" target="_blank" title="条纹针织衫女薄毛衣女装秋季新款一字领线衣外套打底衫春秋装上衣"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/TB1QvybNXXXXXaEXpXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="条纹针织衫女薄毛衣女装秋季新款一字领线衣外套打底衫春秋装上衣" alt="条纹针织衫女薄毛衣女装秋季新款一字领线衣外套打底衫春秋装上衣">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/534766067308.html" target="_blank" title="条纹针织衫女薄毛衣女装秋季新款一字领线衣外套打底衫春秋装上衣">条纹针织衫女薄毛衣女装秋季新款一字领线衣外套打底衫春秋装上衣</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">49.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">4.9折</span><br>
+          <s>原价¥99.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/534766067308.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=534766067308" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>5477件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="37" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_1713296071  list-good   buy  title="今日上新"" id="nid_528148615480">
+          
+<div class="sid_1713296071  list-good   buy  title="今日上新"" id="nid_528148615480">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=528148615480" target="_blank" title="秋装针织衫2016新款韩版宽松开衫毛衣短款春秋季外套女装上衣潮"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/TB1rgfKLVXXXXacXFXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="秋装针织衫2016新款韩版宽松开衫毛衣短款春秋季外套女装上衣潮" alt="秋装针织衫2016新款韩版宽松开衫毛衣短款春秋季外套女装上衣潮">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/528148615480.html" target="_blank" title="秋装针织衫2016新款韩版宽松开衫毛衣短款春秋季外套女装上衣潮">秋装针织衫2016新款韩版宽松开衫毛衣短款春秋季外套女装上衣潮</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">55.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">4.3折</span><br>
+          <s>原价¥128.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/528148615480.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=528148615480" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>14538件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="385" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_1702428055  list-good   buy  title="今日上新"" id="nid_527757017587">
+          
+<div class="sid_1702428055  list-good   buy  title="今日上新"" id="nid_527757017587">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=527757017587" target="_blank" title="针织衫女开衫外搭春秋短外套女装韩版毛衣宽松秋季2016新款学生潮"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i2/TB1Sd41LVXXXXcaXFXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg" title="针织衫女开衫外搭春秋短外套女装韩版毛衣宽松秋季2016新款学生潮" alt="针织衫女开衫外搭春秋短外套女装韩版毛衣宽松秋季2016新款学生潮">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/527757017587.html" target="_blank" title="针织衫女开衫外搭春秋短外套女装韩版毛衣宽松秋季2016新款学生潮">针织衫女开衫外搭春秋短外套女装韩版毛衣宽松秋季2016新款学生潮</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">56.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">2.8折</span><br>
+          <s>原价¥199.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_tmall          "></span><br>
+          <s class="volume">
+                      <a href="/item/527757017587.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime">							<a><span style="font-family: 'Microsoft YaHei'">天猫合作商家</span></a></span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=527757017587" target="_blank" class="go-buy tmall-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>3938件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="291" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2127364704  list-good   buy  title="今日上新"" id="nid_537670204041">
+          
+<div class="sid_2127364704  list-good   buy  title="今日上新"" id="nid_537670204041">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=537670204041" target="_blank" title="秋季新款韩版女装一字领修身显瘦短款百搭纯色套头气质打底针织衫"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i3/2127364704/TB2uraqaPzyQeBjy1zdXXaInpXa_!!2127364704.png_310x310.jpg" title="秋季新款韩版女装一字领修身显瘦短款百搭纯色套头气质打底针织衫" alt="秋季新款韩版女装一字领修身显瘦短款百搭纯色套头气质打底针织衫">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/537670204041.html" target="_blank" title="秋季新款韩版女装一字领修身显瘦短款百搭纯色套头气质打底针织衫">秋季新款韩版女装一字领修身显瘦短款百搭纯色套头气质打底针织衫</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">32.8</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">5折</span><br>
+          <s>原价¥65.6</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/537670204041.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=537670204041" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>255件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="255" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2569470583  list-good   buy  title="今日上新"" id="nid_532787243375">
+          
+<div class="sid_2569470583  list-good   buy  title="今日上新"" id="nid_532787243375">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=532787243375" target="_blank" title="2016秋冬季女士半高领长袖针织衫修身紧身圆领长袖套头毛衣打底衫"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i3/2569470583/TB2REdKsVXXXXc.XpXXXXXXXXXX_!!2569470583.jpg_310x310.jpg" title="2016秋冬季女士半高领长袖针织衫修身紧身圆领长袖套头毛衣打底衫" alt="2016秋冬季女士半高领长袖针织衫修身紧身圆领长袖套头毛衣打底衫">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/532787243375.html" target="_blank" title="2016秋冬季女士半高领长袖针织衫修身紧身圆领长袖套头毛衣打底衫">2016秋冬季女士半高领长袖针织衫修身紧身圆领长袖套头毛衣打底衫</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">67.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">2.3折</span><br>
+          <s>原价¥288.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/532787243375.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=532787243375" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>1134件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="144" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_2806448874  list-good   buy  title="今日上新"" id="nid_536583709506">
+          
+<div class="sid_2806448874  list-good   buy  title="今日上新"" id="nid_536583709506">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=536583709506" target="_blank" title="中长款加厚毛衣打底衫女2016秋冬季套头针织衫韩版宽松学生外套潮"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i3/2806448874/TB2i6OEtVXXXXcfXpXXXXXXXXXX_!!2806448874.jpg_310x310.jpg" title="中长款加厚毛衣打底衫女2016秋冬季套头针织衫韩版宽松学生外套潮" alt="中长款加厚毛衣打底衫女2016秋冬季套头针织衫韩版宽松学生外套潮">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/536583709506.html" target="_blank" title="中长款加厚毛衣打底衫女2016秋冬季套头针织衫韩版宽松学生外套潮">中长款加厚毛衣打底衫女2016秋冬季套头针织衫韩版宽松学生外套潮</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">36.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">2.6折</span><br>
+          <s>原价¥138.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/536583709506.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=536583709506" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>3449件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="74" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_595412874  list-good   buy  title="今日上新"" id="nid_537597245080">
+          
+<div class="sid_595412874  list-good   buy  title="今日上新"" id="nid_537597245080">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=537597245080" target="_blank" title="2016新款秋季女装宽松长袖毛衣女上衣 秋装薄款套头针织衫潮秋冬"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i3/595412874/TB2d8hYaKLyQeBjy1XaXXcexFXa_!!595412874.jpg_310x310.jpg" title="2016新款秋季女装宽松长袖毛衣女上衣 秋装薄款套头针织衫潮秋冬" alt="2016新款秋季女装宽松长袖毛衣女上衣 秋装薄款套头针织衫潮秋冬">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/537597245080.html" target="_blank" title="2016新款秋季女装宽松长袖毛衣女上衣 秋装薄款套头针织衫潮秋冬">2016新款秋季女装宽松长袖毛衣女上衣 秋装薄款套头针织衫潮秋冬</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">99.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">7.7折</span><br>
+          <s>原价¥129.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/537597245080.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=537597245080" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>2831件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="73" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_671012022  list-good   buy  title="今日上新"" id="nid_538053393140">
+          
+<div class="sid_671012022  list-good   buy  title="今日上新"" id="nid_538053393140">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=538053393140" target="_blank" title="MIUCO2016秋季新款女装拼色V型重工流苏宽松披肩针织衫斗篷式毛衣"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i3/671012022/TB2UPxPXV95V1Bjy0FeXXXyfpXa_!!671012022.jpg_310x310.jpg" title="MIUCO2016秋季新款女装拼色V型重工流苏宽松披肩针织衫斗篷式毛衣" alt="MIUCO2016秋季新款女装拼色V型重工流苏宽松披肩针织衫斗篷式毛衣">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/538053393140.html" target="_blank" title="MIUCO2016秋季新款女装拼色V型重工流苏宽松披肩针织衫斗篷式毛衣">MIUCO2016秋季新款女装拼色V型重工流苏宽松披肩针织衫斗篷式毛衣</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">196.0</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">9折</span><br>
+          <s>原价¥218.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/538053393140.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=538053393140" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>392件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="139" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_751537012  list-good   buy  title="今日上新"" id="nid_538064881975">
+          
+<div class="sid_751537012  list-good   buy  title="今日上新"" id="nid_538064881975">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=538064881975" target="_blank" title="欧洲站2016春秋装欧货新款宽松短款长袖印花针织衫女毛衣打底衫潮"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i3/751537012/TB2c44nXWm5V1BjSszhXXcMtXXa_!!751537012.jpg_310x310.jpg" title="欧洲站2016春秋装欧货新款宽松短款长袖印花针织衫女毛衣打底衫潮" alt="欧洲站2016春秋装欧货新款宽松短款长袖印花针织衫女毛衣打底衫潮">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/538064881975.html" target="_blank" title="欧洲站2016春秋装欧货新款宽松短款长袖印花针织衫女毛衣打底衫潮">欧洲站2016春秋装欧货新款宽松短款长袖印花针织衫女毛衣打底衫潮</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">15.8</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">2.9折</span><br>
+          <s>原价¥55.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/538064881975.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=538064881975" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>967件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="87" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_777105914  list-good   buy  title="今日上新"" id="nid_537655110689">
+          
+<div class="sid_777105914  list-good   buy  title="今日上新"" id="nid_537655110689">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=537655110689" target="_blank" title="小颖家2016秋装新款红色毛衣长袖宽松打底衫薄 短款套头针织衫女"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i3/777105914/TB2kag6aNjxQeBjSspcXXcQlXXa_!!777105914.jpg_310x310.jpg" title="小颖家2016秋装新款红色毛衣长袖宽松打底衫薄 短款套头针织衫女" alt="小颖家2016秋装新款红色毛衣长袖宽松打底衫薄 短款套头针织衫女">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/537655110689.html" target="_blank" title="小颖家2016秋装新款红色毛衣长袖宽松打底衫薄 短款套头针织衫女">小颖家2016秋装新款红色毛衣长袖宽松打底衫薄 短款套头针织衫女</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">69.3</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">7折</span><br>
+          <s>原价¥99.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/537655110689.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=537655110689" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>1769件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="103" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li><li  class="buy_goods fl_1 poster_wall s_page_1">
+   
+
+<div class="sid_788018777  list-good   buy  title="今日上新"" id="nid_521017094030">
+          
+<div class="sid_788018777  list-good   buy  title="今日上新"" id="nid_521017094030">
+
+          <span class="heart_right"></span></i>
+           <a href="/index.php?m=jump&a=index&id=521017094030" target="_blank" title="秋季新款韩版冰丝套头女款短款条纹一字领针织衫上衣修身打底毛衣"> <img class="shop-img" src="http://img1.tbcdn.cn/tfscom/i3/788018777/TB2llMmnXXXXXaAXpXXXXXXXXXX_!!788018777.jpg_310x310.jpg" title="秋季新款韩版冰丝套头女款短款条纹一字领针织衫上衣修身打底毛衣" alt="秋季新款韩版冰丝套头女款短款条纹一字领针织衫上衣修身打底毛衣">
+    <div class="clear_f"></div>
+    </a>
+    <div class="goods-detail">
+      <p class="name-goods"><a href="/item/521017094030.html" target="_blank" title="秋季新款韩版冰丝套头女款短款条纹一字领针织衫上衣修身打底毛衣">秋季新款韩版冰丝套头女款短款条纹一字领针织衫上衣修身打底毛衣</a></p>
+      <div class="info-goods"> <span class="f-18">¥</span> <span class="f-14">29.9</span>
+        <div class="pold" style="margin-left: 10px;"> <span class="pnum">4折</span><br>
+          <s>原价¥75.0</s> </div>
+        <div class="pold" style="float: right;text-align: right;margin-right: 5px;"> <span class="pnum pnum_taobao          "></span><br>
+          <s class="volume">
+                      <a href="/item/521017094030.html" target="_blank">商品详情</a>          </s> </div>
+      </div>
+      <div class="newdeal">
+<div class="newdeal-left"> <i class="time"></i> <span class="fsettime"><a><span style="font-family: 'Microsoft YaHei'">淘宝合作商家</span></a>
+							</span>
+                             </div>        <a href="/index.php?m=jump&a=index&id=521017094030" target="_blank" class="go-buy taobao-buy"> </a>
+           <div class="newdeal-right">
+          <span class="sold">已售出<em>10501件</em></span> </div>     
+ <!-- like -->
+		 
+								<a class="my-like" lkid="64" gtype="1" lks="1" title="加入收藏"><i class="like-ico "><span class="heart_left"></span><span class="heart_right"></span></i></a>				<!-- end like -->
+			 
+										  </div>
+	  </li>	</ul>
+</div>
+ 
+ <script>
+(function($) {
+    $("a.my-like").live('click', 
+    function() {
+        var pid = $(this).attr("lkid");
+        if (!$.ftxia.dialog.islogin()) return;
+	var obj = $(this);
+        var parent = obj;
+        var id = parent.attr('lkid');
+        var s = parent.attr('lks');
+        var gtype = parent.attr("gtype");
+
+        F_createEle(obj);
+        setTimeout(function(){$("#likeico").remove()}, 600);
+        if(s == 1) {
+            // like success
+            parent.attr('lks',0);
+            obj.find('i.like-ico').addClass('l-active');
+            obj.closest('li').find('.like-ceng').show();
+            $("#likeico").removeClass('unliked').addClass('like-big').addClass('demo1');
+            parent.css('display','block');
+        } else {
+            // un like success
+            parent.attr('lks',1);
+            obj.find('i.like-ico').removeClass('l-active');
+            $("#likeico").removeClass('l-active').addClass('unliked').removeClass('demo1');
+            obj.closest('li').find('.like-ceng').hide();
+            parent.css('display','');
+        }
+
+        $.ajax({
+            url: FTXIAER.root + '/index.php?m=ajax&a=like',
+            type: 'POST',
+            data: {
+                pid: pid
+            },
+            dataType: 'json',
+            success: function(result) {
+                if (result.status == 1) {
+                    $.ftxia.tip({
+                        content: result.msg,
+                        icon: 'success'
+                    });
+                } else if (result.status == 2) {
+                    $.ftxia.tip({
+                        content: result.msg,
+                        icon: 'error'
+                    });
+                } else {
+                    $.ftxia.tip({
+                        content: result.msg,
+                        icon: 'error'
+                    });
+                }
+            }
+        });
+    });
+})(jQuery);
+
+ var F_createEle = function(ele){
+        var div = document.createElement('div');
+        div.id = "likeico";
+        div.innerHTML = "<span class='heart_left'></span><span class='heart_right'></span>";
+        ele.append(div);
+    }
+
+var Mylike_add = function(event) {
+	if(!$.ftxia.dialog.islogin()) return !1;
+ 
+        var obj = $(this);
+        var parent = obj;
+        var id = parent.attr('lkid');
+        var s = parent.attr('lks');
+        var gtype = parent.attr("gtype");
+
+        F_createEle(obj);
+        setTimeout(function(){$("#likeico").remove()}, 600);
+        if(s == 1) {
+            // like success
+            parent.attr('lks',0);
+            obj.find('i.like-ico').addClass('l-active');
+            obj.closest('li').find('.like-ceng').show();
+            $("#likeico").removeClass('unliked').addClass('like-big').addClass('demo1');
+            parent.css('display','block');
+        } else {
+            // un like success
+            parent.attr('lks',1);
+            obj.find('i.like-ico').removeClass('l-active');
+            $("#likeico").removeClass('l-active').addClass('unliked').removeClass('demo1');
+            obj.closest('li').find('.like-ceng').hide();
+            parent.css('display','');
+        }
+    }
+
+ var Pause_click = function(){
+        $("a.my-like").live('click', _.throttle( Mylike_add, 300 ) );
+        $(".list-good").live('mouseleave',function(){$('.like-ceng',$(this)).hide();});
+	var b = [];
+        var ss  = $('.my-like').each(function(i){
+            var gtype = $(this).attr("gtype");
+            var prefix = "";
+            //得到商品主键前缀
+            if(gtype==3){
+                prefix = "t";
+            }
+            b[i] = prefix + $(this).attr('lkid');
+        });
+        if( b.length>0) {
+            var sss = b.join(',');
+	    $.ajax({
+		url: FTXIAER.root + '/index.php?m=ajax&a=like_status',
+		type: 'get',
+		data: {
+			pid: sss
+		},
+		dataType: 'json',
+		success: function(result) {
+			if (result.status == 1) {
+				var s = result.data.toString();
+				var newgidArr = s;
+				$('.my-like').each(function(i){
+					var gtype = $(this).attr("gtype");
+					var prefix = "";
+					//得到商品主键前缀
+					if(gtype==3){
+						prefix = "t";
+					}
+					var sid = $(this).attr('lkid');
+					var prefixsid = prefix + $(this).attr('lkid');
+					if( newgidArr.indexOf(sid) != -1 || newgidArr.indexOf(prefixsid) != -1 ) {
+						$(this).css('display','block');
+						$(this).attr('lks',0);
+						$('i.like-ico',$(this)).addClass('l-active');
+					}
+				});
+			}else if (result.status == 2) {
+				$.ftxia.tip({
+					content: result.msg,
+					icon: 'error'
+				});
+			} else {
+				$.ftxia.tip({
+					content: result.msg,
+					icon: 'error'
+				});
+			}
+		}
+          });
+	}
+
+
+}
+     
+
+</script>
+	<div class="clear"></div> 
+	
+	<div class="page">
+		<div class="pageNav"><span class="pg-prev">上一页</span>  <span>1</span><a href='/index.php?m=index&a=index&p=2'>&nbsp;2&nbsp;</a><a href='/index.php?m=index&a=index&p=3'>&nbsp;3&nbsp;</a><a href='/index.php?m=index&a=index&p=4'>&nbsp;4&nbsp;</a><a href='/index.php?m=index&a=index&p=5'>&nbsp;5&nbsp;</a> <i>...</i><a href='/index.php?m=index&a=index&p=7' >7</a> <a href='/index.php?m=index&a=index&p=2' class='pg-next'>下一页<em></em></a></div>
+	</div></div>
+<!--List End-->
+<script type="text/javascript">
+$(function(){
+    $('.report').jumpBox({
+		title: '举报',
+		LightBox:'show',
+		width:520,
+		height:200,
+		defaultContain:1,
+		jsCode:'{$("#ju_form #znid").val($(this).attr("znid"))}{$("#ju_form #ju_title").html($(this).attr("title"))}'
+    });
+	$("#reportAn").on('change', function() {
+		if($(this).val()==99) {
+			$(".other").show();
+		} else {
+			$(".other").hide();
+		}
+	});
+});
+function report(t){
+	var $form = $('#ju_form');        
+	var query=$form.serialize();
+	var url=$form.attr('action');
+	var ju_report = $form.find('#reportAn').val();
+	var ex_report = $form.find('#otherReasons').val();
+	if(ju_report == 0){
+		alert('请选择举报原因');
+		$form.find('#reportAn').focus();
+		return false;
+	}
+	if(ju_report == 99){
+		if(ex_report == '' || ex_report.length>140){
+			alert('请在140字以内说明理由');
+			$('#otherReasons').focus();
+			return false;
+		}
+	};
+	$.ajax({
+		url: '/index.php?m=ajax&a=reportadd',
+		data:query,
+		jsonp:"callback",
+		success: function(data){
+			if(data.status==0){
+				alert(data.msg);
+			}
+			else if(data.status==1){
+				alert('举报成功');
+				location.replace(location.href);
+			}
+		}
+	});
+	return false;
+}
+</script>
+<div id="dhFormHtml">
+	<div class="alert_fullbg" id="LightBox"></div>
+	<div class="alert_bg alert_report" id="jumpbox" show="0">
+		<div class="alert_box">
+			<div class="alert_top"><span class="title"></span><a class="close" href="javascript:;"></a></div>
+			<div class="alert_content">
+				<div class="l_c_l">
+					<form id="ju_form" name="ju_form" method="post" onsubmit="return report(this)">
+						商品名称：<span id="ju_title"></span><br />
+						举报原因：
+					<select name="reportAn" id="reportAn" class="selectClass">
+						<option value="0">请选择举报原因</option>
+						<option value="1">商品已下架</option>
+						<option value="2">商品已卖光</option>
+						<option value="4">商品链接不正确</option>
+						<option value="5">商品分类错误</option>
+						<option value="6">商品价格与活动价格不符合</option>
+						<option value="7">卖家拒绝发货</option>
+						<option value="8">商品描述有误</option>
+						<option value="99">其它原因</option>
+					</select>
+						<br />
+					<label class="other" style="display:none">
+					其它原因： <input type="text" name="otherReasons" class="text" id="otherReasons"/><br/>
+					</label>
+					<input type="hidden" id="znid" name="znid" value="1" />
+					<input class="smt" type="submit" id="ju_submit" tabindex="3" value="提 交" />
+					</form>
+				</div>
+			</div>
+			<div class="bottom">注：为保证您的合法权益，请如实填写您所遇到的情况。</div>
+		</div>
+	</div>
+</div>
+<script>
+
+	function getTime(){
+
+            $(".endtime").each(function () {
+		var end = $(this).attr('data-time');
+		var style = 2;
+		var id = $(this).attr('data-id');
+
+		today=new Date(); 
+		timeold=((end)*1000-today.getTime()); 
+		if (timeold < 0) {
+			$("#end_date_"+id).html("已结束!");
+			return;
+		} 
+		sectimeold=timeold/1000;
+		secondsold=Math.floor(sectimeold); 
+		msPerDay=24*60*60*1000;
+		e_daysold=timeold/msPerDay;
+		daysold=Math.floor(e_daysold); 
+		e_hrsold=(e_daysold-daysold)*24;
+		hrsold=Math.floor(e_hrsold); 
+		e_minsold=(e_hrsold-hrsold)*60;
+		minsold=Math.floor((e_hrsold-hrsold)*60); 
+		e_seconds = (e_minsold-minsold)*60;
+		seconds=Math.floor((e_minsold-minsold)*60); 
+		ms = e_seconds-seconds;
+		ms = new String(ms);
+		ms1 = ms.substr(2,1);
+		ms2 = ms.substr(2,1);
+		hrsold1=daysold*24+hrsold;
+		if(style == 1){
+			$("#end_date_"+id).html((hrsold1<10?'0'+hrsold1:hrsold1)+"小时"+(minsold<10?'0'+minsold:minsold)+"分"+(seconds<10?'0'+seconds:seconds)+"秒");
+		}else if(style == 2){
+			if(daysold>0){
+				$("#end_date_"+id).html("<i>"+daysold+"</i>天<i>"+(hrsold<10?'0'+hrsold:hrsold)+"</i>时<i>"+(minsold<10?'0'+minsold:minsold)+"</i>分<i>"+(seconds<10?'0'+seconds:seconds)+"."+ms2+"</i>秒");
+			}else{
+				$("#end_date_"+id).html("<i>"+(hrsold<10?'0'+hrsold:hrsold)+"</i>时<i>"+(minsold<10?'0'+minsold:minsold)+"</i>分<i>"+(seconds<10?'0'+seconds:seconds)+"."+ms2+"</i>秒");
+			}
+		}else if(style == 3){
+			$("#end_date_"+id).html((hrsold1<10?'0'+hrsold1:hrsold1)+"小时"+(minsold<10?'0'+minsold:minsold)+"分"+(seconds<10?'0'+seconds:seconds)+"."+ms1+"秒");
+		}else if(style == 4){
+			if(daysold>0){
+				$("#end_date_"+id).html(daysold+"天"+(hrsold<10?'0'+hrsold:hrsold)+"时"+(minsold<10?'0'+minsold:minsold)+"分");
+			}else{
+				$("#end_date_"+id).html((hrsold1<10?'0'+hrsold1:hrsold1)+"小时"+(minsold<10?'0'+minsold:minsold)+"分");
+			}
+		}else{
+			$("#end_date_"+id).html(daysold+"天"+(hrsold<10?'0'+hrsold:hrsold)+"小时"+(minsold<10?'0'+minsold:minsold)+"分"+(seconds<10?'0'+seconds:seconds)+"秒."+ms2);
+		}
+
+
+                 
+            });
+
+        }
+        setInterval("getTime()",100);
+
+</script>
+
+<div id="J_sidebar" class="side_rights">
+	<div class="side-box">
+		<ul class="side-oper">
+			<li class="normal side-user">
+				<a class="links" id="J_user" target="_blank" href="/index.php?m=user&a=index" _hover-ignore="1"><i class="normal-icon i-user"></i></a>
+				<div id="side-login" class="tab-tips tab-login" style="opacity: 0; right: 62px; display: none;">
+					<div class="user-box">
+
+						<p class="txt"> <a target="_blank" href="/index.php?m=user&a=login">登录</a>          <a target="_blank" href="/index.php?m=user&a=register">注册</a></p>
+					</div>
+					<i class="close">×</i>
+					<div class="arr-icon">◆</div>
+				</div>
+			</li>
+			<li class="normal side-cart">
+
+				<div class="tab-tips tab-tag" style="opacity: 0; display: none; right: 62px;">
+					<div class="carttime" style="display: none;"></div>
+					<div class="arr-icon">◆</div>
+				</div>
+			</li>
+			<li class="normal side-love">
+				<a class="links" id="J_love" target="_blank" href="/index.php?m=like&a=index"><i class="normal-icon i-love"></i></a>
+				<div class="tab-tips" style="opacity: 0; display: none; right: 62px;">我的收藏<div class="arr-icon">◆</div></div>
+			</li>
+			<li class="normal side-quan">
+				<a class="links" id="J_quan" target="_blank" href="/index.php?m=user&a=gift"><i class="normal-icon i-quan"></i></a>
+				<div class="tab-tips" style="opacity: 0; display: none; right: 62px;">我的礼品<div class="arr-icon">◆</div></div>
+			</li>
+		</ul>
+		<ul class="side-oper other">
+			<li class="normal side-complain">
+				<a class="links" id="J_complain" target="_blank" href="/index.php?m=user&a=msg&do=send"><i class="normal-icon i-complain"></i></a>
+				<div class="tab-tips" style="opacity: 0; right: 62px; display: none;">意见反馈<div class="arr-icon">◆</div></div>
+			</li>
+			<li class="normal side-code">
+				<a class="links" id="J_code" href="javascript:;"><i class="normal-icon i-code" _hover-ignore="1"></i></a>
+				<div class="tab-tips" style="opacity: 0; right: 62px; display: none;" _hover-ignore="1">
+					<div class="code-box">
+						<p class="code"><img src="/static/8mobcom/images/layout/download_app.png" width="90px"></p><p class="txt">扫描下载二维码</p>
+					</div>
+					<div class="arr-icon">◆</div>
+				</div>
+			</li>
+			<li class="normal side-backtop">
+				<a class="links" id="J_backtop" href="javascript:;" style="display: none;"><i class="normal-icon i-backtop"></i></a>
+				<div class="tab-tips" style="opacity: 0; display: none; right: 62px;">返回顶部<div class="arr-icon">◆</div></div>
+			</li>
+		</ul>
+	</div>
+</div>
+<script>
+
+(function($){
+    $.fn.slowShow = function(ele,time){
+        time = time == undefined?100:time;
+        var timer=null;
+        clearInterval(timer);
+        this.hover(function(){
+                clearTimeout(timer);
+                timer=setTimeout(function(){
+                    ele.show();
+                },time);
+            },
+            function(){
+                clearTimeout(timer);
+                timer=setTimeout(function(){
+                    ele.hide();
+                },time);
+            }
+        )
+    }
+})(jQuery);
+
+(function($){
+    $('a.go-top').click(function(){
+        $('body,html').animate({scrollTop:0},500);
+    });
+    $('#J_sidebar .side-box a#J_backtop').click(function(){
+        $('body,html').animate({scrollTop:0},500);
+    });
+    //显示回到顶部按钮
+    var backtop_show=function(){
+        $(window).scroll(function(){
+            var st=$(window).scrollTop();
+            if(st>0){
+               $("a#J_backtop").css("display","block"); 
+            }
+            else{
+                $("a#J_backtop").css("display","none");
+                $("a#J_backtop").parents().find(".tab-tips").css({"opacity":"0","display":"none","right":"62px"});
+            }
+        })
+    }
+    backtop_show();
+   
+    var $obj=null;
+    var timer=null;
+    var normal_show_fun=function(){
+        clearInterval(timer);
+        $('#J_sidebar .side-oper li').hover(function(){
+                $('#J_sidebar .side-oper li').find(".tab-tips").css({"opacity":"0","display":"none","right":"62px"})
+                $('#J_sidebar .side-oper li').removeClass("curr");
+                $("#J_sidebar .side-oper li.side-cart").removeClass("selected");
+                $obj=$(this);
+                clearTimeout(timer);
+                timer=setTimeout(function(){
+                    $obj.addClass("curr");
+                    if($obj.hasClass("side-cart")){
+                        if($obj.find(".carttime").html()=="" || $obj.find("em.cartnum").html()=="0"){
+                            $('.carttime').hide();
+                            return;
+                        }
+                    }
+                    if(($obj.hasClass("side-backtop") && $obj.find("a.links").css("display")=="none")||($obj.hasClass("side-cart") && $obj.find("#side-empty").css("display")=="block")){
+                        return;
+                    }else{
+                        $obj.find(".tab-tips").css("opacity","1");
+                        $obj.find(".tab-tips").animate({
+                            right: 36,opacity: 'show'
+                        }, 300);
+                    }
+                },100);
+                if($obj.hasClass("side-user")){
+                    $obj.find(".close").on('click',function(){
+                        $obj.find(".tab-tips").css({"opacity":"0","display":"none","right":"62px"});
+                    })
+                }
+            },
+            function(){
+                clearTimeout(timer);
+                timer=setTimeout(function(){
+                    $obj.removeClass("curr");
+                    $obj.find(".tab-tips").css({"opacity":"0","display":"none","right":"62px"});
+                    if($obj.hasClass("side-cart")){
+                        $obj.removeClass("selected");
+                    }
+                },100);
+            }
+        )        
+    }
+    normal_show_fun(); //鼠标移入在左侧显示信息的效果
+})(jQuery);
+</script>
+
+<script>
+if(window.screen.width<1500){
+	$('.jiu-side-nav.w1100').hide();
+}
+</script>
+<!-- 页脚 -->
+<style>
+.foot{position:relative;_position: static;margin:0 auto;margin-top:40px;background:#f9f9f9;z-index:100;border-top:#ce003f solid 1px;clear:both;font-size: 12px;background: url(../images/tb2lvwpxgi5v1bjy1zdxxarkvxa_!!1103901424.png) repeat-x center top;border-top:none}}
+.foot .white_bg{border-top:#ff464e solid 4px;}
+.foot .links{height:20px;overflow:hidden;padding:10px 0px;border-bottom:1px dotted #ccc;color:#999999;white-space:nowrap;overflow:hidden;margin:0 auto;}
+.foot .links span{display:block;overflow:hidden;float:left;}
+.foot .links .links_list_box{float: left;width:760px;height: 20px;position:relative;overflow:hidden;}
+.foot .links .links_list_box a {margin-left:10px; float:left; margin-bottom:10px;}
+.foot .links .links_list{overflow:hidden;white-space:nowrap;overflow:hidden;position:relative;}
+.foot .links .links_list li{height:20px;white-space:nowrap;overflow:hidden;position:relative;margin-bottom:5px;}
+.foot .links .more{float:right;color: #999999;}
+.foot .links a.more:hover{color: #0289cd;}
+.foot .links a{color:#999999;}
+.foot .links .links_list li a{margin-right:10px;}
+.foot .links .links_list li a:hover{text-decoration:underline;}
+.foot .logo{color:#999999;text-align:center;padding-top: 10px;}
+.foot .logo img{margin-right:27px;}
+.foot .logo .no{ border:none;}
+.foot-con{ width: 1200px; padding:0 50px;margin: 0 auto;padding-bottom: 30px;}
+.con-box-n{ padding-top: 8px;margin:0 auto;}
+.con-left-info{ padding-left:35px;width:auto;overflow:hidden;}
+.con-left-info dl{ float: left;display: inline;width:120px;}
+.con-left-info dt{  font-size: 13px;font-family: "Microsoft YaHei";color: #525252; margin-bottom: 10px;padding-left: 7px;}
+.con-left-info dd{ margin-bottom: 5px; color: #666;}
+.con-left-info dl a{ color: #666;}
+.con-left-info dl .revEmail{ padding-left: 10px; line-height: 28px;}
+.con-left-info dd i{width: 4px;  height: 4px; overflow:hidden;border-radius: 50%;  display: inline-block; margin-right: 5px;float:left;margin-top:8px;}
+.con-left-info .help-info{width:100px;}
+
+.con-menu{  margin-top: 35px;}
+.con-menu a{display: block; width: 86px; height: 35px; background: url(../images/service_add.gif) no-repeat;}
+.con-menu .service-add{  background-position: 0 -5px;}
+.con-menu .service-add:hover{ background-position: 0 -52px;}
+.con-menu .service-time{ padding-left:10px;width:65px;}
+.con-menu .service-time p{ color: #919191; line-height: 18px;}
+
+.foot-con .ft-company{ text-align: center; padding-top: 20px; color: #c6c6c6;}
+.foot-con .ft-company a{ color: #c6c6c6; }
+.foot-con .ft-company a:hover{ text-decoration: underline;}
+.foot-con .app-side-box{width:280px;}
+.foot-con .app-side-box .app-show{height:40px;width:270px;margin-top:5px;}
+.foot-con .app-side-box .app-txt{font-size:12px;margin:10px 0;}
+
+.con-left-info .school{ position: relative;}
+.con-left-info .school em{ position: absolute; left: 63px; _left: 50; top: 3px; top: 2px\0; top: 2px\9; *top: 1px; display: block; width: 14px; height: 14px;background: url(../images/school-ico.png) no-repeat;}
+/*foot by mumian end*/
+</style>
+<div class="shop_gd">
+	<ul>
+		<li style="background:url(../images/tb2x2y_ajzb11bjsspaxxcj0vxa_!!1103901424.jpg) no-repeat;"></li>
+	</ul>
+</div>
+<div class="foot">
+    <div class="white_bg">
+    <div class="foot-con">
+        <div class="con-box-n clear">
+            <div class="app-side-box fl">
+                <p class="app-show">
+								<img src="/static/njuanpi/images/diLogo.png"  alt="" title="footerLOGO"/></p>
+                Copyright © 2012-2016 卷皮网 All Rights Reserved 山东浩盛文化传媒有限公司<br>
+                <a href="http://www.miibeian.gov.cn/" rel="nofollow" target="_blank"></a>
+                </p>
+            </div>
+            <div class="con-left-info fl">
+                <dl class="update">
+                    <dt>获取更新</dt>
+                    <dd><a href="http://www.app.huibe.com/" target="_blank" rel="nofollow"><i></i>iPhone/Android</a></dd>
+                    <dd><a href="" target="_blank" rel="nofollow"><i></i>QQ空间</a></dd>
+                    <dd><a href="http://weibo.com/xinpw" target="_blank" rel="nofollow"><i></i>新浪微博</a></dd>
+
+                </dl>
+                <dl class="cooperation">
+                    <dt>商务合作</dt>
+                    <dd><a href="/index.php?m=baoming&a=index" target="_blank"><i></i>卖家免费报名</a></dd>
+                    <dd><a href="/index.php?m=help&a=read&id=2" target="_blank" rel="nofollow"><i></i>商务合作</a></dd>
+                    <dd><a href="/index.php?m=help&a=read&id=3"><i></i>联系我们</a></dd>
+                </dl>
+                <dl class="cor-info">
+                    <dt>公司信息</dt>
+                    <dd><a href="/index.php?m=help&a=read&id=1" target="_blank" rel="nofollow"><i></i>关于我们</a></dd>                    
+                    <dd class="school"><a href="" target="_blank" rel="nofollow"><i></i>诚聘英才</a></dd>
+                    <dd><a href="" target="_blank" rel="nofollow"><i></i>在线客服</a></dd>
+                </dl>
+                <dl class="help-info">
+                    <dt>帮助中心</dt>
+                    <dd><a href="/index.php?m=help&a=read&id=6" target="_blank" rel="nofollow"><i></i>常见问题</a></dd>
+                    <dd><a href="/index.php?m=help&a=qianggou" target="_blank" rel="nofollow"><i></i>积分攻略</a></dd>
+                    <dd><a href="/sitemap.xml" target="_blank"><i></i>网站地图</a></dd>
+                </dl>
+            </div>
+            <dl class="link_safe">
+		            <dt class="mb10">权威认证</dt>
+		            <dd style="margin-top: 10px;">
+                    <a class="s360" href="/"></a>
+					<a class="kx" href="/"></a>
+					<a href="http://net.china.com.cn/" target="_blank"><img src="https://img.alicdn.com/imgextra/i2/1103901424/TB2JRrclFXXXXakXpXXXXXXXXXX_!!1103901424.png" title="中国互联网举报中心" href="/"></a>
+		               		            </dd>
+		        </dl>
+        </div>
+                    <div class="links">
+	<span>友情链接：</span>
+	<div class="links_list_box">
+    <ul class="links_list" style="margin-top: 0px;">
+
+		<li>
+			<a href="http://bbs.ftxia.com" target="_blank" title="http://bbs.ftxia.com">飞天侠淘宝客官方</a>
+				<a href="http://www.ftxia.com" target="_blank" title="http://www.ftxia.com">飞天侠开放平台</a>
+				<a href="http://www.taobao.com" target="_blank" title="http://www.taobao.com">淘宝网</a>
+				<a href="http://www.tmall.com" target="_blank" title="http://www.tmall.com">天猫</a>
+				<a href="http://www.meilishuo.com" target="_blank" title="http://www.meilishuo.com">美丽说</a>
+				<a href="http://www.jd.com" target="_blank" title="http://www.jd.com">京东</a>
+				<a href="http://www.8mob.com" target="_blank" title="http://www.8mob.com">九块邮</a>
+				</li><li><a href="http://www.mumujie.com" target="_blank" title="http://www.mumujie.com">沐沐街</a>
+				<a href="http://www.suning.com" target="_blank" title="http://www.suning.com">苏宁</a>
+				<a href="http://www.gome.com.cn" target="_blank" title="http://www.gome.com.cn">国美</a>
+							</li>
+		
+		</ul>
+	</div>
+</div>
+    </div>
+    </div>
+</div>
+
+<!-- /页脚 -->
+<!--淘点金开始-->
+<script type="text/javascript">
+    (function(win,doc){
+        var s = doc.createElement("script"), h = doc.getElementsByTagName("head")[0];
+        if (!win.alimamatk_show) {
+            s.charset = "gbk";
+            s.async = true;
+            s.src = "http://a.alimama.cn/tkapi.js";
+            h.insertBefore(s, h.firstChild);
+        };
+        var o = {
+            pid: "mm_30489462_15594116_59634901",/*推广单元ID，用于区分不同的推广渠道*/
+            appkey: "",/*通过TOP平台申请的appkey，设置后引导成交会关联appkey*/
+            unid: "",/*自定义统计字段*/
+            type: "click" /* click 组件的入口标志 （使用click组件必设）*/
+        };
+        win.alimamatk_onload = win.alimamatk_onload || [];
+        win.alimamatk_onload.push(o);
+    })(window,document);
+</script>
+<!--淘点金结束-->
+<script>
+(function(){
+   var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?9ed0008da75e8d1b0d298825c2beaa75":"https://jspassport.ssl.qhimg.com/11.0.1.js?9ed0008da75e8d1b0d298825c2beaa75";
+   document.write('<script src="' + src + '" id="sozz"><\/script>');
+})();
+</script>
+<script type="text/javascript">
+$("img.lazy").lazyload({threshold:200,failure_limit:30});
+var FTXIAER = {
+    root: "",
+	site: "http://www.aitiaotiao.com/",
+    uid: "", 
+    url: {}
+};
+var lang = {};
+lang.tips = "友情提示";lang.please_input = "请输入";lang.username = "帐号";lang.password = "密码";lang.login_title = "用户登陆";lang.correct_itemurl = "正确的商品地址";lang.title = "标题";lang.card_loading = "正在获取用户信息";lang.wait = "请稍后......";lang.chaxun = "报名查询系统";lang.please_select = "请选择分类";</script>
+<script type="text/javascript" src="/data/static/68072c2cfcda2419f1dfd70608c1b67c.js?2016070801"></script>
+
+
+</body>
+</html>

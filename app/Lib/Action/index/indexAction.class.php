@@ -55,7 +55,7 @@ class indexAction extends FirstendAction {
 			$where['cate_id'] =  array('in',C('ftx_index_cids'));
 		}
             $where['item_type'] = '2';
-            $where['item_type'] = array('in','2,3');
+            $where['item_type'] = array('in','1,2,3');
 		if(C('ftx_wait_time') == '1'){
 			$where['coupon_start_time'] = array('egt',time());
 		}elseif(C('ftx_wait_time') =='2'){

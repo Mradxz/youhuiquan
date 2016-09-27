@@ -1,0 +1,51 @@
+﻿@charset "utf-8";
+
+.header .mainNav .nav .navigation li.current {background: #ff464e;}
+.header .mainNav {background: #2a142b;}
+.header .state-show .normal-a:hover {background: none;}
+.header .mainNav .nav .navigation li .all-classify {border: #ff464e solid 1px;}
+.header .mainNav .nav .navigation li a:hover {background: #ff464e;}
+
+.header .logo .juan-logo, .header .logo .juan-txt, .header .logo .juan-user, .header .logo .juan-jifen, .header .logo .juan-fanli, .header .logo h1 .juan-iphone, .header .search .smt {background: url(../images/header-total.gif) no-repeat;}
+.header .search .smt {background-position: right -65px;border: 0 none;cursor: pointer;height: 35px;width: 37px;}
+ 
+.main .goods-list li:hover .good-price .btn-new.buy a,.main .goods-list li:hover .good-price .btn-new.sellout a, .main .goods-list li:hover .good-price .btn-new.end a {background: #E73A56;}
+.main .goods-list li:hover,.main .goods-list li:hover .pic-des {}
+/*
+.main .goods-list li:hover,.main .goods-list li:hover .pic-des {border-color: #ff464e;}
+*/
+.main .goods-list li .list-good .good-price .price-current {color: #E73A56;}
+.main .goods-list li .list-good .good-price .btn-new a {color: #FFF;}
+.main .goods-list li .list-good .good-price .btn-new.wait a {color: #fff;}
+.main .goods-list li:hover .good-price .btn-new.buy a, .main .goods-list li:hover .good-price .btn-new.sellout a, .main .goods-list li:hover .good-price .btn-new.end a {color: #fff;}
+.main .tb-thumb .tb-selected {border-color: #ff464e;}
+.main .list-good .newicon {width: 45px;height: 37px;left: 2px;top: -5px;background:url("../images/xinpin.png") no-repeat 0 0;}
+.nav-item .item-list ul li a.active, .jiu-nav .n_h a.active,.nav-item .item-list ul li a:hover, .jiu-nav .n_h a:hover {color: #ff464e;border-bottom: #ff464e solid 2px;}
+
+.mainNav .normal-side-box p b {color: #ff464e;}
+.top_wrap .banner_l dl dd .txt span em {background: #ff464e;}
+.product .product-info .item-btn .btn {background: #ff464e;}
+.product .product-info .item-btn .btn:hover {background: #E73A56;}
+.product .product-info .price .jd-current {color: #ff464e;}
+.product .product-info .title-tips01 {background: #ff464e;}
+.product .product-info .org_2 {color: #ff464e;}
+
+.product-comment .bady-tab ul li .bady-line-top {background: #ff464e;}
+.product-comment .bady-tab ul li .badyactive {color: #ff464e;}
+
+.bmain.tag-list .list-good.start .good-price .price-current,.bmain.tag-list .list-good.start .pic-des {color: #ff464e;}
+.bmain.tag-list .contain .brand-con .brand-top .shop-detail .go-kan01,.bmain.tag-list .contain .brand-con .brand-top .shop-detail .go-kan01:hover,.bmain.tag-list .good-price .ggbtn a {background: #ff464e;}
+.bmain.tag-list a:hover {text-decoration: none;}
+
+
+.act-one .line {background: url(../images/act-tit.png) no-repeat;_background: url(../images/act-tit.png) no-repeat;width: 280px;height: 40px;margin: 0 auto;text-align: center;}
+.act-one .dtit {border-bottom: 1px solid #2a142b;}
+.main .silde-act-nav li.active{background: #2a142b;}
+.main .silde-act-nav li a:hover {background: #2a142b;}
+
+.page span ,.page a:hover{background: #E73A56;}
+.page a, .page span, .page i {color: #E73A56;}
+.page span {color:#fff}
+.w1100 .goods-list .list-good {
+	width: 289px;
+}
