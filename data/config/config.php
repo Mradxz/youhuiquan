@@ -20,7 +20,7 @@ return array(
 	'APP_SUB_DOMAIN_DEPLOY' => true,						// 开启子域名配置
     'APP_SUB_DOMAIN_RULES'  => array(
 		'www' => array("index/"),
-//		'admin' => array("admin/"),
+		'admin' => array("admin/"),
 		'm' => array("m/"),
 	),
 
