@@ -35,6 +35,59 @@ class itemsModel extends Model
             return 0;
         }
     }
+
+    public function ajax_ftx_publish($item) {
+        //是否存在
+        if(!$item['num_iid']){return 0;}
+        if(!$item['title']){return 0;}
+        if ($this->where(array('num_iid'=>$item['num_iid']))->count()) {
+            if($item['recid']==1){
+                unset($item['recid']);
+            }else{
+                unset($item['recid']);
+                unset($item['cate_id']);
+            }
+            unset($item['astime']);
+            $item['status'] ='underway';
+            $item_id = $this->where(array('num_iid'=>(string)$item['num_iid']))->save($item);
+            if ($item_id) {
+                return 0;
+            } else {
+                return 0;
+            }
+        }
+        unset($item['recid']);
+        $item['pass'] = 1;
+        $item['status'] ='underway';
+        $this->create($item);
+        $item_id = $this->add();
+        if ($item_id) {
+
+            vendor('pscws4.pscws4', '', '.class.php');
+            $pscws = new PSCWS4();
+            $pscws->set_dict(FTX_DATA_PATH . 'scws/dict.utf8.xdb');
+            $pscws->set_rule(FTX_DATA_PATH . 'scws/rules.utf8.ini');
+            $pscws->set_ignore(true);
+            $pscws->send_text($item['title']);
+            $wordss = $pscws->get_tops('10');
+            $pscws->close();
+            $ws = array();
+            foreach ($wordss as $val) {
+                $ws['name'] = $val['word'];
+                $is  = M('tags')->where($ws)->find();
+                if($is){
+                    $score_data = array('tcount'=>array('exp','tcount+1'));
+                    M('tags')->where($ws)->setInc('tcount',1);
+                }else{
+                    M('tags')->create($ws);
+                    M('tags')->add();
+                }
+            }
+            return 1;
+        } else {
+            return 0;
+        }
+    }
 	
 	public function ajax_que_publish($item) {
 		if ($this->where(array('num_iid'=>$item['num_iid']))->count()) {

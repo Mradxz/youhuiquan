@@ -336,7 +336,7 @@ class dataokeAction extends BackendAction
 		$zym_28 = $zym_27[2];
 		$zym_32 = $zym_27[3];
 		$zym_33 = 'http://pub.alimama.com/common/code/getAuctionCode.json?auctionid='.$zym_95.'&adzoneid='.$zym_32.'&siteid='.$zym_28.'&scenes=3&channel=tk_qqhd&t='.$zym_10[0].'&_tb_token_='.$zym_23.'&pvid='.$zym_30;
-		$zym_37 = curl_init();
+        $zym_37 = curl_init();
 		curl_setopt($zym_37, CURLOPT_URL, $zym_33);
 		curl_setopt($zym_37, CURLOPT_REFERER, 'http://pub.alimama.com/promo/item/channel/index.htm?channel=qqhd');
 		curl_setopt($zym_37, CURLOPT_HTTPHEADER, array( 'Cookie:{'.$zym_11.'}', ));
@@ -379,7 +379,7 @@ class dataokeAction extends BackendAction
 		$zym_31 = get_client_ip();
 		$zym_30 = '50_'.$zym_31.'_15881_1468693605455';
 		$zym_33 = 'http://pub.alimama.com/common/code/getAuctionCode.json?auctionid='.$zym_95.'&adzoneid='.$zym_32.'&siteid='.$zym_28.'&t='.$zym_10[0].'&pvid='.$zym_30.'&_tb_token_='.$zym_23.'&_input_charset=utf-8';
-		$zym_37 = curl_init();
+        $zym_37 = curl_init();
 		curl_setopt($zym_37, CURLOPT_URL, $zym_33);
 		curl_setopt($zym_37, CURLOPT_REFERER, 'http://www.alimama.com/index.htm');
 		curl_setopt($zym_37, CURLOPT_HTTPHEADER, array( 'Cookie:{'.$zym_11.'}', ));

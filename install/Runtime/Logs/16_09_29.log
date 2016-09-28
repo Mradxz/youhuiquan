@@ -1,9 +1,9 @@
-[ 2016-09-21T09:50:01+08:00 ] 127.0.0.1 /install.php
+[ 2016-09-29T06:55:08+08:00 ] 127.0.0.1 /install.php
 NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'filter_exp' not found or invalid function name C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Core\App.class.php 第 56 行.
 NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'filter_exp' not found or invalid function name C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Core\App.class.php 第 57 行.
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005706s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.006456s ]
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
 INFO: [ view_parse ] --START--
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 273 行.
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 273 行.
@@ -104,160 +104,42 @@ NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_ca
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 197 行.
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 137 行.
-INFO: ParseTemplate Behavior ::run [ RunTime:0.052211s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.052367s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018504s ]
 INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.004994s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.005139s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004387s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.004597s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.019556s ]
+INFO: ContentReplace Behavior ::run [ RunTime:0.000835s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000829s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000699s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003601s ]
 INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.004868s ]
-INFO: [ view_end ] --END-- [ RunTime:0.005017s ]
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000788s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000920s ]
 
-[ 2016-09-21T09:50:15+08:00 ] 127.0.0.1 /install.php
+[ 2016-09-29T06:55:15+08:00 ] 127.0.0.1 /install.php?m=index&a=index
 NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'filter_exp' not found or invalid function name C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Core\App.class.php 第 56 行.
 NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'filter_exp' not found or invalid function name C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Core\App.class.php 第 57 行.
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000453s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
-INFO: [ view_parse ] --START--
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 273 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 273 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 273 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 168 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 399 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 399 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 399 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 399 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 399 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 399 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 399 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 399 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 399 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 197 行.
-NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 137 行.
-INFO: ParseTemplate Behavior ::run [ RunTime:0.013804s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.013956s ]
-INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.000546s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000452s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000354s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.000524s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.002242s ]
-INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.000419s ]
-INFO: [ view_end ] --END-- [ RunTime:0.000548s ]
-
-[ 2016-09-21T09:50:55+08:00 ] 127.0.0.1 /install.php?m=index&a=index
-NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'filter_exp' not found or invalid function name C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Core\App.class.php 第 56 行.
-NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'filter_exp' not found or invalid function name C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Core\App.class.php 第 57 行.
-INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000575s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
 NOTIC: 建议使用I方法替代_post
 
-[ 2016-09-21T09:50:55+08:00 ] 127.0.0.1 /install.php?m=index&a=check
+[ 2016-09-29T06:55:15+08:00 ] 127.0.0.1 /install.php?m=index&a=check
 NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'filter_exp' not found or invalid function name C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Core\App.class.php 第 56 行.
 NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'filter_exp' not found or invalid function name C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Core\App.class.php 第 57 行.
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000661s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
 NOTIC: [2] Missing argument 1 for Dir::__construct(), called in C:\wnmp\www\taoke\youhuiquan\install\Lib\Action\indexAction.class.php on line 71 and defined C:\wnmp\www\taoke\youhuiquan\install\Lib\ORG\Dir.class.php 第 37 行.
 NOTIC: [8] Undefined variable: path C:\wnmp\www\taoke\youhuiquan\install\Lib\ORG\Dir.class.php 第 39 行.
 NOTIC: [8] Undefined variable: path C:\wnmp\www\taoke\youhuiquan\install\Lib\ORG\Dir.class.php 第 39 行.
 
-[ 2016-09-21T09:50:55+08:00 ] 127.0.0.1 /install.php?m=index&a=setconf
+[ 2016-09-29T06:55:15+08:00 ] 127.0.0.1 /install.php?m=index&a=setconf
 NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'filter_exp' not found or invalid function name C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Core\App.class.php 第 56 行.
 NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'filter_exp' not found or invalid function name C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Core\App.class.php 第 57 行.
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000839s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
 INFO: [ view_parse ] --START--
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 273 行.
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 273 行.
@@ -358,32 +240,32 @@ NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_ca
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 197 行.
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 137 行.
-INFO: ParseTemplate Behavior ::run [ RunTime:0.017243s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.017402s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017559s ]
 INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.000667s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000582s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000473s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.000653s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.002731s ]
+INFO: ContentReplace Behavior ::run [ RunTime:0.000652s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000592s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000478s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002734s ]
 INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.000565s ]
-INFO: [ view_end ] --END-- [ RunTime:0.000693s ]
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000564s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000690s ]
 
-[ 2016-09-21T09:51:45+08:00 ] 127.0.0.1 /install.php?m=index&a=setconf
+[ 2016-09-29T06:55:42+08:00 ] 127.0.0.1 /install.php?m=index&a=setconf
 NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'filter_exp' not found or invalid function name C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Core\App.class.php 第 56 行.
 NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'filter_exp' not found or invalid function name C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Core\App.class.php 第 57 行.
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000458s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wnmp\www\taoke\youhuiquan\install\Lib\Action\indexAction.class.php 第 109 行.
 
-[ 2016-09-21T09:51:45+08:00 ] 127.0.0.1 /install.php?m=index&a=install
+[ 2016-09-29T06:55:42+08:00 ] 127.0.0.1 /install.php?m=index&a=install
 NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'filter_exp' not found or invalid function name C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Core\App.class.php 第 56 行.
 NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'filter_exp' not found or invalid function name C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Core\App.class.php 第 57 行.
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000473s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
 INFO: [ view_parse ] --START--
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 273 行.
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 273 行.
@@ -484,32 +366,32 @@ NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_ca
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 197 行.
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 137 行.
-INFO: ParseTemplate Behavior ::run [ RunTime:0.013092s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.013240s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014220s ]
 INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.000544s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000470s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000347s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.000521s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.002249s ]
+INFO: ContentReplace Behavior ::run [ RunTime:0.000466s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000449s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000335s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002119s ]
 INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.000425s ]
-INFO: [ view_end ] --END-- [ RunTime:0.000555s ]
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000415s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000541s ]
 
-[ 2016-09-21T09:51:45+08:00 ] 127.0.0.1 /install.php?m=index&a=finish_done
+[ 2016-09-29T06:55:42+08:00 ] 127.0.0.1 /install.php?m=index&a=finish_done
 NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'filter_exp' not found or invalid function name C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Core\App.class.php 第 56 行.
 NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'filter_exp' not found or invalid function name C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Core\App.class.php 第 57 行.
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000473s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
 NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\wnmp\www\taoke\youhuiquan\install\Lib\Action\indexAction.class.php 第 180 行.
 
-[ 2016-09-21T09:51:50+08:00 ] 127.0.0.1 /install.php?m=index&a=finish
+[ 2016-09-29T06:55:56+08:00 ] 127.0.0.1 /install.php?m=index&a=finish
 NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'filter_exp' not found or invalid function name C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Core\App.class.php 第 56 行.
 NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'filter_exp' not found or invalid function name C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Core\App.class.php 第 57 行.
 INFO: [ app_begin ] --START--
-INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000586s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
 INFO: [ view_parse ] --START--
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 273 行.
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 273 行.
@@ -610,15 +492,15 @@ NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_ca
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 404 行.
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 197 行.
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead C:\wnmp\www\taoke\youhuiquan\thinkphp\Lib\Template\ThinkTemplate.class.php 第 137 行.
-INFO: ParseTemplate Behavior ::run [ RunTime:0.016959s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.017140s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014953s ]
 INFO: [ view_filter ] --START--
-INFO: ContentReplace Behavior ::run [ RunTime:0.000560s ]
-INFO: TokenBuild Behavior ::run [ RunTime:0.000566s ]
-INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000463s ]
-INFO: ShowRuntime Behavior ::run [ RunTime:0.000656s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.002702s ]
+INFO: ContentReplace Behavior ::run [ RunTime:0.000467s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000445s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002116s ]
 INFO: [ view_end ] --START--
-INFO: ShowPageTrace Behavior ::run [ RunTime:0.000524s ]
-INFO: [ view_end ] --END-- [ RunTime:0.000689s ]
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000418s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000545s ]
 

@@ -39,6 +39,8 @@ INSERT INTO `yhq_items_orig` (`id`, `img`, `name`, `type`, `url`, `ordid`) VALUE
 (1, '576c0484a70b6_thumb.png', '淘宝', 'C', 'taobao.com', 0),
 (2, '576c047783f09_thumb.png', '天猫', 'B', 'tmall.com', 0);
 
+INSERT INTO `yhq_items_site` VALUES ('1', 'taobao', '淘宝/天猫', 'http://www.taobao.com,http://www.tmall.com', '', '通过淘宝开放平台获取商品数据', 'a:2:{s:7:\"app_key\";s:8:\"23433022\";s:10:\"app_secret\";s:32:\"6ebb4125899e34d56bd239893fb2bbff\";}', '', '255', '1');
+
 INSERT INTO `yhq_link` (`id`, `name`, `img`, `url`, `ordid`, `status`) VALUES
 (1, '特价', '', 'http://tejia.aitiaotiao.com', 2, 1);
 
@@ -128,8 +130,8 @@ INSERT INTO `yhq_menu` (`id`, `name`, `pid`, `module_name`, `action_name`, `data
 (68, '条件删除', 77, 'items', 'delete_search', '', '', 0, 255, 0),
 (69, '延时', 79, 'items', 'add_time', '', '', 0, 255, 1),
 (85, '模板设置', 2, 'template', 'index', '', '', 0, 255, 1),
-(86, '优惠券(全站)', 44, 'dataoke', 'index', '', '', 0, 2, 1);
-
+(86, '优惠券(全站)', 44, 'dataoke', 'index', '', '', 0, 2, 1),
+(87, '淘宝api采集', 44, 'robots', 'index', '', '', 0, 255, 1);
 
 INSERT INTO `yhq_nav` (`id`,`type`,`name`,`alias`,`link`,`target`,`ordid`,`mod`,`status`) VALUES 
 (1, 'top', '特价', 'temai', 'http://tejia.aitiaotiao.com', 1, 255, 'sys', 1),
@@ -202,7 +204,7 @@ INSERT INTO `yhq_setting` (`name`, `data`, `remark`) VALUES
 ('site_weixin', '/data/upload/site/1474000030.png', ''),
 ('site_browser', '/data/upload/site/1474000030.png', ''),
 ('cookie', '', ''),
-('quepid', 'mm_30489462_15594116_60392538', ''),
+('quepid', '', ''),
 ('youpid', 'mm_30489462_15594116_60510569', ''),
 ('dtk', 'beaqlcb8wn', ''),
 ('fz', '1', ''),
