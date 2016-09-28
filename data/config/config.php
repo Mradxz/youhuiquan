@@ -17,7 +17,7 @@ return array(
 	'DATA_CACHE_LEVEL'		=>3,							// 设置子目录的层次
 
     'SHOW_PAGE_TRACE'		=> false,
-	'APP_SUB_DOMAIN_DEPLOY' => true,						// 开启子域名配置
+	'APP_SUB_DOMAIN_DEPLOY' => false,						// 开启子域名配置
     'APP_SUB_DOMAIN_RULES'  => array(
 		'www' => array("index/"),
 		'admin' => array("admin/"),
